@@ -1,0 +1,3001 @@
+Esp. Analítica de Datos Segundo Semestre G2: Sí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué vamos a ver hoy?
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces nosotros tenemos este recorrido que tenemos planificado para el curso.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué recuerda que hicieron ustedes en la sesión anterior?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Cuál fue su proyecto que hicieron?
+
+Esp. Analítica de Datos Segundo Semestre G2: No.
+
+Esp. Analítica de Datos Segundo Semestre G2: De hecho, the San Bed.
+
+Esp. Analítica de Datos Segundo Semestre G2: Exacto, empezamos de un informe.
+
+Esp. Analítica de Datos Segundo Semestre G2: Vimos unos gráficos, cierto que podemos nosotros estar usando
+
+Esp. Analítica de Datos Segundo Semestre G2: el que estaba feo. Yo creo que ninguno lo hubiera pintado
+
+Esp. Analítica de Datos Segundo Semestre G2: así, estaba muy feo, pero.
+
+Esp. Analítica de Datos Segundo Semestre G2: Son gráficos que por lo general nosotros usamos para hacer algún reporte.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo no sé si de pronto ustedes en sus trabas tengan que hacer algún tipo de
+
+Esp. Analítica de Datos Segundo Semestre G2: reporte y por lo general a veces no digo que se usemos los primos que les mostraba
+
+Esp. Analítica de Datos Segundo Semestre G2: y que eran como lo peor de lo peor, sino a veces nosotros no nos no nos
+
+Esp. Analítica de Datos Segundo Semestre G2: ponemos a detallar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Los ejes ni que sean coherentes. Yo me acuerdo que en mi anterior trabajo
+
+Esp. Analítica de Datos Segundo Semestre G2: yo tenía un jefe que quería que todos los.
+
+Esp. Analítica de Datos Segundo Semestre G2: Tomar una decisión con una sola gráfica o con una con una sola diapositiva.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y entonces él le empezaron a decir, bueno, y si eso correlaciona con un montón de
+
+Esp. Analítica de Datos Segundo Semestre G2: cosas. Entonces, esa gráfica que uno terminaba pintando
+
+Esp. Analítica de Datos Segundo Semestre G2: venían como 5 ejes ahí pintados, porque le tocaba a uno pintar encima una
+
+Esp. Analítica de Datos Segundo Semestre G2: de la otra, y eso a veces podía inducir a que uno.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y no hubiera ciertos resultados que uno quisiera que como que se viera o exagerar
+
+Esp. Analítica de Datos Segundo Semestre G2: cierta relación que de pronto no, que de pronto no era tan hola.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Que no fuera tan evidente, así qué?
+
+Esp. Analítica de Datos Segundo Semestre G2: Y yo creo que parte de eso, cuando uno hace esos gráficos así,
+
+Esp. Analítica de Datos Segundo Semestre G2: lo que uno está buscando es como ese confundir.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y de pronto, cuando uno busca eso, uno transmite un mensaje que de pronto no
+
+Esp. Analítica de Datos Segundo Semestre G2: va muy relacionado con la realidad.
+
+Esp. Analítica de Datos Segundo Semestre G2: Depende también de quien le pida a uno el informe y todas esas cosas. Entonces,
+
+Esp. Analítica de Datos Segundo Semestre G2: en la sesión uno lo que vimos fue eso, vimos un.
+
+Esp. Analítica de Datos Segundo Semestre G2: Vimos un unos gráficos, unos saleros, un feítos y los clasificamos básicamente,
+
+Esp. Analítica de Datos Segundo Semestre G2: y en esa clasificación buscábamos también ir conociendo las variables.
+
+Esp. Analítica de Datos Segundo Semestre G2: Las variables aquí no nos preocupamos de que esas variables hay que hacerles algún
+
+Esp. Analítica de Datos Segundo Semestre G2: proceso de limpieza, sino solamente las variables como estaban
+
+Esp. Analítica de Datos Segundo Semestre G2: y que mostraban así tal cual como estaban.
+
+Esp. Analítica de Datos Segundo Semestre G2: And.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Hoy qué vamos a ver?
+
+Esp. Analítica de Datos Segundo Semestre G2: La idea de hoy ya es ver un diccionario de gráficas, ya es ver por tipo de dato,
+
+Esp. Analítica de Datos Segundo Semestre G2: qué gráficas hay, qué nos puede ayudar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Darles a conocer unas que están en una bibliografía y en el curso pasado un
+
+Esp. Analítica de Datos Segundo Semestre G2: estudiante dijo, no, mire, nosotros el profe Leandro nos pasó una un
+
+Esp. Analítica de Datos Segundo Semestre G2: link donde viene un montón de gráficas. Entonces acá yo lo rescaté también y pues
+
+Esp. Analítica de Datos Segundo Semestre G2: los traje ahí para que lo vieran.
+
+Esp. Analítica de Datos Segundo Semestre G2: Eso es para más que todo para.
+
+Esp. Analítica de Datos Segundo Semestre G2: Para mostrarles de que los que vamos a ver aquí son unos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hay muchos más, pero el corazón detrás de todo no es que
+
+Esp. Analítica de Datos Segundo Semestre G2: ustedes conozcan los 10000000 de gráficos que hay por ahí,
+
+Esp. Analítica de Datos Segundo Semestre G2: sino es que ustedes entiendan y cuál es el mensaje que quieren transmitir y que
+
+Esp. Analítica de Datos Segundo Semestre G2: cojan el gráfico que más se le acomode a lo que quieren transmitir,
+
+Esp. Analítica de Datos Segundo Semestre G2: sin sesgar la realidad que es.
+
+Esp. Analítica de Datos Segundo Semestre G2: Parte de los principios de lo que veíamos la clase pasada,
+
+Esp. Analítica de Datos Segundo Semestre G2: que lo que nosotros buscamos en estos datos es que con estos gráficos es no
+
+Esp. Analítica de Datos Segundo Semestre G2: confundir, sino que sea lo más claro y no decir algo
+
+Esp. Analítica de Datos Segundo Semestre G2: que no es. ¿Entonces hoy qué vamos a hacer?
+
+Esp. Analítica de Datos Segundo Semestre G2: En la parte teórica vamos a ver, vamos a ver, es un indicador.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo creo que a esta altura no es algo del otro mundo que es un indicador,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero vamos a ver cómo esto nos puede ayudar a nosotros a definir la historia.
+
+Esp. Analítica de Datos Segundo Semestre G2: Vamos a hacer el directorio de gráficos, que es lo más importante de la clase.
+
+Esp. Analítica de Datos Segundo Semestre G2: Esto en múltiplos pequeños es la traducción,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero de subplot para que no suene ahí como tan feo y mirar el tema de la
+
+Esp. Analítica de Datos Segundo Semestre G2: incertidumbre.
+
+Esp. Analítica de Datos Segundo Semestre G2: Chicos, si quieren ahorita todo terminan, no hay problema.
+
+Esp. Analítica de Datos Segundo Semestre G2: Vamos a ver los 2 casos. En el caso de Golden State vamos a
+
+Esp. Analítica de Datos Segundo Semestre G2: definir un indicador que nos va a ayudar a mirar o a empezar a definir lo la
+
+Esp. Analítica de Datos Segundo Semestre G2: historia que estamos construyendo. Recuerden que para nosotros en la
+
+Esp. Analítica de Datos Segundo Semestre G2: historia del curso lo que más nos interesa es la sesión cuatro.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Que es el SCQ A y en últimas, eso es como nosotros estamos llegando
+
+Esp. Analítica de Datos Segundo Semestre G2: todo nuestro análisis a que en la sesión cuatro podamos definir cuál es el
+
+Esp. Analítica de Datos Segundo Semestre G2: problema de definir una situación, cuál es la pregunta,
+
+Esp. Analítica de Datos Segundo Semestre G2: cuál es la complejidad que hay para resolver esa pregunta?
+
+Esp. Analítica de Datos Segundo Semestre G2: Y una respuesta.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces, la clase de hoy va a contribuir en eso,
+
+Esp. Analítica de Datos Segundo Semestre G2: la clase de hoy y la clase de mañana.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y va a haber un tema de incertidumbre que yo creo que de pronto ya lo vieron en
+
+Esp. Analítica de Datos Segundo Semestre G2: estadística y es como.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Pues cómo representar la incertidumbre en tipos de gráficos?
+
+Esp. Analítica de Datos Segundo Semestre G2: En.
+
+Esp. Analítica de Datos Segundo Semestre G2: Now it passing with account.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces recordando nuestro caso, en nuestro caso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Nosotros teníamos que recordando el caso de Golden State.
+
+Esp. Analítica de Datos Segundo Semestre G2: Nosotros teníamos un comité de inversión, el cual era un perfil financiero no
+
+Esp. Analítica de Datos Segundo Semestre G2: técnico.
+
+Esp. Analítica de Datos Segundo Semestre G2: Que nosotros lo que queríamos hacer era que mostrarles a ellos en qué distritos
+
+Esp. Analítica de Datos Segundo Semestre G2: ellos deberían hacer una inversión para o en qué distritos podrían invertir para
+
+Esp. Analítica de Datos Segundo Semestre G2: tener las mejores ganancias. La restricción es que pues ellos no
+
+Esp. Analítica de Datos Segundo Semestre G2: tienen un bolsillo amplio, es para un trimestre, entonces tienen que.
+
+Esp. Analítica de Datos Segundo Semestre G2: Filtrar o seleccionar el top 150. Ahorita vamos a ver que para seleccionar
+
+Esp. Analítica de Datos Segundo Semestre G2: este top 150 van a haber muchas, muchas formas de hacerlo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Nosotros lo que vamos a buscar es encontrar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Una que con la analítica nos ayude a guiar eso.
+
+Esp. Analítica de Datos Segundo Semestre G2: La pregunta es.
+
+Esp. Analítica de Datos Segundo Semestre G2: En últimas es donde la vivienda se vende por debajo de lo que el ingreso de sus
+
+Esp. Analítica de Datos Segundo Semestre G2: residentes sostiene. En otras palabras, es vamos a buscar.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Cuál es la relación ingreso costo para ver dónde está como ese margen más
+
+Esp. Analítica de Datos Segundo Semestre G2: pequeño?
+
+Esp. Analítica de Datos Segundo Semestre G2: AIK.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues el inversor puede invertir ahí y que en unos años ese esa inversión se pueda
+
+Esp. Analítica de Datos Segundo Semestre G2: valorizar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ahorita vamos a ver cómo.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Para por qué no salió esa pregunta?
+
+Esp. Analítica de Datos Segundo Semestre G2: Porque cuando estamos haciendo los análisis de la semana anterior,
+
+Esp. Analítica de Datos Segundo Semestre G2: de la casa anterior de la sesión, comparando poniendo como la línea base el
+
+Esp. Analítica de Datos Segundo Semestre G2: interior, que era el precio más económico, cuando nosotros en valor de la vivienda y
+
+Esp. Analítica de Datos Segundo Semestre G2: en valor medio del ingreso del hogar, pedíamos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Que en el interior.
+
+Esp. Analítica de Datos Segundo Semestre G2: Bahía el valor de la vivienda costaba el doble de lo que valía en el interior,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero el salario, el ingreso de los hogares apenas crecía
+
+Esp. Analítica de Datos Segundo Semestre G2: un 1. 3 con respecto al ingreso del interior.
+
+Esp. Analítica de Datos Segundo Semestre G2: En últimas, lo que debíamos a ir a una oportunidad.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Por qué?
+
+Esp. Analítica de Datos Segundo Semestre G2: Porque nosotros vemos que en algunos sitios.
+
+Esp. Analítica de Datos Segundo Semestre G2: El valor de la vivienda era casi el doble de lo que costaba en algunos otros sitios,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero el ingreso no variaba tanto y eso nos genera una brecha de oportunidad para
+
+Esp. Analítica de Datos Segundo Semestre G2: invertir. Eso es de mi caso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces, lo primero que queremos hacer nosotros es
+
+Esp. Analítica de Datos Segundo Semestre G2: identificar un indicador, el indicador que nosotros vamos a definir.
+
+Esp. Analítica de Datos Segundo Semestre G2: Para eso es cuántos años de ingreso necesita una persona para pagar una
+
+Esp. Analítica de Datos Segundo Semestre G2: vivienda, ingresos anuales.
+
+Esp. Analítica de Datos Segundo Semestre G2: Aquí de manera sencilla para una fórmula muy sencilla en la que yo divido el valor
+
+Esp. Analítica de Datos Segundo Semestre G2: de la vivienda sobre el ingreso, ese valor me va a dar un número.
+
+Esp. Analítica de Datos Segundo Semestre G2: Por encima de uno, creo, ahí lo miramos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero en últimas es porque si me da por debajo de uno quiere decir que pues el
+
+Esp. Analítica de Datos Segundo Semestre G2: salario es súper alto en comparación al del valor de la vivienda,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero lo que esperaría es que nos va a generar unos índices en que nos diga
+
+Esp. Analítica de Datos Segundo Semestre G2: cuánta cuántas personas van a pagar la casa por un año de su trabajo, 2 años,
+
+Esp. Analítica de Datos Segundo Semestre G2: 3 años, 4 años, 5 años, n años.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Esa es la distribución alguien?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Podría haber esta distribución y decirme entender más o menos qué es lo que trata
+
+Esp. Analítica de Datos Segundo Semestre G2: de transmitir esta gráfica?
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces, señor.
+
+Esp. Analítica de Datos Segundo Semestre G2: No, hágale, hágale. Yo lo que les iba a decir es,
+
+Esp. Analítica de Datos Segundo Semestre G2: pues para leer una gráfica, miro que hay en el eje X,
+
+Esp. Analítica de Datos Segundo Semestre G2: que hay en el eje Y, que hay. Entonces alguien se anima a ver qué nos
+
+Esp. Analítica de Datos Segundo Semestre G2: quiere transmitir esta gráfica.
+
+Esp. Analítica de Datos Segundo Semestre G2: O.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué hay en el eje X?
+
+Esp. Analítica de Datos Segundo Semestre G2: La razón pre ingreso.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Cierto que traducir en nuestro lenguaje es cuántos años de ingreso yo necesito
+
+Esp. Analítica de Datos Segundo Semestre G2: para pagar esa casa, cuántos ingresos anuales?
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces ahí vemos una escala de cuánto a cuánto.
+
+Esp. Analítica de Datos Segundo Semestre G2: De cero a 12, sí o no, eso quiere decir.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y hay personas que necesitan hasta 12 años de salario para pagar la casa donde
+
+Esp. Analítica de Datos Segundo Semestre G2: están, cierto, y hay otros afortunados que está ahí por
+
+Esp. Analítica de Datos Segundo Semestre G2: cerca 2. Pareciera que hay algunos en uno y pues
+
+Esp. Analítica de Datos Segundo Semestre G2: muy pocos o casi cero acá en menos de un año.
+
+Esp. Analítica de Datos Segundo Semestre G2: Eso es el eje X en el eje Y que hay.
+
+Esp. Analítica de Datos Segundo Semestre G2: Cantidad de distritos es un n, cierto, esta gráfica me muestra una distribución.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hay 20000, hay 20000, solamente que el pico está en 1000
+
+Esp. Analítica de Datos Segundo Semestre G2: distritos más o menos. ¿En dónde está ese pico más o menos?
+
+Esp. Analítica de Datos Segundo Semestre G2: En dónde?
+
+Esp. Analítica de Datos Segundo Semestre G2: And.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ese pico.
+
+Esp. Analítica de Datos Segundo Semestre G2: O sea, el pico donde se acumulan casi todas las.
+
+Esp. Analítica de Datos Segundo Semestre G2: But Martin TV.
+
+Esp. Analítica de Datos Segundo Semestre G2: Más o menos en cuatro, cuatro, cuatro.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Lo que nos dice acá esta gráfica, ustedes conocen la distribución normal o
+
+Esp. Analítica de Datos Segundo Semestre G2: la han escuchado?
+
+Esp. Analítica de Datos Segundo Semestre G2: Cierto, esa gráfica pareciera ser normal, no lo es,
+
+Esp. Analítica de Datos Segundo Semestre G2: está un poco sesgada hacia la si lo miramos desde mi perspectiva,
+
+Esp. Analítica de Datos Segundo Semestre G2: desde la derecha.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues está un poquitico para acá.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y tiene un valor atípico allá en 12.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero pareciera ser normal si uno la ajustara un poco.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y lo que nos dice es que más o menos la mitad, la media está en 4. ¿55 años,
+
+Esp. Analítica de Datos Segundo Semestre G2: sí o no?
+
+Esp. Analítica de Datos Segundo Semestre G2: Y aquí señalamos un una cantidad, un porcentaje, el 5%, el 5%.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿En cuánto está la razón de casa? Hola.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Al 5% más bajo, o sea, el 5% de las de esta distribución,
+
+Esp. Analítica de Datos Segundo Semestre G2: cuánto es esa razón?
+
+Esp. Analítica de Datos Segundo Semestre G2: Menor o igual a 2.66.
+
+Esp. Analítica de Datos Segundo Semestre G2: Nosotros si quisiéramos establecer, nos pidieron encontrar las gangas,
+
+Esp. Analítica de Datos Segundo Semestre G2: por así decirlo, los valores donde pareciera que con
+
+Esp. Analítica de Datos Segundo Semestre G2: respecto al salario de las personas, el salario medio. la.
+
+Esp. Analítica de Datos Segundo Semestre G2: Los valor de la casa, pues este muy cercano o muy o muy bajito,
+
+Esp. Analítica de Datos Segundo Semestre G2: cierto, como menos a un valor. Acá lo que nos están diciendo que.
+
+Esp. Analítica de Datos Segundo Semestre G2: Menos de 2.66 esa razón, o sea, menos de 2 puntos años para pagar mi casa
+
+Esp. Analítica de Datos Segundo Semestre G2: con mi salario.
+
+Esp. Analítica de Datos Segundo Semestre G2: Está el 5% de estos de esta distribución, eso quiere decir que hay esta cantidad de
+
+Esp. Analítica de Datos Segundo Semestre G2: distritos que son más o menos 1000.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo con 2. 5 años de mi trabajo podría comprarme esa
+
+Esp. Analítica de Datos Segundo Semestre G2: casa.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y ahí me, yo tengo que escoger.
+
+Esp. Analítica de Datos Segundo Semestre G2: 150, entonces yo podría decir que un criterio
+
+Esp. Analítica de Datos Segundo Semestre G2: podría ser simplemente, pues me sigo corriendo para acá y cuando
+
+Esp. Analítica de Datos Segundo Semestre G2: sea 150, pues escojo las casas que sean uno a uno.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sin embargo, lo que puede pasar es que si yo me voy
+
+Esp. Analítica de Datos Segundo Semestre G2: con ese criterio, yo sé qué tipo de casa es,
+
+Esp. Analítica de Datos Segundo Semestre G2: dónde está ubicada.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Que cuántos cuartos? ¿Cuántos distancia tiene, no?
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces esta gráfica me ayuda como hacerme una idea de cómo está esa
+
+Esp. Analítica de Datos Segundo Semestre G2: distribución, pero si yo me voy solamente con esta
+
+Esp. Analítica de Datos Segundo Semestre G2: distribución a escoger, por ejemplo, este top 5 de gangas, por así decirlo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Podría estar escogiendo sitios donde no sé,
+
+Esp. Analítica de Datos Segundo Semestre G2: sea por allá mitad del desierto o lugares muy pequeños o muy superpoblados que de
+
+Esp. Analítica de Datos Segundo Semestre G2: pronto no sean tan atractivos, pero eso ya nos da una idea de cómo ir
+
+Esp. Analítica de Datos Segundo Semestre G2: orientando las cosas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Aquí, cuando estaba mirando el indicador, hay muchas, muchos indicadores, muchas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo no sé, en nuestro caso nos definen KPIs o KR,
+
+Esp. Analítica de Datos Segundo Semestre G2: un montón de cosas ahí, pero solo quería hacer una distinción
+
+Esp. Analítica de Datos Segundo Semestre G2: aquí entre el indicador y KPI.
+
+Esp. Analítica de Datos Segundo Semestre G2: La diferencia del indicador es que es una medida que yo puedo monitorear, cierto,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero lo que convierte un indicador en un KPI es que el KPI ya tiene una meta y lo
+
+Esp. Analítica de Datos Segundo Semestre G2: van, lo van trazando y lo van monitoreando.
+
+Esp. Analítica de Datos Segundo Semestre G2: En mi caso, yo voy a definir un indicador.
+
+Esp. Analítica de Datos Segundo Semestre G2: Daba que mis datos son estáticos, pero.
+
+Esp. Analítica de Datos Segundo Semestre G2: Cuando ya yo ya tengo un indicador que tiene una meta,
+
+Esp. Analítica de Datos Segundo Semestre G2: yo quiero llegar a tanto por ciento que ya tiene una trazabilidad,
+
+Esp. Analítica de Datos Segundo Semestre G2: pues ya se convierte en un KPI. Solo traía acá la distinción entre esos 2,
+
+Esp. Analítica de Datos Segundo Semestre G2: igual hay muchos más. Ahorita no recuerdo, pero está que nosotros se lo KR,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero también hay otros por ahí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ahora sí, el corazón de la clase prácticamente es
+
+Esp. Analítica de Datos Segundo Semestre G2: esa diapositiva y ya se acaba la clase, no mentiras aquí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Vamos a ver quién.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hay muchos tipos de gráficos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero cada uno tiene un propósito en particular y depende de la historia que
+
+Esp. Analítica de Datos Segundo Semestre G2: yo quiera contar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces, si yo quiero representar cantidades,
+
+Esp. Analítica de Datos Segundo Semestre G2: están los gráficos de barras.
+
+Esp. Analítica de Datos Segundo Semestre G2: Un gráfico de puntos, barras agrupadas, apiladas, mapas de calor.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ahorita esto está a modo de lo que vamos a ver ahorita,
+
+Esp. Analítica de Datos Segundo Semestre G2: si yo quiero ya ver un tema de cómo se acumula o cómo se está distribuyendo las
+
+Esp. Analítica de Datos Segundo Semestre G2: cosas, las distribuciones, los histogramas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Los diagramas de densidad y aquí hay un montón.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ahorita vamos a ver qué diferencia una a la otra,
+
+Esp. Analítica de Datos Segundo Semestre G2: porque un diagrama de barras o un histograma.
+
+Esp. Analítica de Datos Segundo Semestre G2: Las proporciones, las proporciones ya pueden ser unos
+
+Esp. Analítica de Datos Segundo Semestre G2: diagramas apilados que nos pueden ayudar también a mirar cómo se comporta la
+
+Esp. Analítica de Datos Segundo Semestre G2: distribución, las relaciones xy, es decir, cuando ya son análisis bivariados.
+
+Esp. Analítica de Datos Segundo Semestre G2: De un gráfico de referencia pueden ser los gráficos de dispersión.
+
+Esp. Analítica de Datos Segundo Semestre G2: Voy a pasar esta parte muy rápido, dado que aquí es como para que se haga
+
+Esp. Analítica de Datos Segundo Semestre G2: medida de todo lo que vamos a hacer ahorita los gráficos de tiempo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Si yo quiero mostrar tiempo, pues están las líneas, uy.
+
+Esp. Analítica de Datos Segundo Semestre G2: La geografía acá dice coropleta, pero es cloropleta,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero también pues todo lo que sea mapas nos ayuda a mirar el tema de geografía y
+
+Esp. Analítica de Datos Segundo Semestre G2: los temas de incertidumbre, las los diagramas de barras,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero con errores.
+
+Esp. Analítica de Datos Segundo Semestre G2: Vamos a entrar a mirar, vamos a empezar con las con las
+
+Esp. Analítica de Datos Segundo Semestre G2: cantidades.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces, para comprar una cantidad entre
+
+Esp. Analítica de Datos Segundo Semestre G2: categorías, pues el diagrama de barras es lo más,
+
+Esp. Analítica de Datos Segundo Semestre G2: lo más, lo más recomendado, lo que nos ayuda,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero recordando lo que ya vimos en la clase pasada,
+
+Esp. Analítica de Datos Segundo Semestre G2: muy pendientes de que no nos no nos induzca un error y si vamos a recortar.
+
+Esp. Analítica de Datos Segundo Semestre G2: La El eje, pues miremos que en la clase pasada
+
+Esp. Analítica de Datos Segundo Semestre G2: veíamos que recortar el eje nos podía llevar a sobredimensionar una categoría
+
+Esp. Analítica de Datos Segundo Semestre G2: sobre la otra.
+
+Esp. Analítica de Datos Segundo Semestre G2: En este caso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo puedo mirar aquí este diagrama de barras.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Alguien me quiere decir de este diagrama de barras para mirar cantidades que le
+
+Esp. Analítica de Datos Segundo Semestre G2: transmite o qué mensaje le estaba mostrando aquí?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué estamos graficando?
+
+Esp. Analítica de Datos Segundo Semestre G2: I have a question.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Eso es el mensaje a la final, sí o no?
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero no les parece como muy.
+
+Esp. Analítica de Datos Segundo Semestre G2: Como muy curioso, este esta isla 14, 64 con un valor muy elevado, o sea,
+
+Esp. Analítica de Datos Segundo Semestre G2: prácticamente una persona o las casas en una isla son muy costosas o allá gana muy
+
+Esp. Analítica de Datos Segundo Semestre G2: poquito.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero igual hace un poco de ruido que ese valor sea muy elevado con respecto a esas,
+
+Esp. Analítica de Datos Segundo Semestre G2: porque mira que cerca del mar 6, cerca de la bahía 5.
+
+Esp. Analítica de Datos Segundo Semestre G2: Esas son ubicaciones a la final de esos distritos y el interior que pareciera ser
+
+Esp. Analítica de Datos Segundo Semestre G2: el más barato, sin embargo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Con esta gráfica ya me queda claro que si yo quiero hacer hincapié que esta
+
+Esp. Analítica de Datos Segundo Semestre G2: diferencia entre diferentes lugares, esta gráfica me ayuda mucho.
+
+Esp. Analítica de Datos Segundo Semestre G2: Google.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+Esp. Analítica de Datos Segundo Semestre G2: Exacto, esa gráfica es lo único que le criticaría
+
+Esp. Analítica de Datos Segundo Semestre G2: es el tema del n, porque a medida que mi n va siendo más
+
+Esp. Analítica de Datos Segundo Semestre G2: pequeñito, se va abriendo mucho más esa variabilidad.
+
+Esp. Analítica de Datos Segundo Semestre G2: Por eso acá entra también el tema de los gráficos de dispersión de variabilidad
+
+Esp. Analítica de Datos Segundo Semestre G2: que nos ayuda. Pero en este, si yo ya les vengo de un contexto
+
+Esp. Analítica de Datos Segundo Semestre G2: anterior, me ayuda a ejemplificar mucho. Me ayuda a transmitir un mensaje.
+
+Esp. Analítica de Datos Segundo Semestre G2: Si yo quiero que inviertan en algún punto en particular y muestra esa gráfica,
+
+Esp. Analítica de Datos Segundo Semestre G2: ya todos se me dan.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y de más encima que yo le pongo acá un color que me trae para acá ese lugar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Aquí hay muchos más gráficos, pues ese era como uno en particular,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero aquí hay muchos más gráficos para mostrar cantidades, por ejemplo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Tiene gramas de barras.
+
+Esp. Analítica de Datos Segundo Semestre G2: Los diagramas de puntos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ahora, si yo quisiera mostrar más variables,
+
+Esp. Analítica de Datos Segundo Semestre G2: puedo agregar. Yo no sé si ustedes alcanzan a ver,
+
+Esp. Analítica de Datos Segundo Semestre G2: está como muy pequeñita la gráfica.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero si yo quisiera acá ya podría agregarle otra variable que se que sea,
+
+Esp. Analítica de Datos Segundo Semestre G2: por ejemplo, el ingreso del distrito y yo puedo
+
+Esp. Analítica de Datos Segundo Semestre G2: partirlo en ejes, pues en valores como ingreso bajo,
+
+Esp. Analítica de Datos Segundo Semestre G2: ingreso medio, ingreso alto y hacer la gráfica.
+
+Esp. Analítica de Datos Segundo Semestre G2: Por cada uno de ellos y hacerlo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y pues utilizar los diagramas de barras agrupadas ahí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+Esp. Analítica de Datos Segundo Semestre G2: De aquí, de pronto miren que en el interior,
+
+Esp. Analítica de Datos Segundo Semestre G2: en el interior, ya sabemos que de por sí la cantidad de
+
+Esp. Analítica de Datos Segundo Semestre G2: años para pagar la casa es bajito, era como de 3 algo,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero si ustedes ven aquí lo que nos dice es que en el interior o.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿No le voy a decir yo, díganme ustedes qué notan,
+
+Esp. Analítica de Datos Segundo Semestre G2: qué notan diferente del interior a las otras 3 ubicaciones?
+
+Esp. Analítica de Datos Segundo Semestre G2: I see.
+
+Esp. Analítica de Datos Segundo Semestre G2: Thank you.
+
+Esp. Analítica de Datos Segundo Semestre G2: En el interior.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí, bueno, esa es una, la el al parecer el ingreso de bajo gasta
+
+Esp. Analítica de Datos Segundo Semestre G2: un poquito más en comparación al resto, ¿cierto?
+
+Esp. Analítica de Datos Segundo Semestre G2: Que podría ser un poco coherente y lógico, y si yo quisiera orientar de pronto eso,
+
+Esp. Analítica de Datos Segundo Semestre G2: pues lo podría hacer aquí, pero no nos dan algo más adicional aparte
+
+Esp. Analítica de Datos Segundo Semestre G2: de eso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Esa es otra cosa, el ingreso medio y alto en el interior
+
+Esp. Analítica de Datos Segundo Semestre G2: casi es indistinguible, es decir, que son como muy distribuidos y ellos
+
+Esp. Analítica de Datos Segundo Semestre G2: gastan independiente de su ingreso, la misma cantidad de tiempo para pagar su
+
+Esp. Analítica de Datos Segundo Semestre G2: casa.
+
+Esp. Analítica de Datos Segundo Semestre G2: Cosas que.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí se empieza a marcar en las otras ubicaciones, mire.
+
+Esp. Analítica de Datos Segundo Semestre G2: De la 5 de 2 años más se acercan hacia el mar.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Cómo va con la escala?
+
+Esp. Analítica de Datos Segundo Semestre G2: Entre más ingresos hay.
+
+Esp. Analítica de Datos Segundo Semestre G2: Okay.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ah, pero. Tienen ahí más cerca, eso debe ser una una conclusión.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero miren que me parece muy interesante. Es eso,
+
+Esp. Analítica de Datos Segundo Semestre G2: miren que el tipo de gráfica nos puede llevar a ciertas conversaciones. Ahora,
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿dónde está?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Dónde está el corazón de este curso? es?
+
+Esp. Analítica de Datos Segundo Semestre G2: Nosotros somos los que queremos transmitir un mensaje.
+
+Esp. Analítica de Datos Segundo Semestre G2: Nosotros, dependiendo el mensaje que queremos
+
+Esp. Analítica de Datos Segundo Semestre G2: transmitir, nosotros utilizamos las gráficas que nos
+
+Esp. Analítica de Datos Segundo Semestre G2: ayuden a comunicar ese mensaje, no esperamos que.
+
+Esp. Analítica de Datos Segundo Semestre G2: El público objetivo de nuestra presentación de pronto se tiende a ir
+
+Esp. Analítica de Datos Segundo Semestre G2: mucho más allá del mensaje que nosotros queremos transmitir para, o sea,
+
+Esp. Analítica de Datos Segundo Semestre G2: si yo quisiera que si yo quisiera transmitir el mensaje que usted me acaba
+
+Esp. Analítica de Datos Segundo Semestre G2: de decir y muestro otra gráfica, de pronto es.
+
+Esp. Analítica de Datos Segundo Semestre G2: Se van a perder porque no les estoy mostrando eso.
+
+Esp. Analítica de Datos Segundo Semestre G2: O yo no quería mostrarles esa relación de que cerquita de la costa pagan más y les
+
+Esp. Analítica de Datos Segundo Semestre G2: muestro esta gráfica y los llevo a que ellos piensen por ahí. Entonces,
+
+Esp. Analítica de Datos Segundo Semestre G2: dependiendo del objetivo que yo quiera de la reunión,
+
+Esp. Analítica de Datos Segundo Semestre G2: pues muestro una gráfica u otra.
+
+Esp. Analítica de Datos Segundo Semestre G2: Aquí para decirles que también.
+
+Esp. Analítica de Datos Segundo Semestre G2: Está en el tema de las barras apiladas, aquí en las barras apiladas estamos
+
+Esp. Analítica de Datos Segundo Semestre G2: viendo la cantidad de distritos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y la ubicas y la cantidad de.
+
+Esp. Analítica de Datos Segundo Semestre G2: La cantidad de distritos dependiendo del la ubicación del distrito y dependiendo
+
+Esp. Analítica de Datos Segundo Semestre G2: del nivel de ingreso.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué observan ustedes de aquí de esta gráfica que nos puede complementar lo que
+
+Esp. Analítica de Datos Segundo Semestre G2: estamos viendo en la otra?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué tenemos en el eje X?
+
+Esp. Analítica de Datos Segundo Semestre G2: La cantidad de distritos, cierto, y acá tenemos las ubicaciones.
+
+Esp. Analítica de Datos Segundo Semestre G2: El interior es más, más que tenía como la razón más barata de
+
+Esp. Analítica de Datos Segundo Semestre G2: que de cantidad de años que yo me necesito para pagar un para pagar una
+
+Esp. Analítica de Datos Segundo Semestre G2: casa.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y lo que estamos viendo aquí es que la mayoría de los de la información que
+
+Esp. Analítica de Datos Segundo Semestre G2: nosotros tenemos hace parte de estos 2 distritos del interior y menos de 1 hora
+
+Esp. Analítica de Datos Segundo Semestre G2: del mar, es decir.
+
+Esp. Analítica de Datos Segundo Semestre G2: Que nuestra tenemos más cantidad para escoger de distritos que están a 1 hora
+
+Esp. Analítica de Datos Segundo Semestre G2: del mar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Seguido del interior y de estos que son más pequeñitos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Se ve cerca el mar y en la bahía hay menos distritos para yo escoger.
+
+Esp. Analítica de Datos Segundo Semestre G2: Son los distritos que son que me demoro más años en pagar una casa con mi salario,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero también son los distritos que tienen menos cantidad de población.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues de institutos para escoger a la final, yo tengo que escoger 150.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo podría escoger 150 de aquí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero de pronto hayan buenos distritos que me hagan para escoger.
+
+Esp. Analítica de Datos Segundo Semestre G2: Acá para también ponerles en contexto, también hay mapas de calor.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Y los diagramas de barras verticales, por qué creen que yo por qué creen que
+
+Esp. Analítica de Datos Segundo Semestre G2: debería escoger yo esta o esa?
+
+Esp. Analítica de Datos Segundo Semestre G2: Dime que yo estoy graficando 2 barras, 222 diagramas de barras,
+
+Esp. Analítica de Datos Segundo Semestre G2: unas horizontales y unas verticales.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Quién me haría escoger una con respecto a la otra? ¿Qué creen?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿O ustedes qué ven de este comparado con este y cómo lo ve?
+
+Esp. Analítica de Datos Segundo Semestre G2: Es la misma gráfica, eso es lo que están.
+
+Esp. Analítica de Datos Segundo Semestre G2: En rotadas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ya no.
+
+Esp. Analítica de Datos Segundo Semestre G2: O.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero miren que a la final me está mostrando la misma cantidad,
+
+Esp. Analítica de Datos Segundo Semestre G2: no estamos en nada diferente.
+
+Esp. Analítica de Datos Segundo Semestre G2: Abajo, cada cosa.
+
+Esp. Analítica de Datos Segundo Semestre G2: Toca un Toca un punto importante acá atrás y es que miren que el texto cuando
+
+Esp. Analítica de Datos Segundo Semestre G2: tengo textos largos, pues es más cómodo ponerlos acá,
+
+Esp. Analítica de Datos Segundo Semestre G2: porque en horizontal, pues porque no me no se choca ni nada.
+
+Esp. Analítica de Datos Segundo Semestre G2: Miren cómo están los textos allá en la gráfica vertical.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí, toda como no es como tan natural, acá se se hace muy natural leerla,
+
+Esp. Analítica de Datos Segundo Semestre G2: sí o no, allá toca como entonces la recomendación
+
+Esp. Analítica de Datos Segundo Semestre G2: de verticales horizontales es.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues si esto está muy grande, pues utilicen pues el horizontal, si esas,
+
+Esp. Analítica de Datos Segundo Semestre G2: si esos nombres fueran un poquitico más cortos, no sé, un mes, un número.
+
+Esp. Analítica de Datos Segundo Semestre G2: Es, digamos, mucho más criterios y se llama de esa
+
+Esp. Analítica de Datos Segundo Semestre G2: forma, se duele muy incluso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+Esp. Analítica de Datos Segundo Semestre G2: Incluso acá, porque apenas solo en cuatro, pero imagínense que hubieran, no sé,
+
+Esp. Analítica de Datos Segundo Semestre G2: 121520. ¿Incluso también les iba a decir acá una
+
+Esp. Analítica de Datos Segundo Semestre G2: recomendación es que, por ejemplo, cuando uno está graficando,
+
+Esp. Analítica de Datos Segundo Semestre G2: la ustedes ya graficaron importancias de variables, sí o no?
+
+Esp. Analítica de Datos Segundo Semestre G2: De modelos, hay modelos que utilizan hasta 100, 200,
+
+Esp. Analítica de Datos Segundo Semestre G2: 500 variables. Ustedes van a graficar esa importancia de
+
+Esp. Analítica de Datos Segundo Semestre G2: variables. Ahí sí, ya ni importa este, ni importa ese, porque ya son 500, sí,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero los nombres, pero algunas variables tienen nombres
+
+Esp. Analítica de Datos Segundo Semestre G2: largos. Entonces ahí es donde se hace importante
+
+Esp. Analítica de Datos Segundo Semestre G2: esta.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Pero cómo van a graficar acá 500?
+
+Esp. Analítica de Datos Segundo Semestre G2: Imposible, tampoco. Entonces uno lo que hace aquí puede ser
+
+Esp. Analítica de Datos Segundo Semestre G2: es grafica el top 10, el top 5. De pronto puede agregar.
+
+Esp. Analítica de Datos Segundo Semestre G2: El Pareto o incluso si quiero, como a veces cuando uno pinta solo el top
+
+Esp. Analítica de Datos Segundo Semestre G2: 10, se olvida que hay como más variables. Entonces yo he visto algunas gráficas de
+
+Esp. Analítica de Datos Segundo Semestre G2: algunos compañeros que acá ponen como una lineecitas como para romper el eje y
+
+Esp. Analítica de Datos Segundo Semestre G2: ponen.
+
+Esp. Analítica de Datos Segundo Semestre G2: El top 15, bueno, el top 10 y acá abajo ponen como unos 3,
+
+Esp. Analítica de Datos Segundo Semestre G2: las últimas 3 para.
+
+Esp. Analítica de Datos Segundo Semestre G2: Como para en recordar de que ves no son solamente esas, sino que son más.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Entendidos con el tema de cantidades, cierto?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Alguna pregunta?
+
+Esp. Analítica de Datos Segundo Semestre G2: Bueno, ahora vamos a ver distribuciones.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces las distribuciones muestran cómo se reparten los valores.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces están los histogramas, las cajas, los violines.
+
+Esp. Analítica de Datos Segundo Semestre G2: El histograma depende del ancho de los intervalos. Hay que tener cuidado con eso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Incluso la clase pasada nos pasó que parecía que cambiar.
+
+Esp. Analítica de Datos Segundo Semestre G2: De un gráfico a otro estábamos mostrando una cantidad diferente,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero ahí lo vimos porque era lo que pasaba.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y nos ayudan mucho para entender cómo es la distribución de los datos,
+
+Esp. Analítica de Datos Segundo Semestre G2: nosotros empezamos con esta gráfica.
+
+Esp. Analítica de Datos Segundo Semestre G2: No empezamos con esta gráfica, empezamos una gráfica similar,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero aquí vemos la cantidad de distritos. Acá vemos el valor mediano de las
+
+Esp. Analítica de Datos Segundo Semestre G2: viviendas, vemos cómo se distribuye. Aquí vemos esta gráfica porque se escoge
+
+Esp. Analítica de Datos Segundo Semestre G2: una cantidad de bins de cajitas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+Esp. Analítica de Datos Segundo Semestre G2: Dependiendo de cómo yo lo seleccione, esta gráfica que está acá,
+
+Esp. Analítica de Datos Segundo Semestre G2: esta este Bill puede ser más.
+
+Esp. Analítica de Datos Segundo Semestre G2: Más grande o más pequeño. ¿Por qué? Porque si escojo un bin más grande,
+
+Esp. Analítica de Datos Segundo Semestre G2: pues cajitas más grandes, ese valor puede que se me se me disminuya.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces va a coger los valores intermedios y van a coger más valores.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces van a hacer que estos sean más.
+
+Esp. Analítica de Datos Segundo Semestre G2: My grandes case.
+
+Esp. Analítica de Datos Segundo Semestre G2: Aquí esa es una forma de ver si yo quiero ver, por ejemplo, la distribución.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo quisiera mirar más o menos la media de la de las en la media del valor de las
+
+Esp. Analítica de Datos Segundo Semestre G2: viviendas. ¿En cuánto está acá? Con esta gráfica de distribución,
+
+Esp. Analítica de Datos Segundo Semestre G2: yo podría más o menos ver que.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hacia la mitad.
+
+Esp. Analítica de Datos Segundo Semestre G2: Está más o menos en valor de 150000000, por así decirlo,
+
+Esp. Analítica de Datos Segundo Semestre G2: que hay un valor atípico en 500000000 que nos toca.
+
+Esp. Analítica de Datos Segundo Semestre G2: En 500000.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y que nos toca en algún punto, acá ya nos hace la alerta,
+
+Esp. Analítica de Datos Segundo Semestre G2: nos toca entender qué pasa aquí no lo vamos a ver en la próxima sesión.
+
+Esp. Analítica de Datos Segundo Semestre G2: Vamos a entender qué pasa ahí y aquí nos va da el n.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué pasa con esa distribución?
+
+Esp. Analítica de Datos Segundo Semestre G2: Los tenemos en en nes y aquí cuando están en nes se nos hace un poco más complejo
+
+Esp. Analítica de Datos Segundo Semestre G2: ver el tema de los porcentajes. Yo cuando les digo dónde está la mitad,
+
+Esp. Analítica de Datos Segundo Semestre G2: pues nosotros más o menos como tenemos así nuestra mente, el área,
+
+Esp. Analítica de Datos Segundo Semestre G2: entonces uno dice, bueno, más o menos la mitad del área está por
+
+Esp. Analítica de Datos Segundo Semestre G2: acá.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y todo y pues acá sería más o menos la mitad.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hay otras distribuciones en las que uno ya no gráfica el n,
+
+Esp. Analítica de Datos Segundo Semestre G2: sino ya gráfica es el porcentaje y ya con el porcentaje se nos hace más fácil
+
+Esp. Analítica de Datos Segundo Semestre G2: comparar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo creo que por aquí, bueno, por aquí no. Ese es otro tipo para mostrar
+
+Esp. Analítica de Datos Segundo Semestre G2: distribuciones. El violín plot, no sé si lo han usado en lo que han hecho.
+
+Esp. Analítica de Datos Segundo Semestre G2: Si no, pues acá lo vamos a ver.
+
+Esp. Analítica de Datos Segundo Semestre G2: Miren aquí una cosa, el violín plot.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ya gráfica.
+
+Esp. Analítica de Datos Segundo Semestre G2: Es como si fuera el diagrama de el.
+
+Esp. Analítica de Datos Segundo Semestre G2: El voz plot, pero ya graficando la distribución,
+
+Esp. Analítica de Datos Segundo Semestre G2: miren que al parecer, bueno, y aquí pues para no hacerle el gráfico
+
+Esp. Analítica de Datos Segundo Semestre G2: aburrido, pues grafiqué cuatro, cuatro ubicaciones. Miren aquí una cosa,
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿qué pasó con isla?
+
+Esp. Analítica de Datos Segundo Semestre G2: no lo hemos pintado.
+
+Esp. Analítica de Datos Segundo Semestre G2: Desapareció, eso tiene una explicación ahorita y es
+
+Esp. Analítica de Datos Segundo Semestre G2: por el n que el n es muy bajito.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero aquí con estos cuatro cuatro cuatro categorías,
+
+Esp. Analítica de Datos Segundo Semestre G2: lo que ya podemos ver es que ese esta línea que ven aquí es el valor de la
+
+Esp. Analítica de Datos Segundo Semestre G2: mediana, o sea, el valor del 50% de los datos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces acá podemos establecer que en el interior la razón precio ingreso está
+
+Esp. Analítica de Datos Segundo Semestre G2: alrededor de 3 punto algo, que es muy similar al diagrama de barras
+
+Esp. Analítica de Datos Segundo Semestre G2: que estábamos viendo anterior, pero aquí ya tenemos un contexto
+
+Esp. Analítica de Datos Segundo Semestre G2: adicional y es.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Que tenemos la forma? ¿Eso qué quiere decir que en el interior
+
+Esp. Analítica de Datos Segundo Semestre G2: no es que todas las casas cuesten estén a 3 veces el salario?
+
+Esp. Analítica de Datos Segundo Semestre G2: A 3 puntos algo el salario, miren que hay un pico por allá en 14.
+
+Esp. Analítica de Datos Segundo Semestre G2: Si ustedes ven, ahí hay como una línea y que trata de
+
+Esp. Analítica de Datos Segundo Semestre G2: aparecer, es decir, que incluso en el interior hay lugares
+
+Esp. Analítica de Datos Segundo Semestre G2: donde el precio de la casa sobre excede el ingreso de una persona.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y así pues vemos cómo se distribuye el resto.
+
+Esp. Analítica de Datos Segundo Semestre G2: Aquí algo muy chévere es que si con ese mismo umbral el 5%.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Que teníamos para toda la distribución? Miren que quien se termina llevando la
+
+Esp. Analítica de Datos Segundo Semestre G2: cantidad de puntos que nosotros recomendaríamos si pusiéramos es sembrar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Se lo llevaría interior, es decir, que si nosotros pusiéramos el umbral del
+
+Esp. Analítica de Datos Segundo Semestre G2: 5%, casi todos los lugares, los distritos que recomendaríamos están
+
+Esp. Analítica de Datos Segundo Semestre G2: en el interior. De pronto estamos perdiendo oportunidad
+
+Esp. Analítica de Datos Segundo Semestre G2: en las otras.
+
+Esp. Analítica de Datos Segundo Semestre G2: En las otras ubicaciones, pero esto lo vemos por el umbral, señor.
+
+Esp. Analítica de Datos Segundo Semestre G2: El ver.
+
+Esp. Analítica de Datos Segundo Semestre G2: O.
+
+Esp. Analítica de Datos Segundo Semestre G2: Starting.
+
+Esp. Analítica de Datos Segundo Semestre G2: Con, o sea, esos colores.
+
+Esp. Analítica de Datos Segundo Semestre G2: Call Nessus.
+
+Esp. Analítica de Datos Segundo Semestre G2: Happen.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ya.
+
+Esp. Analítica de Datos Segundo Semestre G2: Aquí no está, acá no está. Sí, no tiene nada que ver con lo que que le
+
+Esp. Analítica de Datos Segundo Semestre G2: hayan visto del ingreso de las 3:00 separaciones, no acá es como para.
+
+Esp. Analítica de Datos Segundo Semestre G2: El umbral del 5% que hemos visto al principio,
+
+Esp. Analítica de Datos Segundo Semestre G2: acá lo que me faltó que es haber graficado el total y si grafico el total
+
+Esp. Analítica de Datos Segundo Semestre G2: el 5%, pues para ver dónde estaba.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues sobre el total, el 5% de la gráfica probablemente me
+
+Esp. Analítica de Datos Segundo Semestre G2: hubiera quedado, pues más o menos por acá y el 5% acá,
+
+Esp. Analítica de Datos Segundo Semestre G2: entonces me faltó esa de referencia, la voy a agregar para que se vea mejor
+
+Esp. Analítica de Datos Segundo Semestre G2: ahí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Otros tipos de distribuciones, entonces está pues ya el histograma,
+
+Esp. Analítica de Datos Segundo Semestre G2: pues así con bins, pero si yo pongo infinitos bins.
+
+Esp. Analítica de Datos Segundo Semestre G2: Mire que se me convierte esta gráfica que tenemos aquí,
+
+Esp. Analítica de Datos Segundo Semestre G2: se me convierte ya en una línea continua. La diferencia entre esta y esta,
+
+Esp. Analítica de Datos Segundo Semestre G2: es a que estoy graficando con n y estoy graficando una cantidad de.
+
+Esp. Analítica de Datos Segundo Semestre G2: Una cantidad de, digamos, de cajitas, me acabo de haber puesto, no sé, 4050,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero aquí ya estoy graficando es la densidad,
+
+Esp. Analítica de Datos Segundo Semestre G2: entonces ya estoy graficando es con los porcentajes y al graficar ya con los
+
+Esp. Analítica de Datos Segundo Semestre G2: porcentajes se me suaviza un poco la imagen.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Vas a agrandar esto un poquito para que veamos algo que me parece chévere esta
+
+Esp. Analítica de Datos Segundo Semestre G2: parte?
+
+Esp. Analítica de Datos Segundo Semestre G2: De esa primera línea, entonces yo tengo la gráfica con enes.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues, pero también puedo pasarlo a.
+
+Esp. Analítica de Datos Segundo Semestre G2: A densidades graficando la las proporciones,
+
+Esp. Analítica de Datos Segundo Semestre G2: la cantidad de la pues la cantidad, esto mismo,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero ya suavizado sobre un n para ver la proporción.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero también lo puedo ver en la forma acumulada. ¿Qué ventaja ustedes ven en?
+
+Esp. Analítica de Datos Segundo Semestre G2: Verlo así y verlo así son la misma gráfica.
+
+Esp. Analítica de Datos Segundo Semestre G2: Solo que aquí hay algo que diferencia esta gráfica a esta gráfica,
+
+Esp. Analítica de Datos Segundo Semestre G2: algo de lectura.
+
+Esp. Analítica de Datos Segundo Semestre G2: Acá estoy viendo, si yo les dijera, les hago esa pregunta y se van a decir
+
+Esp. Analítica de Datos Segundo Semestre G2: dónde es más fácil de encontrarla. Si yo les dijera dónde es cuánto vale el
+
+Esp. Analítica de Datos Segundo Semestre G2: 50% de la distribución, el 50% de las de pues de la cantidad de
+
+Esp. Analítica de Datos Segundo Semestre G2: años.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Que me deurren pagar? ¿Cuál valor es? ¿Ustedes qué me dirían?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Entonces alguien vio 3 puntos y algo, cierto?
+
+Esp. Analítica de Datos Segundo Semestre G2: Acá eso dijo alguien otro que me dice dónde está el 50%.
+
+Esp. Analítica de Datos Segundo Semestre G2: Tienen 2 gráficas para ver esta y tienen esta.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Con cuál de las 2:00 sería más fácil encontrar el 50% de las de los valores?
+
+Esp. Analítica de Datos Segundo Semestre G2: What?
+
+Esp. Analítica de Datos Segundo Semestre G2: La segunda.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Alguien dijo la segunda, alguien sabe por qué es la segunda?
+
+Esp. Analítica de Datos Segundo Semestre G2: Stop!
+
+Esp. Analítica de Datos Segundo Semestre G2: La segunda es esta, si ustedes ven aquí estoy graficando la
+
+Esp. Analítica de Datos Segundo Semestre G2: distribución acumulada, aquí la estoy graficando pues por el
+
+Esp. Analítica de Datos Segundo Semestre G2: valor no acumulado, sino que voy mirando acá valor cuánto es
+
+Esp. Analítica de Datos Segundo Semestre G2: el porcentaje que tiene este valor en la acumulada.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo estoy viendo que acá está el valor de cero y acá está el valor de uno, cierto.
+
+Esp. Analítica de Datos Segundo Semestre G2: Esa es una distribución. Todo esto al final va a sumar, o sea,
+
+Esp. Analítica de Datos Segundo Semestre G2: toda esta área va a sumar 100%. Solamente que si yo la veo de esta forma,
+
+Esp. Analítica de Datos Segundo Semestre G2: miren algo.
+
+Esp. Analítica de Datos Segundo Semestre G2: El 20% si yo me voy por acá, más o menos está en.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Les punto algo, cierto?
+
+Esp. Analítica de Datos Segundo Semestre G2: El 40% si me voy por acá más o menos está en cuatro coma algo y el 50% más o menos
+
+Esp. Analítica de Datos Segundo Semestre G2: está en 4,5. Entonces la acumulada me sirve para
+
+Esp. Analítica de Datos Segundo Semestre G2: comparar sobre todo esa. Si yo necesito quiero escoger el 80%,
+
+Esp. Analítica de Datos Segundo Semestre G2: entonces simplemente yo trazo acá una línea más o menos veo acá.
+
+Esp. Analítica de Datos Segundo Semestre G2: El 80% de los distritos está a.
+
+Esp. Analítica de Datos Segundo Semestre G2: Tiene un acumulado de menos de 6 años y medio o 7 años aquí de tasa de.
+
+Esp. Analítica de Datos Segundo Semestre G2: De demora para pagar una casa con su salario.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces eso es fácil de leer en este gráfico y en este gráfico,
+
+Esp. Analítica de Datos Segundo Semestre G2: pues me ayudas para mirar cómo se distribuye. Si este valor,
+
+Esp. Analítica de Datos Segundo Semestre G2: miren que aquí ese valor que se veía súper exagerado con esta con esta gráfica.
+
+Esp. Analítica de Datos Segundo Semestre G2: Mire que ya al normalizarlo y ver el porcentaje que realmente se representa,
+
+Esp. Analítica de Datos Segundo Semestre G2: se tiende a atenuar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces ese es un problema de hacerlo con a veces con la cantidad de estos bins,
+
+Esp. Analítica de Datos Segundo Semestre G2: porque me pues dependiendo de la cantidad puedo estar graficando acá varias
+
+Esp. Analítica de Datos Segundo Semestre G2: gráficas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hay otras, no quiero entrar de pronto en tanto
+
+Esp. Analítica de Datos Segundo Semestre G2: detalle, pero está el gráfico de cucuplot, lo han escuchado.
+
+Esp. Analítica de Datos Segundo Semestre G2: Que es graficar cuartil a cuartil, pero él tiene una línea de referencia.
+
+Esp. Analítica de Datos Segundo Semestre G2: Esta línea de referencia es la normal.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sin mi distribución, es decir.
+
+Esp. Analítica de Datos Segundo Semestre G2: Si la distribución de mi de mis datos fueran una normal.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué gráfica, qué cómo debería estar esa línea verde,
+
+Esp. Analítica de Datos Segundo Semestre G2: cómo debería ser?
+
+Esp. Analítica de Datos Segundo Semestre G2: Una línea recta casi debería ser una línea recta con respecto a eso. O sea,
+
+Esp. Analítica de Datos Segundo Semestre G2: entre más cerquita esté esto de la línea recta, es más normal.
+
+Esp. Analítica de Datos Segundo Semestre G2: Aquí nuestra nuestra intuición es que tiende a ser un poquitico,
+
+Esp. Analítica de Datos Segundo Semestre G2: pareciera ser una normal, pero está un poco sesgada. Eso lo vemos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Porque aquí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Se empieza a alejar de la normal y aquí si ustedes ven aquí son esos valores de
+
+Esp. Analítica de Datos Segundo Semestre G2: los 500000 que hacen que se aleje de la normal.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces, son formas para ver los datos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Nosotros tuvimos un Niki, una charla.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Dónde nos decían?
+
+Esp. Analítica de Datos Segundo Semestre G2: Que las los estaban mandados a recoger.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Por qué? Porque podían inducir a un error,
+
+Esp. Analítica de Datos Segundo Semestre G2: a mí me parece muy curioso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Porque para mí los 2 plop indican mucho de la.
+
+Esp. Analítica de Datos Segundo Semestre G2: Mucho de la distribución de una variable, pero él nos ponía un ejemplo.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Dónde?
+
+Esp. Analítica de Datos Segundo Semestre G2: El voz plot era prácticamente el mismo y la distribución de los datos cambiaba
+
+Esp. Analítica de Datos Segundo Semestre G2: mucho. Entonces es lo que nos decía era eso.
+
+Esp. Analítica de Datos Segundo Semestre G2: El voz plot nos puede ocultar un poco el comportamiento real de lo que está por
+
+Esp. Analítica de Datos Segundo Semestre G2: dentro.
+
+Esp. Analítica de Datos Segundo Semestre G2: Lama.
+
+Esp. Analítica de Datos Segundo Semestre G2: Paramos un problema.
+
+Esp. Analítica de Datos Segundo Semestre G2: Google.
+
+Esp. Analítica de Datos Segundo Semestre G2: Comparaban, miren, miren, miren esa gráfica y miren esa gráfica.
+
+Esp. Analítica de Datos Segundo Semestre G2: Es lo que nos mostraba una gráfica de este estilo,
+
+Esp. Analítica de Datos Segundo Semestre G2: porque no es lo que nos recomendaba era que mostráramos gráficas de este estilo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Porque acá se nos hacía un poco más.
+
+Esp. Analítica de Datos Segundo Semestre G2: Visual, el tema de ver la distribución.
+
+Esp. Analítica de Datos Segundo Semestre G2: Aquí sí se pierden otros, se empiezan a perder.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ahí nos vale una unas gráficas que traen acá la mediana,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero no pierden este esos punticos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Exacto, no diría acá, esos son mister típicos y esta
+
+Esp. Analítica de Datos Segundo Semestre G2: distribución pasa es que él fue muy vivo al mostrarnos el ejemplo y el ejemplo
+
+Esp. Analítica de Datos Segundo Semestre G2: mostraba así como 2 grupitos acá, un grupito acá y un grupito acá,
+
+Esp. Analítica de Datos Segundo Semestre G2: un grupito, un grupito y grupito y entonces ocultaba
+
+Esp. Analítica de Datos Segundo Semestre G2: mucho la distribución de los datos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Les decía, esta gráfica puede generarnos, inducirnos errores y el recomendado más o
+
+Esp. Analítica de Datos Segundo Semestre G2: menos este tipo de gráficas. En mi caso, pues esta gráfica aporta algo que de
+
+Esp. Analítica de Datos Segundo Semestre G2: pronto es a nube y es el tema de la de esos atípicos que sí se ven bien aquí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Miren acá este típico, mirelo donde se queda.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero bueno, lo traía como curiosidad de lo que me
+
+Esp. Analítica de Datos Segundo Semestre G2: habían enseñado en esa charla y ya está la final en cada uno de nosotros usarla o
+
+Esp. Analítica de Datos Segundo Semestre G2: no. Igual yo no me veo en una charla con un
+
+Esp. Analítica de Datos Segundo Semestre G2: gerente mostrándole esta gráfica porque se me duerme.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero para nosotros esto nos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Nos sirve y una de las que también me gusta bastante es esta.
+
+Esp. Analítica de Datos Segundo Semestre G2: Esta es como ver este diagrama, pero aplastado en una en un mismo eje,
+
+Esp. Analítica de Datos Segundo Semestre G2: donde vemos que este verde siguen que este verde es de esta es la mediana,
+
+Esp. Analítica de Datos Segundo Semestre G2: la media más o menos acá en este punto.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces yo sabría que ese es el interior y que los otros tienen una distribución
+
+Esp. Analítica de Datos Segundo Semestre G2: muy similar, que sería eso, sería ver esta misma gráfica,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero ya en las distribuciones sobre el mismo eje.
+
+Esp. Analítica de Datos Segundo Semestre G2: Bueno, para gustos, colores hay un montón de gráficas para
+
+Esp. Analítica de Datos Segundo Semestre G2: ver distribuciones, ahora para ver proporciones para ver
+
+Esp. Analítica de Datos Segundo Semestre G2: proporciones.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues saber contamos, vamos bien.
+
+Esp. Analítica de Datos Segundo Semestre G2: Como les dije, acá vamos a ver un montón de gráficos,
+
+Esp. Analítica de Datos Segundo Semestre G2: entonces para que no se me vayan a dormir.
+
+Esp. Analítica de Datos Segundo Semestre G2: Aquí están las proporciones, entonces las proporciones ya hemos dicho
+
+Esp. Analítica de Datos Segundo Semestre G2: que esta, que cuál es el problema de esta.
+
+Esp. Analítica de Datos Segundo Semestre G2: Comparen esta con esta.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yes.
+
+Esp. Analítica de Datos Segundo Semestre G2: Si yo fuera así medio choneto, yo diría que estas 2 son muy similares,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero cuando las veo acá sí hay una diferencia.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y entonces para ver la diferencia, o sea.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ver.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues sí, pero igual esas sigue siendo muy compleja,
+
+Esp. Analítica de Datos Segundo Semestre G2: no sé de que fuera, no sé, masculino o femenino,
+
+Esp. Analítica de Datos Segundo Semestre G2: entonces o fuera esta, esta con esta.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí, es debatible, como les contaba la vez pasada,
+
+Esp. Analítica de Datos Segundo Semestre G2: si quiero mostrar esta, más bien muestro esta que es más claro
+
+Esp. Analítica de Datos Segundo Semestre G2: verlo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero también están las barras apiladas, esa de barras apiladas,
+
+Esp. Analítica de Datos Segundo Semestre G2: si ustedes lo notan, también podría servirnos para ver
+
+Esp. Analítica de Datos Segundo Semestre G2: distribuciones.
+
+Esp. Analítica de Datos Segundo Semestre G2: Esta me gusta mucho, es porque yo no recuerdo cuál es el
+
+Esp. Analítica de Datos Segundo Semestre G2: amarillo, el amarillo son los del interior.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí, mire, miremos esta gráfica.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ustedes pueden leer esta gráfica sabiendo que es amarillo es el interior. el.
+
+Esp. Analítica de Datos Segundo Semestre G2: Gris es el de una menos de 1 hora al mar. Los verdes claritos son bahía y los
+
+Esp. Analítica de Datos Segundo Semestre G2: verdes oscuros son cerca del mar. ¿Qué pueden concluir ahí aparte de eso?
+
+Esp. Analítica de Datos Segundo Semestre G2: De esta.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿O les hago una pregunta?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué proporción?
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué proporción, cómo la cómo la organizo para que para
+
+Esp. Analítica de Datos Segundo Semestre G2: que me respondan?
+
+Esp. Analítica de Datos Segundo Semestre G2: Ajá.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces se presentan más los niveles de ingreso bajo.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué sería?
+
+Esp. Analítica de Datos Segundo Semestre G2: En el interior.
+
+Esp. Analítica de Datos Segundo Semestre G2: En el interior, pues están, hay mayor cantidad de gente con ingreso
+
+Esp. Analítica de Datos Segundo Semestre G2: bajo en comparación.
+
+Esp. Analítica de Datos Segundo Semestre G2: Con los desnivelazo, los desnivelazo pareciera que no están en
+
+Esp. Analítica de Datos Segundo Semestre G2: el interior, sino que tienden a estar más en mire que
+
+Esp. Analítica de Datos Segundo Semestre G2: ni siquiera en Cocerca el Mar y la Bahía, sino.
+
+Esp. Analítica de Datos Segundo Semestre G2: A 1 hora.
+
+Esp. Analítica de Datos Segundo Semestre G2: Una conclusión que podríamos sacar de ahí con todos los asteriscos de los enes acá.
+
+Esp. Analítica de Datos Segundo Semestre G2: Acá nos toca mirar si eso es representativo,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero gráficamente ya esta gráfica nos induce a eso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Como 1 hora.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí, tiene como esa relación aquí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Bueno, eso es aquí también se ve poco más, pero ya ha cambiado los ejes a mirar el
+
+Esp. Analítica de Datos Segundo Semestre G2: nivel bajo, medio y alto, y ya buscar aquí los las ubicaciones.
+
+Esp. Analítica de Datos Segundo Semestre G2: Acá se es como la misma anterior, pero.
+
+Esp. Analítica de Datos Segundo Semestre G2: Voltear.
+
+Esp. Analítica de Datos Segundo Semestre G2: Acá miren esa gráfica de los ingresos medianos.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Y las proporciones?
+
+Esp. Analítica de Datos Segundo Semestre G2: Squad esa.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero mire que el ingreso es mediano.
+
+Esp. Analítica de Datos Segundo Semestre G2: El ingreso mediano más alto es este sí o no 80.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y mire que pareciera que.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Lo del interior, cómo están?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Y mire cómo va evolucionando esto a medida que yo voy,
+
+Esp. Analítica de Datos Segundo Semestre G2: mire que a menor a menor ingreso, qué pasa con esta?
+
+Esp. Analítica de Datos Segundo Semestre G2: Aumenta, entonces mire que.
+
+Esp. Analítica de Datos Segundo Semestre G2: Menor ingreso, los del interior aquí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y a medida que yo voy ganando más, ya no estoy en el interior donde estoy.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pareciera que eso es de la hora del mar, porque miren qué pasa con los de cerca el
+
+Esp. Analítica de Datos Segundo Semestre G2: mar y la bahía, cómo es el ingreso de ellos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pareciera que cerca al Maria de la Bahía viven,
+
+Esp. Analítica de Datos Segundo Semestre G2: mire que esa es una conclusión que podemos sacar de esa gráfica,
+
+Esp. Analítica de Datos Segundo Semestre G2: los ricos y pobres cerca de la Bahía.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y cerca del mar, en la bahía y cerca del mar son más o
+
+Esp. Analítica de Datos Segundo Semestre G2: menos es lo la misma proporción, la misma cantidad.
+
+Esp. Analítica de Datos Segundo Semestre G2: Cosas que uno podría sacar de esta gráfica,
+
+Esp. Analítica de Datos Segundo Semestre G2: porque mire que en la bahía es cerca del mar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Esta es la misma proporción de gente que.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Que gana 20000 USD?
+
+Esp. Analítica de Datos Segundo Semestre G2: Podría servir para una comisión y básicamente es eso,
+
+Esp. Analítica de Datos Segundo Semestre G2: mire que cada gráfico me trae una idea, un mensaje.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Cuál es el mensaje que quiero transmitir? Eso es lo que vamos a construir nosotros
+
+Esp. Analítica de Datos Segundo Semestre G2: en la sesión cuatro, o sea, la próxima semana,
+
+Esp. Analítica de Datos Segundo Semestre G2: la hoy la sesión de hoy, la sesión de mañana es entender los datos
+
+Esp. Analítica de Datos Segundo Semestre G2: que tenemos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo no sé si han visto ese gráfico que es el Sanky.
+
+Esp. Analítica de Datos Segundo Semestre G2: Vamos a darle un minutico para que la revisen y me digan que queden ahí.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Ven líneas? Bueno, eso es una cosa, pero ¿qué ven aquí en este AG en el lado
+
+Esp. Analítica de Datos Segundo Semestre G2: derecho?
+
+KEVIN MATEO JIMENEZ GUISAO: Proporciones.
+
+Esp. Analítica de Datos Segundo Semestre G2: Oh.
+
+Esp. Analítica de Datos Segundo Semestre G2: Read that.
+
+Esp. Analítica de Datos Segundo Semestre G2: Vemos proporciones, acá vemos proporciones y acá vemos
+
+Esp. Analítica de Datos Segundo Semestre G2: proporciones.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero acá, en este lado derecho vemos, bueno,
+
+Esp. Analítica de Datos Segundo Semestre G2: este es del caso de ustedes de Conecta. Vemos clientes hogar,
+
+Esp. Analítica de Datos Segundo Semestre G2: clientes de móvil postpago y clientes de móvil.
+
+Esp. Analítica de Datos Segundo Semestre G2: Prepago entonces, primera pregunta, la base que ustedes tienen desconectar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Está conformada cómo está conformada mayoritariamente hogar,
+
+Esp. Analítica de Datos Segundo Semestre G2: mayoritariamente móvil postpago, mayoritariamente móvil prepago.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hogar su base acá no viene el porcentaje, hubiera sido chévere,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero si ustedes ven acá 16, 4000 y 15 1000 está ligeramente
+
+Esp. Analítica de Datos Segundo Semestre G2: mayoritaria de hogar, seguido de.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿De clientes prepago y la cantidad de usuarios más poquitos es de postpago,
+
+Esp. Analítica de Datos Segundo Semestre G2: sí o no? ¿Ahora qué ven en el otro lado?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Ven retiros, cierto, entonces o bueno, ven una escala de retiros?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Dice quienes continúan?
+
+Esp. Analítica de Datos Segundo Semestre G2: Quienes hacen un retiro de forma voluntaria,
+
+Esp. Analítica de Datos Segundo Semestre G2: quienes hacen un retiro por mora y quienes hacen un retiro porque no
+
+Esp. Analítica de Datos Segundo Semestre G2: hicieron recarga.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces mire que estamos relacionando 2 variables y base,
+
+Esp. Analítica de Datos Segundo Semestre G2: mi composición de la base con los retiros. Esa es una forma de verlo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo pude haberlo visto como una distribución, cualquier otra cosa,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero me gusta de esto algo y es.
+
+Esp. Analítica de Datos Segundo Semestre G2: Si yo les dijera.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Cuál segmento pareciera que se retira más de forma voluntaria? ¿Usted es que ya?
+
+Esp. Analítica de Datos Segundo Semestre G2: mire que del 15% de los usuarios que sean de forma voluntaria la mayor cantidad
+
+Esp. Analítica de Datos Segundo Semestre G2: vienen de
+
+Esp. Analítica de Datos Segundo Semestre G2: De los clientes prepago, o sea, estoy viendo de la composición de los que
+
+Esp. Analítica de Datos Segundo Semestre G2: se van de forma voluntaria, pareciera que más de la mitad son porque
+
+Esp. Analítica de Datos Segundo Semestre G2: son.
+
+Esp. Analítica de Datos Segundo Semestre G2: Prepago.
+
+Esp. Analítica de Datos Segundo Semestre G2: Seguido de.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hogar y una porcentaje de.
+
+Esp. Analítica de Datos Segundo Semestre G2: De los post pagos se ven de forma voluntaria.
+
+Esp. Analítica de Datos Segundo Semestre G2: Mire que sin recarga tiene sentido que un cliente hogar o un cliente postpago se
+
+Esp. Analítica de Datos Segundo Semestre G2: haya sin porque no recarga.
+
+Esp. Analítica de Datos Segundo Semestre G2: Mira que los de 100 de caras porque son de prepago.
+
+Esp. Analítica de Datos Segundo Semestre G2: Fórmula, entonces mire que este gráfico es una
+
+Esp. Analítica de Datos Segundo Semestre G2: forma muy interesante para ver como esas composiciones hay.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo la he visto en telecomunicaciones, en gráficos de.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ponen acá, sigo claro, Movistar Wong, sigo claro,
+
+Esp. Analítica de Datos Segundo Semestre G2: Movistar con otros y cómo se mueven los clientes de operador de un de un de un.
+
+Esp. Analítica de Datos Segundo Semestre G2: para mirar el tema de portabilidades para ver entonces en este tipo de gráficos en
+
+Esp. Analítica de Datos Segundo Semestre G2: ese caso es para ver quién le está quitando más aquí entonces por ejemplo
+
+Esp. Analítica de Datos Segundo Semestre G2: Claro que tiene mayor cantidad de usuarios entonces salía como que claro se
+
+Esp. Analítica de Datos Segundo Semestre G2: lleva por lo general clientes de Tigo
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí, o sea, como portabilidades que se van de un
+
+Esp. Analítica de Datos Segundo Semestre G2: operador, entonces se sería muy evidente ese
+
+Esp. Analítica de Datos Segundo Semestre G2: gráfico, se lo mostraron a uno para mirar. Bueno,
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿cuál es el computador que me está quitando clientes? Entonces me decía,
+
+Esp. Analítica de Datos Segundo Semestre G2: bueno, claro, en postpago, en Internet fijo, Movistar,
+
+Esp. Analítica de Datos Segundo Semestre G2: cosas de ese estilo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero me pareció chévere, pero se las traje para que la viera.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ese es muy liblos pequeños es para el tema de los subplots y a veces es muy
+
+Esp. Analítica de Datos Segundo Semestre G2: chévere mirar ese tema de los subplots porque como tienen el mismo eje.
+
+Esp. Analítica de Datos Segundo Semestre G2: Se hace muy fácil comparar, mire que es muy similar a este gráfico.
+
+Esp. Analítica de Datos Segundo Semestre G2: A este gráfico que ustedes ven aquí densidades, pero todas pegadas ahí en una,
+
+Esp. Analítica de Datos Segundo Semestre G2: de pronto se vuelve, digamos que se ve muy sucia esa imagen.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hey.
+
+Esp. Analítica de Datos Segundo Semestre G2: Es porcentual cero 3.
+
+Esp. Analítica de Datos Segundo Semestre G2: Es de cero a uno, pero como ese no es el.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero a veces no llega hasta uno porque no es el acumulado.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero si es porcentaje.
+
+Esp. Analítica de Datos Segundo Semestre G2: Bueno, entonces acá para verlo el tema de los.
+
+Esp. Analítica de Datos Segundo Semestre G2: El tema de los.
+
+Esp. Analítica de Datos Segundo Semestre G2: De los múltiplos pequeños era los subplots,
+
+Esp. Analítica de Datos Segundo Semestre G2: poder ver en los mismos ejes la misma gráfica solamente que si ustedes ven aquí
+
+Esp. Analítica de Datos Segundo Semestre G2: cada gráfica representa un segmento, el interior a menos de 1 hora,
+
+Esp. Analítica de Datos Segundo Semestre G2: cerca del mar y cerca de la bahía.
+
+Esp. Analítica de Datos Segundo Semestre G2: El eje X ya sabemos que es la razón para ese ingreso y en todo se marca el umbral
+
+Esp. Analítica de Datos Segundo Semestre G2: del 5%, pero lo que pasa es que el 5% del nivel
+
+Esp. Analítica de Datos Segundo Semestre G2: total.
+
+Esp. Analítica de Datos Segundo Semestre G2: Se marca en diferentes posiciones. O sea, cuando yo miro la distribución total,
+
+Esp. Analítica de Datos Segundo Semestre G2: el 5% abarca ese 5% es con respecto a la distribución completa.
+
+Esp. Analítica de Datos Segundo Semestre G2: Por eso es que aquí pareciera que no es 5%, pero es por eso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Las relaciones de quichén.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Ustedes ven esas 2 gráficas y cuál es mejor?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿O si ustedes tuvieran que mostrar una, cuál de las 2:00 mostraría?
+
+Esp. Analítica de Datos Segundo Semestre G2: Google.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Por qué?
+
+Esp. Analítica de Datos Segundo Semestre G2: Bueno, por colores es una.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hey Cortana.
+
+Esp. Analítica de Datos Segundo Semestre G2: Exacto.
+
+Esp. Analítica de Datos Segundo Semestre G2: Las 2 muestran tendencia. Si yo quisiera mostrar tendencia,
+
+Esp. Analítica de Datos Segundo Semestre G2: cualquiera de las 2 me sirve. ¿Qué pasa con esta?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Esta al utilizar un color negro? ¿Qué pasa?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué pasa acá? Exacto.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué pasa con respecto a esa?
+
+Esp. Analítica de Datos Segundo Semestre G2: Se ven tonos. El color me permite ver que acá no puedo
+
+Esp. Analítica de Datos Segundo Semestre G2: distinguir si el pico está acá o está acá. Es una masa negra.
+
+Esp. Analítica de Datos Segundo Semestre G2: En la otra miren que es donde se arma como el oscurito más fuerte.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Más o menos acá, cierto?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Y yo hay en el eje X?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿El ingreso mediano y qué hay en el eje?
+
+Esp. Analítica de Datos Segundo Semestre G2: El valor mediano de la del es el valor de la casa y en el eje X el ingreso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Según esa gráfica, pareciera haber una relación entre el
+
+Esp. Analítica de Datos Segundo Semestre G2: precio y el ingreso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pareciera cierto, se ve como una línea ahí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Si yo no tengo en cuenta los outlayers, acá se podría ver como una línea de ese
+
+Esp. Analítica de Datos Segundo Semestre G2: estilo donde yo diría que podría intuir yo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Que a mayor ingreso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Mayor valor de la casa. o.
+
+Esp. Analítica de Datos Segundo Semestre G2: Como sería normal, pues la gente que tiene más dinero, pues.
+
+Esp. Analítica de Datos Segundo Semestre G2: Por lo general es porque gana más plata, no faltan.
+
+Esp. Analítica de Datos Segundo Semestre G2: Los hablagers.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ese es el tacaño extremo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Gana más de 140000 USD y viene a casa de 100.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué? Sí, aquí estamos aquí, Leandro y toda la comunidad.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Y aquí quién está?
+
+Esp. Analítica de Datos Segundo Semestre G2: Los que aparentan, los que están endeudados esta vida y la
+
+Esp. Analítica de Datos Segundo Semestre G2: otra pagando eso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo esperaría que todos estuviéramos por aquí en la misma.
+
+Esp. Analítica de Datos Segundo Semestre G2: Bueno, pero miren acá en últimas lo que quería
+
+Esp. Analítica de Datos Segundo Semestre G2: transmitirles es como cambia un tipo de gráfico y ese gráfico.
+
+Esp. Analítica de Datos Segundo Semestre G2: Cuando hice el primer curso de visualización, yo le dije, le dije,
+
+Esp. Analítica de Datos Segundo Semestre G2: hagan el gráfico.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y cuando me estaban graficando las variables, todos me escogían ese,
+
+Esp. Analítica de Datos Segundo Semestre G2: yo después me debo decirles o, pero ya hicimos una sesión donde yo les
+
+Esp. Analítica de Datos Segundo Semestre G2: expliqué que era mejor una que la otra, porque todos me grafican esta.
+
+Esp. Analítica de Datos Segundo Semestre G2: Bueno, después de esa de esa sesión, después de esa sesión ya no lo hicieron,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero lo que les digo es estamos gastándonos hoy toda una clase viendo un
+
+Esp. Analítica de Datos Segundo Semestre G2: diccionario de imágenes para que, por favor,
+
+Esp. Analítica de Datos Segundo Semestre G2: cuando estén haciendo sus trabajos, escojan.
+
+Esp. Analítica de Datos Segundo Semestre G2: La mejor, no vayan a mostrar esa y van a decir.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Es que se hagan las conclusiones ahí todas todas interesantes a partir de
+
+Esp. Analítica de Datos Segundo Semestre G2: estas cosas, entonces como que uno decía, y en dónde se ve esa?
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero bueno.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero estas no son las únicas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Miren que hay una gráfica que es de contornos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Miren que esta misma gráfica acá se yo la veo entendible, sí,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero miren que yo también voy a poder graficarla como contorno. Si yo quisiera,
+
+Esp. Analítica de Datos Segundo Semestre G2: si yo quisiera orientar la vista, cuál de las 2:00 me muestra lo mismo,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero de forma más limpia.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Esta sí o no? ¿Por qué primero estoy viendo la relación
+
+Esp. Analítica de Datos Segundo Semestre G2: que quiero que ustedes vean?
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí, segundo, ustedes también diciendo que la mayor
+
+Esp. Analítica de Datos Segundo Semestre G2: cantidad de datos está concentrada en ingresos de 25 con casas de 100.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo, si no me lo muestra acá, lo que está mostrando es que pueden ser
+
+Esp. Analítica de Datos Segundo Semestre G2: un layer, valores que no son tan frecuentes,
+
+Esp. Analítica de Datos Segundo Semestre G2: que de pronto me están generando ruido acá. Pues sí,
+
+Esp. Analítica de Datos Segundo Semestre G2: estoy viendo un poco más de detalle, pero si yo quiero orientar que quiero una
+
+Esp. Analítica de Datos Segundo Semestre G2: relación y que todos los datos están ahí, quiero decir no de la mayor cantidad de
+
+Esp. Analítica de Datos Segundo Semestre G2: gente de esta base.
+
+Esp. Analítica de Datos Segundo Semestre G2: Gana 25 y está en 100000, pues muestro esta.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+Esp. Analítica de Datos Segundo Semestre G2: Miren que aquí esta es una de puntos. Mire que esto trata de ser como muy
+
+Esp. Analítica de Datos Segundo Semestre G2: similar a esta y corrige un poco el defecto de esta.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y es que al ponerle las transparencias acá ya ahora sí ya se me hace más sentido
+
+Esp. Analítica de Datos Segundo Semestre G2: que todos los la nube de puntos está acá y que aquí sí hay valores, pero son.
+
+Esp. Analítica de Datos Segundo Semestre G2: Más dispersos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Igual sigue siendo fea.
+
+Esp. Analítica de Datos Segundo Semestre G2: Esa.
+
+Esp. Analítica de Datos Segundo Semestre G2: Esta que pasa, utilizan algo que nosotros vimos la clase
+
+Esp. Analítica de Datos Segundo Semestre G2: pasada, que eran las cómo se llamaba.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero ellos tenían una nombre ahí como.
+
+Esp. Analítica de Datos Segundo Semestre G2: Bueno, tampoco se acuerdan las viñetas. Era que yo puedo utilizar viñetas para
+
+Esp. Analítica de Datos Segundo Semestre G2: representar más información. Yo acá solo estoy viendo ingreso y valor
+
+Esp. Analítica de Datos Segundo Semestre G2: de la casa. Acá estoy viendo ingreso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Valor de la casa y el tamaño de la burbuja me está trayendo él.
+
+Esp. Analítica de Datos Segundo Semestre G2: La cantidad, entonces mire que con solamente agregar.
+
+Esp. Analítica de Datos Segundo Semestre G2: El tamaño de la burbuja también le estoy agregando 1/3 dimensión ahí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y si trae otros daticos con correo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Gracias.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ajá, mucha información.
+
+Esp. Analítica de Datos Segundo Semestre G2: Exacto, en lo malo que se se solapa, pero si no estuvieran tan solapadas o o
+
+Esp. Analítica de Datos Segundo Semestre G2: pues sí, de pronto acá ponen una escala
+
+Esp. Analítica de Datos Segundo Semestre G2: logarítmica, de pronto me hace que me estire,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero bueno, en últimas sí agregando eso, y si a y se le agregara colores.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo puedo decir, los amarillos son los del interior,
+
+Esp. Analítica de Datos Segundo Semestre G2: los verdes son los del tal pan y podría haber de ahí. Bueno,
+
+Esp. Analítica de Datos Segundo Semestre G2: ahí podría ser un salpicón de.
+
+Esp. Analítica de Datos Segundo Semestre G2: Es depende y la más la más.
+
+Esp. Analítica de Datos Segundo Semestre G2: La más clásica, pues una correlación.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Para usar los 2 ejes, qué me muestra esta gráfica de
+
+Esp. Analítica de Datos Segundo Semestre G2: correlación que ven ahí?
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces ya que son expertos que ya han pasado por un montón de cursos de machine
+
+Esp. Analítica de Datos Segundo Semestre G2: learning, que esta gráfica es de las clásicas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Believe.
+
+Esp. Analítica de Datos Segundo Semestre G2: What's up?
+
+Esp. Analítica de Datos Segundo Semestre G2: I.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Hay 2 grupitos de correlaciones fuertes, sí o no?
+
+Esp. Analítica de Datos Segundo Semestre G2: La primera es el ingreso y el valor, algo que ya estamos notando en las en las
+
+Esp. Analítica de Datos Segundo Semestre G2: gráficas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues no es perfecto, es de cero 7, pero hay relación fuerte.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Y cuál es la otra?
+
+Esp. Analítica de Datos Segundo Semestre G2: Que es lógico que si yo soy un distrito grande,
+
+Esp. Analítica de Datos Segundo Semestre G2: si yo tengo un distrito con mucha gente, pues va a haber pues más casas,
+
+Esp. Analítica de Datos Segundo Semestre G2: más hogares.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pareciera haber algo contraintuitivo pareciera ser acá.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Ese menos 03, qué quiere decir?
+
+Esp. Analítica de Datos Segundo Semestre G2: Pareciera haber una relación inversa entre la edad y la cantidad de población.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Eso qué quiere decir en últimas traducido en lenguaje castizo?
+
+Esp. Analítica de Datos Segundo Semestre G2: Que a mayor población del distrito pareciera que ahí son gente más jóvenes,
+
+Esp. Analítica de Datos Segundo Semestre G2: o sea, como que la cantidad de personas jóvenes
+
+Esp. Analítica de Datos Segundo Semestre G2: viven en distritos más grandes, pues con mayor población.
+
+Esp. Analítica de Datos Segundo Semestre G2: Puede ser contraintuitivo, puede ser algo muy particular,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero lo dice acá a igual cero 3, pues no es una correlación fuerte,
+
+Esp. Analítica de Datos Segundo Semestre G2: sino es un indicativo como un, como un suspiro,
+
+Esp. Analítica de Datos Segundo Semestre G2: como un soplo ahí de que hay cierta.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues que no ve ahí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Para representar el tiempo, no todas las líneas son tiempo,
+
+Esp. Analítica de Datos Segundo Semestre G2: esto es edad, esto es valor de la mediano. Esto pareciera ser una serie de tiempo.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Ustedes hicieron series de tiempo alguno de aquí?
+
+Esp. Analítica de Datos Segundo Semestre G2: Es un temporal.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Alguien vio acá la sí, y qué tal? Me dijeron que era solamente asistir a
+
+Esp. Analítica de Datos Segundo Semestre G2: las clases y que salían como a las 10:00 de la noche.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué hicieron ahí? ¿Hicieron algo de redes o algo así?
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí, sí, bueno, bueno, pero miren lo que les quiero mostrar con
+
+Esp. Analítica de Datos Segundo Semestre G2: esta gráfica es que a pesar de que pareciera.
+
+Esp. Analítica de Datos Segundo Semestre G2: Como una serie de tiempo, no todas las gráficas de línea son series
+
+Esp. Analítica de Datos Segundo Semestre G2: de tiempo, se grafican con una línea, pero en este caso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Esa gráficando la edad no es una, no es el tiempo en,
+
+Esp. Analítica de Datos Segundo Semestre G2: no es una serie de tiempo, que es una serie de tiempo que serían 10,
+
+Esp. Analítica de Datos Segundo Semestre G2: minutos, segundos y de que el valor mediano.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces eso no es una serie de tiempo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Eso sí, son gráficas de serie de tiempo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Vamos a ver.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues son muchas, definir lo que ustedes quieran mostrar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Eso es el caso de ustedes, porque les traje imágenes de lo que
+
+Esp. Analítica de Datos Segundo Semestre G2: ustedes trabajaron para que se recordaran.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Según esto, cuál es la tasa de de la base que ustedes
+
+Esp. Analítica de Datos Segundo Semestre G2: tienen?
+
+Esp. Analítica de Datos Segundo Semestre G2: Casta esa cancelación, Chan.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué es lo que muestra el desde el caso que ustedes muestran que tienen
+
+Esp. Analítica de Datos Segundo Semestre G2: trabajando?
+
+Esp. Analítica de Datos Segundo Semestre G2: I like.
+
+Esp. Analítica de Datos Segundo Semestre G2: Este.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues no 37, sino más o menos como 3 uno.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y pareciera ser.
+
+Esp. Analítica de Datos Segundo Semestre G2: bueno, sí, bueno, sí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces miren que según la el problema que ustedes tienen es que la tasa de está
+
+Esp. Analítica de Datos Segundo Semestre G2: rondando los 273.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y mire que desde el desde noviembre del 2025 hasta noviembre del 2026 pareciera
+
+Esp. Analítica de Datos Segundo Semestre G2: que.
+
+Esp. Analítica de Datos Segundo Semestre G2: Mareciera mantenerse estable.
+
+Esp. Analítica de Datos Segundo Semestre G2: Cierto, entonces esa gráfica es una gráfica de
+
+Esp. Analítica de Datos Segundo Semestre G2: una serie de tiempo que al parecer es.
+
+Esp. Analítica de Datos Segundo Semestre G2: Uy, ya tienen hambre.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ya estamos viendo a hacer este.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hola Cortana.
+
+Esp. Analítica de Datos Segundo Semestre G2: No, hágale, hágale, vamos, salgan, salgan a descansar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Go.
+
+Esp. Analítica de Datos Segundo Semestre G2: Flor.
+
+MARIO DANIEL ENRIQUE PEREZ JIMENEZ: ¿Profe, hasta qué horas?
+
+Esp. Analítica de Datos Segundo Semestre G2: Ok, ¿hasta qué hora? Volvemos a las 7:00.
+
+Esp. Analítica de Datos Segundo Semestre G2: WhatsApp.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí, Angie.
+
+Esp. Analítica de Datos Segundo Semestre G2: No.
+
+ANGIE TATIANA SALAZAR MUNETON: Yo soy la que sale ahorita entre poquito y ya no me conecto,
+
+ANGIE TATIANA SALAZAR MUNETON: pues tampoco la clase de mañana y hasta ahorita no recibí como la respuesta del
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+ANGIE TATIANA SALAZAR MUNETON: correo que le mandé sobre el tiempo de entrega de esos trabajos a ver para
+
+ANGIE TATIANA SALAZAR MUNETON: cuándo los puedo entregar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hasta el hasta el jueves de la próxima semana, jueves 5 de la tarde.
+
+ANGIE TATIANA SALAZAR MUNETON: Todavía no ha llegado el jueves.
+
+Esp. Analítica de Datos Segundo Semestre G2: Come I see.
+
+ANGIE TATIANA SALAZAR MUNETON: O sea, yo me voy ahorita y vuelvo pues el jueves,
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+ANGIE TATIANA SALAZAR MUNETON: pero entonces ya lo podría entregar pues por muy rápido el viernes.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ya.
+
+Esp. Analítica de Datos Segundo Semestre G2: A.
+
+Esp. Analítica de Datos Segundo Semestre G2: Bueno, sí, no, dale, entonces yo creo que contigo podríamos
+
+Esp. Analítica de Datos Segundo Semestre G2: dejarlo para el domingo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Para el domingo, para el domingo de cuando vuelvas, o sea,
+
+ANGIE TATIANA SALAZAR MUNETON: ¿Por qué vas a?
+
+Esp. Analítica de Datos Segundo Semestre G2: de ese domingo anoche, el activo.
+
+ANGIE TATIANA SALAZAR MUNETON: En 8 y porque, o sea, el de hace 8 días yo lo entregué el mismo
+
+ANGIE TATIANA SALAZAR MUNETON: sábado, creo. Entonces, pues o sea, serían los de la clase de hoy y la clase
+
+ANGIE TATIANA SALAZAR MUNETON: de mañana.
+
+Esp. Analítica de Datos Segundo Semestre G2: O sea, la clase de hoy y la clase de mañana
+
+Esp. Analítica de Datos Segundo Semestre G2: sería para que los entregaras el domingo de la próxima semana, sí.
+
+ANGIE TATIANA SALAZAR MUNETON: Ok, listo, profe, gracias.
+
+Esp. Analítica de Datos Segundo Semestre G2: Bueno.
+
+Esp. Analítica de Datos Segundo Semestre G2: Google.
+
+HENRY ANTONIO UYAZAN RODRIGUEZ: Muchas gracias.
+
+HENRY ANTONIO UYAZAN RODRIGUEZ: Gracias.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hola Henry, ciego tienes el micrófono abierto.
+
+HENRY ANTONIO UYAZAN RODRIGUEZ: Mhm.
+
+Esp. Analítica de Datos Segundo Semestre G2: But...
+
+Esp. Analítica de Datos Segundo Semestre G2: Listo, chicos, vamos a continuar para que puedan ahí
+
+Esp. Analítica de Datos Segundo Semestre G2: trabajar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Es cierta para acá que vamos a continuar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Listo, bueno, entonces, recapitulando, estamos viendo las gráficas de serie de
+
+Esp. Analítica de Datos Segundo Semestre G2: tiempo de la gráfica de serie de tiempo. Ya hemos dicho que esta no era.
+
+Esp. Analítica de Datos Segundo Semestre G2: La serie de tiempo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí.
+
+Esp. Analítica de Datos Segundo Semestre G2: What?
+
+Esp. Analítica de Datos Segundo Semestre G2: Yes, it's okay.
+
+Esp. Analítica de Datos Segundo Semestre G2: And.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y saldo de agarro.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yes.
+
+Esp. Analítica de Datos Segundo Semestre G2: Listo, entonces estamos hablando.
+
+Esp. Analítica de Datos Segundo Semestre G2: De la serie de tiempo, entonces esas gráficas ya son serie de
+
+Esp. Analítica de Datos Segundo Semestre G2: tiempo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Cada una representa una forma de ver los datos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo quiero que veamos esto en particular.
+
+Esp. Analítica de Datos Segundo Semestre G2: Es una forma de ver el tiempo, no es una serie de tiempo per se,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero nos ayuda a ver la relación en la en la una relación temporal.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces cada punto significa como una fecha especial,
+
+Esp. Analítica de Datos Segundo Semestre G2: cada cada fecha es un punto.
+
+Esp. Analítica de Datos Segundo Semestre G2: Que sea en el eje X.
+
+Esp. Analítica de Datos Segundo Semestre G2: Las quejas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y en el eje, la tasa de cancelación.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Y lo que estamos viendo es la evolución temporal, dónde empieza?
+
+Esp. Analítica de Datos Segundo Semestre G2: En noviembre del 2025.
+
+Esp. Analítica de Datos Segundo Semestre G2: Mayo del 2026, noviembre del o diciembre del 20 octubre
+
+Esp. Analítica de Datos Segundo Semestre G2: del 2026. Entonces miren que aquí lo que estamos
+
+Esp. Analítica de Datos Segundo Semestre G2: viendo si seguimos ese camino es que en noviembre las quejas promedio estaban al
+
+Esp. Analítica de Datos Segundo Semestre G2: 14% con una tasa de Shorn del 3.5.
+
+Esp. Analítica de Datos Segundo Semestre G2: En diciembre aumenta, en enero aumenta más y así a medida que
+
+Esp. Analítica de Datos Segundo Semestre G2: pareciera ser que a medida que va aumentando la tasa de promedio de quejas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hasta cierto punto, la tasa de hecho en la menta. Luego,
+
+Esp. Analítica de Datos Segundo Semestre G2: a pesar de que aumenta la tasa de quejas, el chon permanece similar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pasa algo a mitad de año, mire que la aumentan las tasas de quejas,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero.
+
+Esp. Analítica de Datos Segundo Semestre G2: El chon disminuye como a su valor mínimo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y así sucesivamente, pareciera que se va moviendo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Es una forma de ver.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues muestra mucha tendencia.
+
+Esp. Analítica de Datos Segundo Semestre G2: Muestra algo, pues muestra algo muy particular que haya
+
+Esp. Analítica de Datos Segundo Semestre G2: pasado acá a mitad de año, que porque a porque a mayor tasa de
+
+Esp. Analítica de Datos Segundo Semestre G2: quejas o bueno, en comparación a lo que había antes,
+
+Esp. Analítica de Datos Segundo Semestre G2: porque la tasa de acción disminuye entonces.
+
+Esp. Analítica de Datos Segundo Semestre G2: Eso es lo que ves, eso es lo que uno buscaría con los datos.
+
+Esp. Analítica de Datos Segundo Semestre G2: What?
+
+Esp. Analítica de Datos Segundo Semestre G2: It is.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pareciera ser, ahí es donde le toca a uno. Esto son gráficos que le generan a uno
+
+Esp. Analítica de Datos Segundo Semestre G2: preguntas, que son las que uno le ayudan después a
+
+Esp. Analítica de Datos Segundo Semestre G2: uno a filtrar algún periodo en particular para hacer análisis.
+
+Esp. Analítica de Datos Segundo Semestre G2: Está y aquí quiero mostrarles ese gráfico que es el de gráficos polares aquí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Aquí lamentablemente, pues solo tengo un año.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces solo se ve que la tasa de charm permanece muy estable en 3%. Sin embargo,
+
+Esp. Analítica de Datos Segundo Semestre G2: acá sería chévere si yo hubiera agregado otro eje y pongo, no sé,
+
+Esp. Analítica de Datos Segundo Semestre G2: por tipo de plan prepago, postpago.
+
+Esp. Analítica de Datos Segundo Semestre G2: Para ver cómo se diferencian las 2:00 o sí,
+
+Esp. Analítica de Datos Segundo Semestre G2: como para ver visualmente cómo se diferencian.
+
+Esp. Analítica de Datos Segundo Semestre G2: O incluso si tuviera una serie temporal muy larga, no sé, 3, 4 años mensual,
+
+Esp. Analítica de Datos Segundo Semestre G2: yo puedo graficar todo una línea los 48 meses.
+
+Esp. Analítica de Datos Segundo Semestre G2: O puedo hacerla acá y si hay alguna variación que es cada año me va mostrando
+
+Esp. Analítica de Datos Segundo Semestre G2: esa variación y ver como alguna temporalidad sería para más que todo esto
+
+Esp. Analítica de Datos Segundo Semestre G2: gráficas de coordenadas polares.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Va a definir eso?
+
+Esp. Analítica de Datos Segundo Semestre G2: Aquí hondo un poquitico sobre las coordenadas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo estaba en donde lo he visto en gráficas de temperatura del que muestran
+
+Esp. Analítica de Datos Segundo Semestre G2: la temperatura de la Tierra desde el 90 hasta el y se va viendo como esa cosa se
+
+Esp. Analítica de Datos Segundo Semestre G2: va como calentando más entonces.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces mire que yo puedo ver esa gráfica de.
+
+Esp. Analítica de Datos Segundo Semestre G2: De hecho, que la tengo en todo un año de esta forma
+
+Esp. Analítica de Datos Segundo Semestre G2: o la puedo ver de esa forma. ¿Cuál sería pues la mejor o no aquí?
+
+Esp. Analítica de Datos Segundo Semestre G2: Ya si nosotros hubiéramos más años, hubiera sido chévere,
+
+Esp. Analítica de Datos Segundo Semestre G2: pues la coordenadas polares. o.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí, la de coordenadas polares, si vemos una diferencia entre.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y no sé, entre los que pagan internet con los de
+
+Esp. Analítica de Datos Segundo Semestre G2: prepago, con los de postpago, pues se podría haber de pronto así,
+
+Esp. Analítica de Datos Segundo Semestre G2: si es muy, pues si queremos de pronto hacer hincapié
+
+Esp. Analítica de Datos Segundo Semestre G2: en alguna temporalidad, no sé si la de hogar es así también,
+
+Esp. Analítica de Datos Segundo Semestre G2: si la de postpago es así, entonces.
+
+Esp. Analítica de Datos Segundo Semestre G2: Mire que la de coordenadas solares, mire que cada eje es una fecha.
+
+Esp. Analítica de Datos Segundo Semestre G2: Necesito un mes.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y el eje, los valores que están acá, cada círculo es un porcentaje,
+
+Esp. Analítica de Datos Segundo Semestre G2: entonces 1 * 102% * 103% * 104% n por ciento.
+
+Esp. Analítica de Datos Segundo Semestre G2: Aquí porque se ve bien, porque más o menos nuestras dos actions
+
+Esp. Analítica de Datos Segundo Semestre G2: está más o menos estable, donde si hubiera una caída o algo así,
+
+Esp. Analítica de Datos Segundo Semestre G2: esa gráfica también nos ayuda mucho, pero ¿dónde se empezaría a ver mal?
+
+Esp. Analítica de Datos Segundo Semestre G2: Donde es la tasa de Chan fuera acá 3, acá 5, acá 2, acá cuatro,
+
+Esp. Analítica de Datos Segundo Semestre G2: entonces porque acá lo que veríamos es una especie de estrella ahí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces es.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ocho, bueno, sí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Cuando fluctúa mucho.
+
+Esp. Analítica de Datos Segundo Semestre G2: El tiempo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Miren que yo lo que no, o sea, lo miraré así. Si fluctúa mucho,
+
+Esp. Analítica de Datos Segundo Semestre G2: pues es una línea temporal, o sea, no nos vamos a poner a reinventar la
+
+Esp. Analítica de Datos Segundo Semestre G2: rueda, pero cuando ustedes están analizando
+
+Esp. Analítica de Datos Segundo Semestre G2: temporalidades, a veces esta gráfica de coordenadas de
+
+Esp. Analítica de Datos Segundo Semestre G2: polares es muy buena porque, por ejemplo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Si nosotros dijéramos en junio.
+
+Esp. Analítica de Datos Segundo Semestre G2: Cae siempre el show o aumenta el show, nosotros lo que empezaríamos a notar es
+
+Esp. Analítica de Datos Segundo Semestre G2: que todas las gráficas.
+
+Esp. Analítica de Datos Segundo Semestre G2: En junio se vería un chichoncito mostrando que junio tiene una
+
+Esp. Analítica de Datos Segundo Semestre G2: temporalidad. Lo que nos muestra este gráfico es que sí
+
+Esp. Analítica de Datos Segundo Semestre G2: hay una pareciera ver que acá a mitad de año pasó algo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero no tenemos más años para confirmar si es fue algo particular o si es una
+
+Esp. Analítica de Datos Segundo Semestre G2: temporalidad, pero igual la dejo ahí porque me parece
+
+Esp. Analítica de Datos Segundo Semestre G2: chévere, polares para ver temas de
+
+Esp. Analítica de Datos Segundo Semestre G2: estacionalidades.
+
+Esp. Analítica de Datos Segundo Semestre G2: Para temas de geografía, pues ya los mapas cartográficos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Acá no va a entrar a andar mucho en esto, incluso el taller tiene un punto de mapas,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero ya les comparto el código ahí porque la idea de los mapas es verlo en la
+
+Esp. Analítica de Datos Segundo Semestre G2: sesión 5, pues ya con más detalle, pero aquí es como para ver que.
+
+Esp. Analítica de Datos Segundo Semestre G2: Que un mapa nos ayuda mucho a darle contexto a los datos, entonces miren,
+
+Esp. Analítica de Datos Segundo Semestre G2: miren esas 2 gráficas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Mire que la gráfica ya nos dice que la línea.
+
+Esp. Analítica de Datos Segundo Semestre G2: El verde oscuro representa como el porcentaje de gangas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y la y el grisecito, el porcentaje de distritos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces nos dice que en el Valle Central hay un 68% de gangas, o sea,
+
+Esp. Analítica de Datos Segundo Semestre G2: esos valores que están por debajo del 5% de la tasa de.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿De cómo es de la división entre el ingreso versus la el valor de la casa?
+
+Esp. Analítica de Datos Segundo Semestre G2: pero Valle central queda sonando como bueno Valle central cuando ya vemos el
+
+Esp. Analítica de Datos Segundo Semestre G2: mapa y señalamos el valle central ya sabemos que estamos refiriéndonos a esta
+
+Esp. Analítica de Datos Segundo Semestre G2: zona y en esta zona vemos que los verdes son mire que vemos con mayor cantidad de
+
+Esp. Analítica de Datos Segundo Semestre G2: concentración de verdes en comparación a los grisecitos que
+
+Esp. Analítica de Datos Segundo Semestre G2: Como los distritos normales.
+
+Esp. Analítica de Datos Segundo Semestre G2: Miren que acá estamos viendo la bahía de San Francisco,
+
+Esp. Analítica de Datos Segundo Semestre G2: donde la bahía de San Francisco tiene el 21% de los distritos,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero solo el 3% de gangas. Entonces miren que aquí se se ve de otra
+
+Esp. Analítica de Datos Segundo Semestre G2: forma esos mismos de datos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y aquí una ventaja del mapa que pronto no lo vimos,
+
+Esp. Analítica de Datos Segundo Semestre G2: no lo hemos visto en ninguno de los gráficos, es la concentración.
+
+Esp. Analítica de Datos Segundo Semestre G2: Mira qué.
+
+Esp. Analítica de Datos Segundo Semestre G2: Donde hay mayor cantidad de puntos, Los Ángeles se espera país de San
+
+Esp. Analítica de Datos Segundo Semestre G2: Francisco.
+
+Esp. Analítica de Datos Segundo Semestre G2: Que son como 2 lugares que uno asocia, que son importantes y grandes y vemos que.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hay muchos distritos, pero muy pocas gangas,
+
+Esp. Analítica de Datos Segundo Semestre G2: muchos valores debajo del 5%.
+
+Esp. Analítica de Datos Segundo Semestre G2: Miren que vemos que para estas zonas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Como alejadas, hay como mucha. Si yo veo esta zona hay con mayor
+
+Esp. Analítica de Datos Segundo Semestre G2: cantidad visualmente, no estamos haciéndolo numéricamente,
+
+Esp. Analítica de Datos Segundo Semestre G2: sino lo que me transmite es la gráfica, mayor cantidad de puntos verdes gangas en
+
+Esp. Analítica de Datos Segundo Semestre G2: comparación a la cantidad de distritos.
+
+Esp. Analítica de Datos Segundo Semestre G2: De pronto, por aquí queda Texas.
+
+Esp. Analítica de Datos Segundo Semestre G2: De pronto esto es mero desierto y claro, pues.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Puede ser una ganga porque el valor de la casa se paga en un año de su salario,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero quién va a ir a vivir a la mitad del desierto?
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues toca evaluar, sí es, por eso esta gráfica me parece muy
+
+Esp. Analítica de Datos Segundo Semestre G2: chévere porque le da un contexto más aterrizado a estos datos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Otra forma de verlo son las cloropletas, que son ya como si ustedes lo ven ahí,
+
+Esp. Analítica de Datos Segundo Semestre G2: es como repartir en.
+
+Esp. Analítica de Datos Segundo Semestre G2: El estado de California tiene unos subrestados, como unos,
+
+Esp. Analítica de Datos Segundo Semestre G2: no sé si eso se le llama condados, sí, condados.
+
+Esp. Analítica de Datos Segundo Semestre G2: Porque el estado es California y me imagino que los municipios allá son como
+
+Esp. Analítica de Datos Segundo Semestre G2: los condados, son los condados ahí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces mire que gráficamente esa misma información.
+
+Esp. Analítica de Datos Segundo Semestre G2: De los verdes ya no los distribuye más. Mire que este condado mire que tiene como
+
+Esp. Analítica de Datos Segundo Semestre G2: el 70% en gangas, pero es que mire este estado lo que es
+
+Esp. Analítica de Datos Segundo Semestre G2: para allá quién sabe, un lugar todo recóndito.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+Esp. Analítica de Datos Segundo Semestre G2: Mire que el valle central, que era lo que vemos en el otro gráfico,
+
+Esp. Analítica de Datos Segundo Semestre G2: también lo muestra aquí como lo muestra de forma como más chévere, que son gangas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Lamentablemente el otro verde me quedó muy clarito,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero si ustedes me creen aquí, aquí está la cosa.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y todo se centra en la mitad, entonces lo más vamos a ver más adelante.
+
+Esp. Analítica de Datos Segundo Semestre G2: Es grandes para que vean que esos 2 tipos de gráficos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Para cerrar esta esta presentación, cuando uno presentará ante una audiencia,
+
+Esp. Analítica de Datos Segundo Semestre G2: lo que busca son que sean pocos gráficos, que sean lo más acá.
+
+Esp. Analítica de Datos Segundo Semestre G2: No confundamos lo simple con lo sustancioso, simple.
+
+Esp. Analítica de Datos Segundo Semestre G2: No es que vayan y pongan ahí una.
+
+Esp. Analítica de Datos Segundo Semestre G2: Un diagrama de barras y ya, sino simple es que sea lo más limpio
+
+Esp. Analítica de Datos Segundo Semestre G2: posible, que no tenga que la persona que lo está
+
+Esp. Analítica de Datos Segundo Semestre G2: viendo ponerse a sobrepensar. El sobrepensamiento lo hacemos nosotros
+
+Esp. Analítica de Datos Segundo Semestre G2: antes de hacer el informe y ya lo que nosotros tratamos de hacer es poner la
+
+Esp. Analítica de Datos Segundo Semestre G2: versión limpia, lo que queremos que ellos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Vean, entonces lo que buscamos es que haya el
+
+Esp. Analítica de Datos Segundo Semestre G2: menor esfuerzo de lectura.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y aquí vamos a ver 2 ejemplos, este es un ejemplo.
+
+Esp. Analítica de Datos Segundo Semestre G2: De pues de un de unas visuales que podrían ayudarnos a transmitir un mensaje
+
+Esp. Analítica de Datos Segundo Semestre G2: claro, como por ejemplo, este valor lo vimos a lo largo de la
+
+Esp. Analítica de Datos Segundo Semestre G2: presentación, 5 años de ingreso cuesta la vivienda
+
+Esp. Analítica de Datos Segundo Semestre G2: típica en California, que es el 50%, no voy a poner el 4,88.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues 488495 en este en este sentido viene siendo algo muy similar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Una tablita donde yo diga el porcentaje de gangas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Aquí ya me hace muy mucho sentido que en el interior hay mayor cantidad de gangas
+
+Esp. Analítica de Datos Segundo Semestre G2: y las razones de 3 años. Si yo quiero como puntualizar eso,
+
+Esp. Analítica de Datos Segundo Semestre G2: me puedo ir por ahí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Este, pues bueno, acá le estoy poniendo gráficos,
+
+Esp. Analítica de Datos Segundo Semestre G2: acá toda una historia. Acá lo que le estoy poniendo son ejemplos
+
+Esp. Analítica de Datos Segundo Semestre G2: de cosas que son fáciles de visualizar y que llevan al punto. Por ejemplo,
+
+Esp. Analítica de Datos Segundo Semestre G2: en esta estamos viendo 2 periodos de tiempo, noviembre y enero que son.
+
+Esp. Analítica de Datos Segundo Semestre G2: Principios de los datos que tenemos agosto,
+
+Esp. Analítica de Datos Segundo Semestre G2: octubre y podemos ver la tasa de Chorn y cómo evolucionan. Entonces,
+
+Esp. Analítica de Datos Segundo Semestre G2: si yo quiero reforzar que tengo que actuar en Kennedy porque la tasa de Chorn
+
+Esp. Analítica de Datos Segundo Semestre G2: está aumentando, esta gráfica es vital porque, mire,
+
+Esp. Analítica de Datos Segundo Semestre G2: me dice que Kennedy empezó cuando mi serie de tiempo en 32.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y terminó en casi 36. Aumentó punto cuatro puntos en tasa de y
+
+Esp. Analítica de Datos Segundo Semestre G2: usa que empezó en 28, termina en 2 6. Entonces me hace muy fácil ver si
+
+Esp. Analítica de Datos Segundo Semestre G2: necesito priorizar sobre algo en particular y así sucesivamente.
+
+Esp. Analítica de Datos Segundo Semestre G2: acá podemos ver en conecta la cantidad de clientes activos en noviembre los activos
+
+Esp. Analítica de Datos Segundo Semestre G2: al final del periodo mire que hay 28000 o sea perdí y cuando lo y y cuánto perdió
+
+Esp. Analítica de Datos Segundo Semestre G2: cuánto gané mire que yo en ese periodo solo crisis 1600 clientes nuevos
+
+Esp. Analítica de Datos Segundo Semestre G2: Y perdí 77700. Entonces, otro gráfico que me ayuda a entender por
+
+Esp. Analítica de Datos Segundo Semestre G2: qué cayó cerca de 1200 usuarios.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y bueno.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Y qué evitar de pronto eso, si ustedes ven aquí?
+
+Esp. Analítica de Datos Segundo Semestre G2: Hey.
+
+Esp. Analítica de Datos Segundo Semestre G2: Vemos una torta con.
+
+Esp. Analítica de Datos Segundo Semestre G2: Con las gangas y pues.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues aquí yo sé que les puse la gráfica chiquita, pero aún así si le pongo sunaca.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues a lo máximo, ustedes me creerán que.
+
+Esp. Analítica de Datos Segundo Semestre G2: Es que pues que no me traduce como muchos, que es amber que fresno y que han tiene
+
+Esp. Analítica de Datos Segundo Semestre G2: más cantidad de gangas que las otras.
+
+Esp. Analítica de Datos Segundo Semestre G2: O esa.
+
+Esp. Analítica de Datos Segundo Semestre G2: Que pongo la esta zona donde pongo de la concentración de distritos por zona y
+
+Esp. Analítica de Datos Segundo Semestre G2: pues no pongo ningún numerito ni nada, y pues yo sé que 1 hora del mar es más
+
+Esp. Analítica de Datos Segundo Semestre G2: grande que el interior, pero no cuantifico cuánto.
+
+Esp. Analítica de Datos Segundo Semestre G2: O esta ver gráficos en 3D, ahí si gráfica en 3D marea confunde,
+
+Esp. Analítica de Datos Segundo Semestre G2: acá estoy todo revuelto, tampoco aporta.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y ni siquiera sé que estoy viendo acá en este eje.
+
+Esp. Analítica de Datos Segundo Semestre G2: O esta gráfica, esa gráfica podría conducir a un sesgo,
+
+Esp. Analítica de Datos Segundo Semestre G2: porque yo podría decir, pareciera ser que la amarilla,
+
+Esp. Analítica de Datos Segundo Semestre G2: que es la tasa de Charn.
+
+Esp. Analítica de Datos Segundo Semestre G2: Aumentando, mientras que.
+
+Esp. Analítica de Datos Segundo Semestre G2: La cantidad de clientes activos va disminuyendo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+Esp. Analítica de Datos Segundo Semestre G2: Me induce esa gráfica a pensar eso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ahí haciéndole cierto, cierta mirada aguda, pero.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero a la final no.
+
+Esp. Analítica de Datos Segundo Semestre G2: Me induce un sesgo y ya vimos la gráfica pintada sobre un eje donde era una línea
+
+Esp. Analítica de Datos Segundo Semestre G2: prácticamente recta, entonces como que esta no es la.
+
+Esp. Analítica de Datos Segundo Semestre G2: Esta me ayuda, me tendré como a tomar una conclusión que
+
+Esp. Analítica de Datos Segundo Semestre G2: pareciera no ser por ahí.
+
+Esp. Analítica de Datos Segundo Semestre G2: A pesar de que suena lógico que la tasa de hecho no aumenta a ver si los clientes
+
+Esp. Analítica de Datos Segundo Semestre G2: disminuyen.
+
+Esp. Analítica de Datos Segundo Semestre G2: Para buscar más gráficos, el link de Datavis.
+
+Esp. Analítica de Datos Segundo Semestre G2: pero que valiente gracia, no la puse.
+
+Esp. Analítica de Datos Segundo Semestre G2: Bueno, mira ahí de los zonas como Datavis
+
+Esp. Analítica de Datos Segundo Semestre G2: Project.
+
+Esp. Analítica de Datos Segundo Semestre G2: sí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Bien, miren, ahí tienen un montón de gráficos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Recuerden, pues no es que no es no es el objetivo,
+
+Esp. Analítica de Datos Segundo Semestre G2: no es usar el gráfico más estrambótico.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sin usar el gráfico que más me aporte.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo no sé si a mí me pasaron otro link.
+
+Esp. Analítica de Datos Segundo Semestre G2: Donde mostraban.
+
+Esp. Analítica de Datos Segundo Semestre G2: Creo que sea el de las temperaturas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero bueno, ahí para que lo exploren, pues a la final si ven algo chévere de
+
+Esp. Analítica de Datos Segundo Semestre G2: ahí para visualizar, pues que lo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Que lo Que lo usen.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y el tema de incertidumbres, pues para recordar y de estadística un
+
+Esp. Analítica de Datos Segundo Semestre G2: poco que la incertidumbre es mirar, pues es un tema de intervalos de
+
+Esp. Analítica de Datos Segundo Semestre G2: confianza. Entonces que es un intervalo de confianza
+
+Esp. Analítica de Datos Segundo Semestre G2: a la final es un valor que ustedes dan y dependiendo de unas variables que son la
+
+Esp. Analítica de Datos Segundo Semestre G2: media y la desviación estándar.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Usted puede establecer con cierta confianza en cuanto va a oscilar ese
+
+Esp. Analítica de Datos Segundo Semestre G2: valor?
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces.
+
+Esp. Analítica de Datos Segundo Semestre G2: Es lo que dice acá.
+
+Esp. Analítica de Datos Segundo Semestre G2: Un porcentaje o una proporción más o menos el uno 96 es lo que les establece
+
+Esp. Analítica de Datos Segundo Semestre G2: la confianza, que es cuando ustedes asumen que es una
+
+Esp. Analítica de Datos Segundo Semestre G2: distribución normal al 95% el área de esa curva es de uno 96 por la desviación
+
+Esp. Analítica de Datos Segundo Semestre G2: están por el error estándar.
+
+Esp. Analítica de Datos Segundo Semestre G2: El error estándar para proporciones se calcula de esta forma,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero si usted estuviera en la media de la dirección estándar hay una formulita ahí
+
+Esp. Analítica de Datos Segundo Semestre G2: que es como.
+
+Esp. Analítica de Datos Segundo Semestre G2: Si no me acuerdo, es como la media sobre la desviación
+
+Esp. Analítica de Datos Segundo Semestre G2: estándar sobre por la raíz de N. Bueno, eso se consigue en Internet para este
+
+Esp. Analítica de Datos Segundo Semestre G2: caso, como era proporciones, pues utilicé esta.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y si ustedes ven aquí, el error estándar va al inverso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Seguir sobre M.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué quiere decir eso traducido al castizo de nosotros?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Si hay un valor dividido en n, qué pasa cuando tengo un n bajito?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué pasa con el error?
+
+Esp. Analítica de Datos Segundo Semestre G2: Cuando el n es muy bajito, si está dividiendo.
+
+Esp. Analítica de Datos Segundo Semestre G2: A en es bajitos, el error es alto.
+
+Esp. Analítica de Datos Segundo Semestre G2: Cuando el n es muy grande, si está dividiendo este término pasa a
+
+Esp. Analítica de Datos Segundo Semestre G2: ser casi cuánto.
+
+Esp. Analítica de Datos Segundo Semestre G2: Casi cero, este es el error, vas a ser muy pequeñito.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces, en nuestro caso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo grafiqué aquí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Cogí quintos valores aleatorios.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y empiezo a graficar los las los intervalos de confianza,
+
+Esp. Analítica de Datos Segundo Semestre G2: como cogiendo muestras, el valor real es 14,5.
+
+Esp. Analítica de Datos Segundo Semestre G2: De las gangas, pero dependiendo de las mesas que yo coja
+
+Esp. Analítica de Datos Segundo Semestre G2: al coger 500, miren que esas gráfic esos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues esos bigotes son muy altos. Si yo hubiera cogido y mire que y miren
+
+Esp. Analítica de Datos Segundo Semestre G2: acá una cosa, 500 datos es suficiente o no el valor
+
+Esp. Analítica de Datos Segundo Semestre G2: real, o sea, de los 20000 es 145, sí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Con cogiendo muestras aleatorias de 500, hay unos que alcanzan que el intervalo de
+
+Esp. Analítica de Datos Segundo Semestre G2: confianza alcanza a coger.
+
+Esp. Analítica de Datos Segundo Semestre G2: El Pues el valor real.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero hay otros donde no, por eso hay que cuando uno tiene una.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y cuando uno se algún estudio estadístico tiene que tratar de escoger el n más
+
+Esp. Analítica de Datos Segundo Semestre G2: grande, porque dependiendo del n, ustedes pueden estar induciendo cierto
+
+Esp. Analítica de Datos Segundo Semestre G2: error a la muestra y inducir el error le permite decir mal. Por ejemplo, miren,
+
+Esp. Analítica de Datos Segundo Semestre G2: nosotros tenemos, ya sabemos la población que el porcentaje
+
+Esp. Analítica de Datos Segundo Semestre G2: de gangas está en 14 algo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Si yo no hubiera querido coger toda la muestra,
+
+Esp. Analítica de Datos Segundo Semestre G2: digo no voy a coger 500 aleatorios.
+
+Esp. Analítica de Datos Segundo Semestre G2: Puedo ser muy de buenas y coger una muestra que esté prácticamente en el
+
+Esp. Analítica de Datos Segundo Semestre G2: mismo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Que la media me quede aquí, pero miren que como cogí 500 está entre
+
+Esp. Analítica de Datos Segundo Semestre G2: 11 y casi 18.
+
+Esp. Analítica de Datos Segundo Semestre G2: O puede ser muy de mala si escoger una muestra que esté sesgada y que me induzca
+
+Esp. Analítica de Datos Segundo Semestre G2: que el porcentaje de gangas esté alrededor de 11 entre más o menos 8 y 14.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces, ese es el tema de las de mirar las los
+
+Esp. Analítica de Datos Segundo Semestre G2: intervalos de confianza.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo creo que y esos son unos gráficos para intervalos de confianza que yo creo que
+
+Esp. Analítica de Datos Segundo Semestre G2: hemos visto.
+
+Esp. Analítica de Datos Segundo Semestre G2: En particular.
+
+Esp. Analítica de Datos Segundo Semestre G2: No va a entrar ahí como mucho en eso para que puedan trabajar.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué quiero que entonces ya con eso terminamos la clase?
+
+Esp. Analítica de Datos Segundo Semestre G2: Hoy yo saturé de muchos gráficos. Yo quiero que la idea que se lleven de
+
+Esp. Analítica de Datos Segundo Semestre G2: todo lo que hicimos en estas primeras 2 horas es.
+
+Esp. Analítica de Datos Segundo Semestre G2: Cada gráfico transmite una idea.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué es lo más importante cuando ustedes van a hacer una presentación?
+
+Esp. Analítica de Datos Segundo Semestre G2: Es saber cuál es el mensaje que quieren comunicar, es lo primero y segundo,
+
+Esp. Analítica de Datos Segundo Semestre G2: coger la gráfica o las gráficas que le apoyen.
+
+Esp. Analítica de Datos Segundo Semestre G2: A que se pues se desencadene, se visualice el mensaje que quieren
+
+Esp. Analítica de Datos Segundo Semestre G2: transmitir, no que lo hagan como todo lo hacemos al
+
+Esp. Analítica de Datos Segundo Semestre G2: revés. Empiezo a graficar 1020 gráficas, las pongo ahí y espero que la persona que
+
+Esp. Analítica de Datos Segundo Semestre G2: lo esté leyendo lo entienda y él mismo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Se autoconcluya, entonces no, acá nos toca tener un poco más de
+
+Esp. Analítica de Datos Segundo Semestre G2: gobernanza. Y si ustedes son los encargados de
+
+Esp. Analítica de Datos Segundo Semestre G2: transmitir un mensaje, tienen que saber cuál es el mensaje que
+
+Esp. Analítica de Datos Segundo Semestre G2: quieren transmitir y saber qué necesitan para transmitir ese mensaje.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y en este caso, como el grupo, como el.
+
+Esp. Analítica de Datos Segundo Semestre G2: Con el curso de visualización, los gráficos que le ayuden a aportar a
+
+Esp. Analítica de Datos Segundo Semestre G2: eso, un recordatorio de lo que ustedes
+
+Esp. Analítica de Datos Segundo Semestre G2: tuvieron que haber visto en su casa.
+
+Esp. Analítica de Datos Segundo Semestre G2: Tenían la tasa de Chon, que más o menos era del 3%,
+
+Esp. Analítica de Datos Segundo Semestre G2: que era más o menos estable.
+
+Esp. Analítica de Datos Segundo Semestre G2: Tenían unos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Venían unos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Eso es Bogotá, como localidades, como barrios, haber unos barrios con más,
+
+Esp. Analítica de Datos Segundo Semestre G2: unos barrios con menos, no todos estaban al mismo nivel,
+
+Esp. Analítica de Datos Segundo Semestre G2: a pesar de que el nivel de.
+
+Esp. Analítica de Datos Segundo Semestre G2: A pesar de que el nivel agrupado en todo el periodo era muy similar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ya vimos por una gráfica aquí que habían unos habían unos casos donde unas
+
+Esp. Analítica de Datos Segundo Semestre G2: localidades donde aumentaba más que otras. Acá ya me empieza a mostrar que algunas
+
+Esp. Analítica de Datos Segundo Semestre G2: localidades tienen la tasa de hecho por encima del promedio total.
+
+Esp. Analítica de Datos Segundo Semestre G2: No.
+
+Esp. Analítica de Datos Segundo Semestre G2: Bueno, hay otras cosas que pueden ver ahí y
+
+Esp. Analítica de Datos Segundo Semestre G2: habían una un tema del de limpieza de datos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Creo que habían unos datos que estaban mal escritos, que tenían.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hay como unos problemas que son los que vamos a revisar mañana,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero quería traerles esto como para que no nos desubicáramos del caso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y que supieran más o menos dónde estamos.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Cuál es el reto de hoy?
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces, hoy en el taller que tienen ustedes,
+
+Esp. Analítica de Datos Segundo Semestre G2: lo que tienen que hacer es definir un indicador.
+
+Esp. Analítica de Datos Segundo Semestre G2: Él ya les propone el indicador para que ustedes lo programen ahí,
+
+Esp. Analítica de Datos Segundo Semestre G2: para que miren la evolución, hagan unas particiones.
+
+Esp. Analítica de Datos Segundo Semestre G2: Para que hagan unos gráficos, pues vimos varios tipos de gráficos.
+
+Esp. Analítica de Datos Segundo Semestre G2: La idea es que practiquen algunos de esos tipos de gráficos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces van a ser gráficos de cantidades, de distribuciones, de tiempo,
+
+Esp. Analítica de Datos Segundo Semestre G2: de incertidumbre, de relaciones, y el de geografía ya está hecho,
+
+Esp. Analítica de Datos Segundo Semestre G2: solamente es que lo ejecuten y contesten ahí las preguntas que salen ahí.
+
+Esp. Analítica de Datos Segundo Semestre G2: De acá van a salir unos datos que nos vamos a llevar a la sesión cuatro,
+
+Esp. Analítica de Datos Segundo Semestre G2: que es de la próxima semana, entonces al final les hace como una unas
+
+Esp. Analítica de Datos Segundo Semestre G2: preguntas de qué vieron, qué encontraron, todas esas cosas como para que recordemos
+
+Esp. Analítica de Datos Segundo Semestre G2: y no se nos vaya a perder el horizonte de lo que estamos haciendo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y de que esto apunta más adelante.
+
+Esp. Analítica de Datos Segundo Semestre G2: Super Bowl.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí, y eso es todo. Y pues la clase de mañana lo que vamos a
+
+Esp. Analítica de Datos Segundo Semestre G2: hacer es que la base que ustedes tienen está sucia, tiene algunos detallitos.
+
+Esp. Analítica de Datos Segundo Semestre G2: La mañana vamos a mirar la limpieza, que va a ser como el curso de vida que
+
+Esp. Analítica de Datos Segundo Semestre G2: ustedes tuvieran, pero en una clase, en 2 horas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo le subí el material en nuestra carpeta compartida.
+
+Esp. Analítica de Datos Segundo Semestre G2: En la sesión 2.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí, porfa, verifiquen que la pueden descargar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ese es ese es el punto zip el punto zip trae esta carpeta de una carpeta de datos
+
+Esp. Analítica de Datos Segundo Semestre G2: así como la vez pasada viene la presentación en PDF viene la sesión
+
+Esp. Analítica de Datos Segundo Semestre G2: guiada que es el Notebook
+
+Esp. Analítica de Datos Segundo Semestre G2: Todo lo que viene en la presentación viene ese notebook y viene el taller de
+
+Esp. Analítica de Datos Segundo Semestre G2: ustedes que es este.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ahí lo que viene es, oiga, ya revisé acá en parroquial.
+
+Esp. Analítica de Datos Segundo Semestre G2: Por favor.
+
+Esp. Analítica de Datos Segundo Semestre G2: El todos enviar el nombre como Datavis sesión 2. Bueno, sesión,
+
+Esp. Analítica de Datos Segundo Semestre G2: esta es la sesión 2, proyecto a el grupo que cada uno tuvo
+
+Esp. Analítica de Datos Segundo Semestre G2: porque hubo 2 grupos que me enviaron.
+
+Esp. Analítica de Datos Segundo Semestre G2: La travisación 2.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y pues no sé, pues me tocó sacar del correo,
+
+Esp. Analítica de Datos Segundo Semestre G2: pues el nombre eso es buscarlos con el nombre que me hayan pasado. Entonces,
+
+Esp. Analítica de Datos Segundo Semestre G2: por favor, tengan compasión de mí. Hay que entregar notas el 23,
+
+Esp. Analítica de Datos Segundo Semestre G2: no me pongan a dar vueltas a buscarlos sus nombres. Cada uno tiene un grupo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y ahorita reviso los 2 que los 2 grupos que me enviaron sin grupo para.
+
+Esp. Analítica de Datos Segundo Semestre G2: Para buscarlas, no soy adivino, entonces para que por favor respetemos
+
+Esp. Analítica de Datos Segundo Semestre G2: este nombre.
+
+Esp. Analítica de Datos Segundo Semestre G2: Acá viene la problemática de negocio, lo que vamos a hacer hoy,
+
+Esp. Analítica de Datos Segundo Semestre G2: que es definir el indicador, hacer el gráfico.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo creo que.
+
+Esp. Analítica de Datos Segundo Semestre G2: Acá, bueno, acá ya sé todas las conexiones,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero si esta cosa tienen carnet.
+
+Esp. Analítica de Datos Segundo Semestre G2: no tiene, no tiene, entonces no lo no lo puedo ejecutar acá.
+
+Esp. Analítica de Datos Segundo Semestre G2: Bueno, o mientras lo ejecuto, mientras lo guardo,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero viene el taller en la tarea uno es trae para que ustedes ejecuten el código.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pueden reusar el código que tienen ahí del taller.
+
+Esp. Analítica de Datos Segundo Semestre G2: De la guía y ahí viene la preguntica, por favor, la preguntica.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo ahorita voy a revisar los talleres, por favor,
+
+Esp. Analítica de Datos Segundo Semestre G2: no vayan a ser como los gráficos feos y malos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ya hemos visto 2 sesiones donde hemos visto gráficos bonitos que transmiten,
+
+Esp. Analítica de Datos Segundo Semestre G2: por favor, traten de llevarlos a ese estilo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Las distribuciones, 2 pregunticas, acá ya les dice qué variables mirar,
+
+Esp. Analítica de Datos Segundo Semestre G2: el ingreso mensual versus el segmento, la antigüedad de meses versus el canceló,
+
+Esp. Analítica de Datos Segundo Semestre G2: canceló es la variable de Charn.
+
+Esp. Analítica de Datos Segundo Semestre G2: La tarea La pregunta para que respondan aquí no hice las respuestas,
+
+Esp. Analítica de Datos Segundo Semestre G2: ahorita reviso estas respuestas. La tarea 3,
+
+Esp. Analítica de Datos Segundo Semestre G2: el tiempo en múltiplos pequeños es recuerden que estos subplots,
+
+Esp. Analítica de Datos Segundo Semestre G2: acá le dicen qué hacer.
+
+Esp. Analítica de Datos Segundo Semestre G2: Si se dibuja, bueno, acá en esta ustedes tenían 19 localidades.
+
+Esp. Analítica de Datos Segundo Semestre G2: Acá lo que les dice es como si se grafican las 19 localidades,
+
+Esp. Analítica de Datos Segundo Semestre G2: se va a ver un zaperoco ahí todo acumulado de chon.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces lo que les dice es.
+
+Esp. Analítica de Datos Segundo Semestre G2: Escojan el top 6 y las localidades acá yo creo que les da el.
+
+Esp. Analítica de Datos Segundo Semestre G2: Loca 6 localidades con más clientes, o sea,
+
+Esp. Analítica de Datos Segundo Semestre G2: le dicen coja el top 6 de localidades con más clientes y grafiquen esa gráfica,
+
+Esp. Analítica de Datos Segundo Semestre G2: ese esa localidad versus el promedio del resto para que se vea la diferencia.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+Esp. Analítica de Datos Segundo Semestre G2: Le dice aquí total, total, le dan las indicaciones de cómo de cómo
+
+Esp. Analítica de Datos Segundo Semestre G2: graficar los 2 de 2 de 2 filas, 3 columnas.
+
+Esp. Analítica de Datos Segundo Semestre G2: La conclusión, la tarea cuatro, un tema de incertidumbre.
+
+Esp. Analítica de Datos Segundo Semestre G2: Nuevamente acá les dan como unas indicaciones para hacer el gráfico,
+
+Esp. Analítica de Datos Segundo Semestre G2: la tarea 5, las relaciones. Acá trate de ser muy específico de las
+
+Esp. Analítica de Datos Segundo Semestre G2: variables que para que fueran mirando.
+
+Esp. Analítica de Datos Segundo Semestre G2: O en el vino.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues si quieren definir uno, lo pueden definir.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo acá les pongo uno que es la tasa general de cancelación, si mal no estoy.
+
+Esp. Analítica de Datos Segundo Semestre G2: Que es el promedio, mira, de cancelación.
+
+Esp. Analítica de Datos Segundo Semestre G2: No.
+
+Esp. Analítica de Datos Segundo Semestre G2: La El indicador que les define es como la tasa de short y es como coger la.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿El promedio de cuántos cancelaron y multiplicar los por 100?
+
+Esp. Analítica de Datos Segundo Semestre G2: Y la tarea 5 es relaciones, me imagino que acá es ver.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Cómo se vive por localidades? Acá pinta Mapita.
+
+Esp. Analítica de Datos Segundo Semestre G2: La idea es que respondan basado en esta pregunta y en esta pregunta aquí un
+
+Esp. Analítica de Datos Segundo Semestre G2: comentario y ya unas preguntas de interpretación que es para que sumaricen
+
+Esp. Analítica de Datos Segundo Semestre G2: todo lo que hicieron y vean como bueno.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y acá me queda claro que la localidad pasó esto y así es algún segmento en
+
+Esp. Analítica de Datos Segundo Semestre G2: particular, etcétera, todo claro.
+
+Esp. Analítica de Datos Segundo Semestre G2: Bueno, igual.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí, él acá lo que le va a coger es
+
+Esp. Analítica de Datos Segundo Semestre G2: literalmente estos 2 y mal no estoy el diccionario de Connect.
+
+Esp. Analítica de Datos Segundo Semestre G2: En el diseño no conecta cliente mes es la base para este dato.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yes.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí y el UPC es para la localidad de Bogotá y las distritos y todas las cosas
+
+Esp. Analítica de Datos Segundo Semestre G2: para el gráfico ahí
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero esto este no, este es porque si ustedes ejecutan el
+
+Esp. Analítica de Datos Segundo Semestre G2: notebook de mío para pintar los condados, utiliza este Geozone.
+
+Esp. Analítica de Datos Segundo Semestre G2: O sea, no lo necesitan, sino que es el de mi, es el de mi hacer.
+
+Esp. Analítica de Datos Segundo Semestre G2: Google.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues no, pero igual, pues o sea, la final de ustedes lo que pueden hacer
+
+Esp. Analítica de Datos Segundo Semestre G2: es poner la carpeta de datos, ponen el archivo de ustedes ahí afuera y
+
+Esp. Analítica de Datos Segundo Semestre G2: consultan a la carpeta de datos. Ya el notebook va y busca los datos que
+
+Esp. Analítica de Datos Segundo Semestre G2: necesita. Lo que pasa es que.
+
+Esp. Analítica de Datos Segundo Semestre G2: Lo que pasa es que les pongo todos los datos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Gracias.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues así tal cual, yo creo que si la descargan así tal cual
+
+Esp. Analítica de Datos Segundo Semestre G2: y la ejecutan así, ya esta entra a consultar datos y esta
+
+Esp. Analítica de Datos Segundo Semestre G2: entra a consultar datos, sí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues, pero si quieren ponerse muy puristas y
+
+Esp. Analítica de Datos Segundo Semestre G2: sacar, pues ese, pues sacan los datos de acá,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero ya se el hombre ya hace la conexión para que no se pongan ahí a amarrarse la
+
+Esp. Analítica de Datos Segundo Semestre G2: cabeza con eso.
+
+Esp. Analítica de Datos Segundo Semestre G2: A ver qué hay por aquí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Lo que vamos a hacer hoy y mañana es para entregar el jueves de la próxima.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí, igual son las 7:40.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y espero que les alcance el tiempo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí, recuerden que usted se se cómo es hasta
+
+Esp. Analítica de Datos Segundo Semestre G2: el 23, hay que pasar notas.
+
+Esp. Analítica de Datos Segundo Semestre G2: O sea, mañana veremos la sesión 3 y serán 12 de
+
+Esp. Analítica de Datos Segundo Semestre G2: estar el jueves.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+Esp. Analítica de Datos Segundo Semestre G2: Serán las entregas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ajá.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero chicos, traten de sacar eso hoy, igual mañana.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo creo que si algo sacamos en esta para que también lo hagan.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hello!
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces, ven a que nota.
+
+Esp. Analítica de Datos Segundo Semestre G2: Taller s 2.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entregar al correo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Automate.
+
+Esp. Analítica de Datos Segundo Semestre G2: Tenemos que hacer el 26.
+
+Esp. Analítica de Datos Segundo Semestre G2: Voy a dejarlo hasta el 25 para yo poder tener el 25 en la noche para el 26 en la
+
+Esp. Analítica de Datos Segundo Semestre G2: mañana para calificarlas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces voy a poner acá miércoles.
+
+Esp. Analítica de Datos Segundo Semestre G2: 25.
+
+Esp. Analítica de Datos Segundo Semestre G2: De octubre.
+
+Esp. Analítica de Datos Segundo Semestre G2: De noviembre.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué es que si es antes profe usted no puede poner hasta allá al 1818,
+
+Esp. Analítica de Datos Segundo Semestre G2: ya estoy en el futuro.
+
+Esp. Analítica de Datos Segundo Semestre G2: Fue el 19, pero no dijimos que no les digo que le
+
+Esp. Analítica de Datos Segundo Semestre G2: envíen acá.
+
+Esp. Analítica de Datos Segundo Semestre G2: El es ese y el y el de mañana que le miden el miércoles 18.
+
+Esp. Analítica de Datos Segundo Semestre G2: Para yo tener el jueves el medio, calificarlas y revisarlas.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Cuándo poner el primo profe?
+
+Esp. Analítica de Datos Segundo Semestre G2: El 6 sería el que vamos a hacer el sábado 21.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ese día hasta el domingo, porque lo que entiendo es que tener que
+
+Esp. Analítica de Datos Segundo Semestre G2: pasar notas el 23.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué estás cannota pasa nada?
+
+Esp. Analítica de Datos Segundo Semestre G2: Para que practiquen.
+
+Esp. Analítica de Datos Segundo Semestre G2: Podemos no hacer clases también y todos pasamos, pero bueno.
+
+Esp. Analítica de Datos Segundo Semestre G2: Vamos, yo les tengo fe, yo les tengo fe y el curso está chévere.
+
+Esp. Analítica de Datos Segundo Semestre G2: La idea es que.
+
+Esp. Analítica de Datos Segundo Semestre G2: La sesión 6 van a es recopilatoria, o sea, lo más fuerte es lo que vamos a construir
+
+Esp. Analítica de Datos Segundo Semestre G2: en la sesión cuatro, que sería el jueves.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sesión 5, hacemos unos mapitas y sesión 6 es
+
+Esp. Analítica de Datos Segundo Semestre G2: solamente como recopilar todo lo que hemos hecho en las anteriores, entonces.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ya.
