@@ -1,0 +1,24 @@
+Grupo 9
+Mario Daniel Enrique Perez Jimenez
+
+Cedula: 1152456361
+Codigo Estudiante: 202610093727
+
+
+---------------------
+
+Acuerdos 14 de noviembre 2026
+
+Clase del jueves 19 y 26 de noviembre: virtual horario 6pm - 9pm
+Entrega sesión s1: viernes 13 de noviembre 5 pm
+Entrega sesión s2 y s3: miercoles 18 noviembre media noche
+correo de entrega: espanaliticadatos.ssemestre.g2@unaula.edu.co
+formato del asunto y nombre del archivo: DATAVIZ_sesion_X_proyecto_A_grupo_Y
+(X es el numero de la sesion y Y es el numero del grupo)
+
+---------------------
+
+Notas para la entrega s3:
+El notebook se entrega ejecutado de inicio a fin como DATAVIZ_sesion_3_proyecto_A_grupo_9.ipynb.
+El notebook deja en salidas/ la tabla limpia (conecta_limpio_s3.csv) y las 10 UPZ candidatas
+(upz_candidatas_s3.csv) — se adjuntan con el notebook.

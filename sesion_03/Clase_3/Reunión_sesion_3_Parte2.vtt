@@ -1,0 +1,2336 @@
+WEBVTT
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/128-0
+00:19:13.039 --> 00:19:13.679
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Yeah.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/131-0
+00:19:24.439 --> 00:19:24.799
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>List.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/133-0
+00:19:26.159 --> 00:19:28.079
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Vamos a retomar.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/135-0
+00:19:43.599 --> 00:19:44.519
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Lisa chicos.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/136-0
+00:19:45.479 --> 00:19:47.919
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entonces,
+¿qué nos queda faltando el de la sesión?</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/137-0
+00:19:49.199 --> 00:19:51.999
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Antes de salir al descanso.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/138-0
+00:19:53.599 --> 00:19:54.719
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Yeah.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/139-0
+00:19:56.199 --> 00:20:01.820
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Lo que estábamos hablando era del tema de
+los nulos y cómo darles tratamiento.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/139-1
+00:20:01.820 --> 00:20:03.599
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Espera que esta cosa así.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/140-0
+00:20:05.439 --> 00:20:07.919
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Si algo, sí, estaba escuchando.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/141-0
+00:20:10.159 --> 00:20:11.239
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entonces.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/143-0
+00:20:13.679 --> 00:20:18.165
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entonces hablábamos de 3 tipos,
+entonces toda la final se resume en este</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/143-1
+00:20:18.165 --> 00:20:20.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>en este como esquemita que tengo acá.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/144-0
+00:20:22.439 --> 00:20:26.896
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>¿Si usted tiene una variable que le que
+tiene datos faltantes,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/144-1
+00:20:26.896 --> 00:20:30.999
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>lo primero que se deben preguntar es esa
+variable se usa?</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/145-0
+00:20:32.279 --> 00:20:32.919
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/146-0
+00:20:35.279 --> 00:20:40.476
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>¿Se usa para responder la pregunta o lo
+que están analizando, o sea, es decir,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/146-1
+00:20:40.476 --> 00:20:43.239
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>incide en lo que ustedes están analizando?</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/147-0
+00:20:44.119 --> 00:20:45.959
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Ahí sale una respuesta, sí o no.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/149-0
+00:20:48.199 --> 00:20:52.134
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Sí,
+esa variable no incide en la variable que</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/149-1
+00:20:52.134 --> 00:20:57.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>ustedes están usando como, digamos,
+su y o como su indicador.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/150-0
+00:20:58.439 --> 00:20:59.199
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Pues.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/151-0
+00:21:00.359 --> 00:21:01.799
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Mirar a ver si.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/152-0
+00:21:03.239 --> 00:21:07.570
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Pues no, pues no hacerla nada,
+no eliminarla, no quitarla,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/152-1
+00:21:07.570 --> 00:21:09.919
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>sino dejarla ahí, dejarla hacer.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/153-0
+00:21:10.679 --> 00:21:13.199
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Porque no les va a afectar a ustedes en
+su medición.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/154-0
+00:21:15.559 --> 00:21:19.917
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Al menos per se,
+pero si esa variable sí la sí hace parte</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/154-1
+00:21:19.917 --> 00:21:24.050
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>de la que del corazón del análisis que
+están haciendo,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/154-2
+00:21:24.050 --> 00:21:28.559
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>y no tienes que evalúen la importancia de
+esa variable, sí.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/155-0
+00:21:29.479 --> 00:21:35.877
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Si ustedes quieren saber precios y para
+tienen, no sé, la variable el sol, no sé,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/155-1
+00:21:35.877 --> 00:21:41.184
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>la temperatura del estado y la
+temperatura del estado tiene varios,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/155-2
+00:21:41.184 --> 00:21:46.490
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>varias, varios faltantes,
+pues para que se desgastan analizando esa</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/155-3
+00:21:46.490 --> 00:21:48.519
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>variable no tiene sentido.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/156-0
+00:21:49.479 --> 00:21:55.935
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Ahora sí hace parte porque es fundamental
+para el análisis que están haciendo o</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/156-1
+00:21:55.935 --> 00:22:01.261
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>tiene alguna incidencia,
+entonces vienen los 3 mecanismos, o sea,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/156-2
+00:22:01.261 --> 00:22:03.279
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>al final son 3 preguntas.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/157-0
+00:22:04.639 --> 00:22:05.799
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>La primera es.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/158-0
+00:22:07.479 --> 00:22:13.623
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Es completamente aleatoria, es decir,
+ustedes no ven ninguna relación entre ese</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/158-1
+00:22:13.623 --> 00:22:17.079
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>faltante con alguna de esas otras
+variables.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/159-0
+00:22:18.359 --> 00:22:24.088
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Pues es de puede ser del estilo en card y
+del estilo en card,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/159-1
+00:22:24.088 --> 00:22:29.079
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>y lo que significa en últimas es que
+ustedes podrían.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/161-0
+00:22:30.119 --> 00:22:34.225
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Acá con asteriscos,
+eliminarla y no le va a pasar nada porque</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/161-1
+00:22:34.225 --> 00:22:38.199
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>esa variable no le está influyendo a
+otras, ¿cómo lo saben?</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/162-0
+00:22:40.279 --> 00:22:45.381
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Por eso, mire que acá,
+si hubieran 10 datos nulos y se los</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/162-1
+00:22:45.381 --> 00:22:49.445
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>eliminan,
+la incidencia sobre estas variables,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/162-2
+00:22:49.445 --> 00:22:55.239
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>pues sería muy mínimo porque no va a
+cambiar ninguna distribución.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/163-0
+00:22:56.119 --> 00:23:00.188
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entonces,
+pueden eliminarlas o hacerles algo acá al</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/163-1
+00:23:00.188 --> 00:23:04.493
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>menos eliminarlas.
+¿Cuál es el trade off e que pierden</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/163-2
+00:23:04.493 --> 00:23:08.562
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>información?
+Ustedes evalúan si vale la pena perder</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/163-3
+00:23:08.562 --> 00:23:10.519
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>información por eso o no.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/164-0
+00:23:12.279 --> 00:23:12.999
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Ahora.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/165-0
+00:23:14.199 --> 00:23:16.879
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Si ustedes notan que esa variable.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/166-0
+00:23:17.719 --> 00:23:22.132
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>¿Afecta otra variable que tienen dentro
+del dataset?</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/166-1
+00:23:22.132 --> 00:23:28.210
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Ustedes pueden asumir o pueden presumir
+que es un estilo que es al azar,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/166-2
+00:23:28.210 --> 00:23:33.039
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>no completamente al azar,
+sino que es un tema de un azar,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/166-3
+00:23:33.039 --> 00:23:38.119
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>pero pareciera ser un azar selectivo.
+Entonces ya saben que.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/167-0
+00:23:38.679 --> 00:23:41.709
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Si es selectivo quiere decir que si
+quitan esa variable,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/167-1
+00:23:41.709 --> 00:23:45.537
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>empiezan a cambiar las distribuciones de
+las otras variables. Entonces,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/167-2
+00:23:45.537 --> 00:23:47.079
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>¿qué es lo que podrían hacer?</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/168-0
+00:23:48.359 --> 00:23:49.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Imputarla.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/170-0
+00:23:50.199 --> 00:23:54.902
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Pero imputarla sabiamente,
+imputarla estratificadamente,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/170-1
+00:23:54.902 --> 00:23:59.358
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>por así decirlo,
+aquí para imputar esas variables hay</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/170-2
+00:23:59.358 --> 00:24:03.071
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>muchos métodos.
+Yo no sé si ustedes conocen,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/170-3
+00:24:03.071 --> 00:24:04.639
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>pero hay un método.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/171-0
+00:24:05.559 --> 00:24:09.447
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>De las cosas cuando le dicen a una
+imputación, póngale vacío,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/171-1
+00:24:09.447 --> 00:24:13.272
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>póngale un valor raro, póngale la media,
+póngale la mediana,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/171-2
+00:24:13.272 --> 00:24:17.599
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>pero hay un método de imputación en el
+que usted deja el valor nulo.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/172-0
+00:24:18.239 --> 00:24:19.399
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Como si fuera la y.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/173-0
+00:24:20.839 --> 00:24:27.087
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>La columna que tiene los valores nulos
+vienen siendo la y las otras columnas son</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/173-1
+00:24:27.087 --> 00:24:29.479
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>las xy entrenan algún modelito.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/174-0
+00:24:30.999 --> 00:24:35.615
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>¿Un qué?
+Un método de por árboles o una regresión,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/174-1
+00:24:35.615 --> 00:24:40.864
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>cualquier cosa.
+Y entonces lo que pasa es que ese nulo se</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/174-2
+00:24:40.864 --> 00:24:45.480
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>aprende lo que pasa con sus alrededores y
+él dice,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/174-3
+00:24:45.480 --> 00:24:49.824
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>si mis alrededores tienen esas
+características,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/174-4
+00:24:49.824 --> 00:24:52.359
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>acá pongo este valor porque.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/175-0
+00:24:52.519 --> 00:24:56.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Cuando van estas características,
+por lo general va ese valor, pero.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/176-0
+00:24:57.559 --> 00:25:02.016
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Que sea un método un poco más elaborado
+que poner la mediana.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/176-1
+00:25:02.016 --> 00:25:07.120
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>La media no lo hace mejor o peor,
+incluso en algunos ejercicios que he</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/176-2
+00:25:07.120 --> 00:25:10.643
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>hecho con modelos,
+cuando uno termina imputando,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/176-3
+00:25:10.643 --> 00:25:13.159
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>termina dañando el performance del.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/177-0
+00:25:14.279 --> 00:25:19.696
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>De la Del modelo que uno está haciendo,
+entonces a veces uno no prefiere no</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/177-1
+00:25:19.696 --> 00:25:22.689
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>imputar.
+A veces uno cree que por ser más</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/177-2
+00:25:22.689 --> 00:25:27.465
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>elaborado es mejor y no es así.
+Depende mucho del caso de ustedes.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/177-3
+00:25:27.465 --> 00:25:33.239
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entonces no es que porque sea el método
+más elaborado tengo que usarlo, sino es.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/178-0
+00:25:33.719 --> 00:25:38.720
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>De la evaluación no es tan sencilla como
+esta, ustedes toman la decisión sí o sí,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/178-1
+00:25:38.720 --> 00:25:41.404
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>no,
+si ustedes ven que esa variable nula le</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/178-2
+00:25:41.404 --> 00:25:42.319
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>está afectando.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/179-0
+00:25:43.319 --> 00:25:49.273
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Está tiene incidencia en otras variables,
+o sea que ese nulo hace que pareciera que</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/179-1
+00:25:49.273 --> 00:25:55.085
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>tuviera incidencia en algunas variables.
+En particular utilicen algún método para</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/179-2
+00:25:55.085 --> 00:25:56.999
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>imputarlo, pero sabiamente.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/181-0
+00:26:03.879 --> 00:26:04.359
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Sí.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/182-0
+00:26:05.439 --> 00:26:08.650
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Cuando se imputa y hace modelo,
+entonces se hace,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/182-1
+00:26:08.650 --> 00:26:12.119
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>se empieza siempre cuando uno hace modelo
+la versión.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/183-0
+00:26:13.919 --> 00:26:19.764
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>La primera, la como la cruda,
+que usted dice aquí no me voy a poner a</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/183-1
+00:26:19.764 --> 00:26:25.776
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>mirar que los hiperparámetros,
+porque hay modelos que se pueden demorar</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/183-2
+00:26:25.776 --> 00:26:30.118
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>hasta cuatro o 5 horas en entrenar.
+Si se necesita,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/183-3
+00:26:30.118 --> 00:26:33.959
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>usted no va a gastar sintonizando
+parámetros.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/184-0
+00:26:36.039 --> 00:26:40.026
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y perder todo ese tiempo.
+Entonces establece una línea base.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/184-1
+00:26:40.026 --> 00:26:43.752
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entonces, por lo general,
+la línea base es el un modelo,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/184-2
+00:26:43.752 --> 00:26:48.263
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>un boosting ahí o un modelo por defecto
+que usted sepa que no lo va,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/184-3
+00:26:48.263 --> 00:26:50.159
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>no le va a colgar su máquina.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/185-0
+00:26:51.479 --> 00:26:56.694
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Los métodos de imputación, una media,
+una mediana, un cero,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/185-1
+00:26:56.694 --> 00:27:02.519
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>eliminar algo muy básico, o sea,
+algo que usted dice, no me voy a.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/186-0
+00:27:04.119 --> 00:27:07.047
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>No me voy a poner aquí a dar todo el
+tecnicismo,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/186-1
+00:27:07.047 --> 00:27:09.079
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>sino que se pone en la línea base.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/187-0
+00:27:10.519 --> 00:27:15.251
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>A veces de esa línea base que usted
+prácticamente coge los datos con un poco</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/187-1
+00:27:15.251 --> 00:27:18.078
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>de cariñito,
+tampoco es que lo cojan en cero,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/187-2
+00:27:18.078 --> 00:27:23.118
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>sino después de un cariñito de mirar que
+hay de limpiezas. Entonces dicen, listo,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/187-3
+00:27:23.118 --> 00:27:26.560
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>con eso ya me voy,
+entreno y veo que me saca el modelo.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/187-4
+00:27:26.560 --> 00:27:29.879
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Eso me establece una línea base sobre esa
+línea base.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/188-0
+00:27:30.439 --> 00:27:34.491
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Empieza uno antes a mirar, bueno,
+y sin **** si hago este método,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/188-1
+00:27:34.491 --> 00:27:39.096
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>si pongo esto y usted empieza a comparar
+con la línea base y a veces no la</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/188-2
+00:27:39.096 --> 00:27:42.473
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>diferencia entre hacer eso y no hacerlo
+es muy mínima.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/188-3
+00:27:42.473 --> 00:27:47.201
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entonces dice voy a gastar 3 horas
+haciendo todo eso para que me dé el mismo</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/188-4
+00:27:47.201 --> 00:27:49.719
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>resultado, no tiene sentido, lo dejo así.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/189-0
+00:27:50.279 --> 00:27:55.714
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>o incluso puede degradar el performance
+del modelo porque le enseña un sesgo le</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/189-1
+00:27:55.714 --> 00:28:01.014
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>enseña un sesgo que Y esa variable a
+veces pasa a ser de las importantes y no</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/189-2
+00:28:01.014 --> 00:28:05.159
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entonces ahí es donde usted dice la
+embarré no puedo hacerlo</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/190-0
+00:28:15.479 --> 00:28:16.119
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>No, no los.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/191-0
+00:28:18.039 --> 00:28:19.119
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>What am I having?</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/192-0
+00:28:24.199 --> 00:28:24.559
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Yeah.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/193-0
+00:28:26.079 --> 00:28:27.479
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>A minute of Umar Power.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/194-0
+00:28:30.999 --> 00:28:31.519
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Thank you.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/195-0
+00:28:32.879 --> 00:28:33.559
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Starting what?</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/196-0
+00:28:38.039 --> 00:28:39.879
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Ese hay un dilema ahí.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/197-0
+00:28:40.919 --> 00:28:42.719
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Porque si es sudario el objetivo.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/198-0
+00:28:43.799 --> 00:28:45.999
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Pues, o sea, y si es nula.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/199-0
+00:28:48.439 --> 00:28:48.919
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>No.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/200-0
+00:28:50.439 --> 00:28:54.948
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>No, pero imagínese, o sea,
+es como si estuviéramos imputándola,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/200-1
+00:28:54.948 --> 00:28:59.599
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>o sea, si podemos hacerla como eso,
+pero mire, hay una cosa y es.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/201-0
+00:29:01.719 --> 00:29:06.607
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Que yo buscaría dentro,
+si me si ese fuera un reto para mí,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/201-1
+00:29:06.607 --> 00:29:10.599
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>lo que yo buscaría es o asignarle una
+categoría.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/202-0
+00:29:11.479 --> 00:29:15.895
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Para ver si esa categoría tiene un
+comportamiento especial, o sea, no,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/202-1
+00:29:15.895 --> 00:29:20.435
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>si su categoría es cero uno. Bueno, a ver,
+primero pasamos del problema,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/202-2
+00:29:20.435 --> 00:29:22.239
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>es regresión o clasificación.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/203-0
+00:29:23.399 --> 00:29:24.719
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>O sea, es una regresión.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/204-0
+00:29:27.119 --> 00:29:28.359
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Con una regresión.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/205-0
+00:29:29.399 --> 00:29:32.219
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Yo buscaría esto es imputarla con algún
+valor,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/205-1
+00:29:32.219 --> 00:29:34.679
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>es que lo que iba a decir era ponerle un.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/206-0
+00:29:35.559 --> 00:29:37.879
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Ponerle una.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/207-0
+00:29:40.519 --> 00:29:43.732
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Si era clasificación,
+ponerle una categoría,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/207-1
+00:29:43.732 --> 00:29:46.875
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>una categoría que fuera,
+si fuera cero uno,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/207-2
+00:29:46.875 --> 00:29:52.017
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>que ponerle una categoría 2 para ver ese
+2. ¿Qué característica tienes?</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/207-3
+00:29:52.017 --> 00:29:57.445
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y si yo puedo replicar con las con el
+dataset, esa variable que no conozco,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/207-4
+00:29:57.445 --> 00:29:59.159
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>pero si es de regresión.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/208-0
+00:30:01.319 --> 00:30:05.780
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Sí,
+lo que se me ocurre es imputarla con hay</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/208-1
+00:30:05.780 --> 00:30:08.159
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>un método de imputación.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/209-0
+00:30:09.559 --> 00:30:10.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>¿Qué es?</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/210-0
+00:30:12.279 --> 00:30:16.427
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Con camints y él mira el alrededor de ese
+punto,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/210-1
+00:30:16.427 --> 00:30:23.115
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>pero en últimas es predecir el valor
+faltante a partir de las otras y luego sí</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/210-2
+00:30:23.115 --> 00:30:26.079
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>hacer el modelo con esa imputación.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/211-0
+00:30:27.919 --> 00:30:28.839
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entonces.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/213-0
+00:30:30.079 --> 00:30:35.679
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Su línea base podría ser quito eso,
+pues dependiendo de cuántos nulos hay.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/214-0
+00:30:37.039 --> 00:30:42.975
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>hago el modelo sin esos con sin esos sin
+esas yes Por así decirles que no conozco</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/214-1
+00:30:42.975 --> 00:30:48.912
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>que hay como es una regresión pues me va
+a dar algo luego imputarlas esas yes que</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/214-2
+00:30:48.912 --> 00:30:54.415
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>me faltan nulas a partir de las otras
+variables con un modelo que me diga a</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/214-3
+00:30:54.415 --> 00:30:58.759
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>partir de eso pues póngale ese valor y
+tiene las otras para</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/215-0
+00:30:58.879 --> 00:31:00.839
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Para de entrenamiento, sí.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/216-0
+00:31:02.159 --> 00:31:07.302
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y hacer el modelo completo para ver si
+con si que tanto le varía no tenerlas en</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/216-1
+00:31:07.302 --> 00:31:11.803
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>cuenta, tenerlas en cuenta.
+Sería ese el ejercicio que haría al menos</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/216-2
+00:31:11.803 --> 00:31:14.697
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>inicial para evaluar ese faltante,
+ese pues,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/216-3
+00:31:14.697 --> 00:31:17.719
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>pero me causa curiosidad cuál es ese
+problema.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/217-0
+00:31:20.639 --> 00:31:21.119
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>I can.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/218-0
+00:31:27.679 --> 00:31:29.799
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Pero lo tienen en algún caso en
+particular.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/219-0
+00:31:35.839 --> 00:31:41.039
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entonces quería predecir el puntaje del
+IFES y habían IFES que no tenían.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/220-0
+00:31:46.239 --> 00:31:47.399
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>El puntaje final.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/222-0
+00:31:57.999 --> 00:32:01.639
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Porque mire que en ese caso en particular,
+si es puntaje total.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/223-0
+00:32:02.639 --> 00:32:06.919
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Uno sabría que el puntaje total viene
+siendo la suma. o la.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/224-0
+00:32:08.399 --> 00:32:11.409
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Pues la completo de esa forma,
+llegado el caso,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/224-1
+00:32:11.409 --> 00:32:13.479
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>o al menos yo sé que si sumo eso.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/225-0
+00:32:14.439 --> 00:32:18.270
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Para dar un estimado muy similar,
+Alexander,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/225-1
+00:32:18.270 --> 00:32:23.039
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>yo creo que ahí sí serviría el método de
+imputarlo con.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/226-0
+00:32:24.719 --> 00:32:25.039
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Mhm.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/227-0
+00:32:26.639 --> 00:32:27.119
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Sin.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/228-0
+00:32:30.079 --> 00:32:34.319
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Pero sí, pero sí es, o sea,
+me sorprende el.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/229-0
+00:32:35.039 --> 00:32:38.999
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Pues lo que es la variable efectivo y que
+se anula, pues ahí dicen bueno.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/230-0
+00:32:43.679 --> 00:32:48.224
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Que le falten predictoras es normal,
+pero que la variable que yo quiero</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/230-1
+00:32:48.224 --> 00:32:53.401
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>predecir no tenga el valor me parece un
+poco porque sería entonces un problema no</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/230-2
+00:32:53.401 --> 00:32:54.159
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>supervisado.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/231-0
+00:32:57.039 --> 00:32:57.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Then.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/232-0
+00:32:58.639 --> 00:33:02.796
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Paso aparte, entonces,
+si yo veo que hay una relación,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/232-1
+00:33:02.796 --> 00:33:07.559
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>aplicarle algún método de imputación y el
+último escenario es.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/233-0
+00:33:08.559 --> 00:33:08.959
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>¿Qué?</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/234-0
+00:33:10.559 --> 00:33:13.999
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Es que la que no es completamente al azar.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/235-0
+00:33:15.679 --> 00:33:18.239
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>¿Eso qué quiere decir? que?</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/236-0
+00:33:19.279 --> 00:33:24.355
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>En este caso, por lo general,
+lo que se hace con este tipo de variables</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/236-1
+00:33:24.355 --> 00:33:27.457
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>es que no se no se imputa,
+no se hace nada,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/236-2
+00:33:27.457 --> 00:33:32.604
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>sino que se deja así tal cual,
+porque imputarla podría tener un problema</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/236-3
+00:33:32.604 --> 00:33:33.239
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>de sesgo.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/237-0
+00:33:34.399 --> 00:33:39.330
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Porque ya depende de algo que no está
+dentro de su dataset y ustedes en el dato,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/237-1
+00:33:39.330 --> 00:33:44.079
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>en el caso de Conecta tienen ese caso en
+particular. ¿Por qué? Porque el NPS.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/238-0
+00:33:44.919 --> 00:33:50.703
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Ustedes pueden encontrar de pronto que la
+relación de quienes contesten sea porque</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/238-1
+00:33:50.703 --> 00:33:53.909
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>están,
+tienen más quejas y están más bravos y</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/238-2
+00:33:53.909 --> 00:33:58.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>podrían encontrar esa relación,
+pero igual que el componente de.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/239-0
+00:33:59.599 --> 00:34:04.541
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Depende de una persona que esté
+totalmente, pues con el problema, si esa,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/239-1
+00:34:04.541 --> 00:34:07.614
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>o sea, no,
+con las variables que usted tiene,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/239-2
+00:34:07.614 --> 00:34:12.356
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>no pueden imponerse a inventar,
+porque si usted ya sabe que si pone un</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/239-3
+00:34:12.356 --> 00:34:16.831
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>número está inventando,
+puede que una verdad haya tenido 5 quejas,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/239-4
+00:34:16.831 --> 00:34:21.039
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>pero las 5 quejas se la hayan solucionado
+súper bien y nos no.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/240-0
+00:34:21.919 --> 00:34:26.578
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y no necesariamente este bravo,
+si usted le pone ahí porque todas las</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/240-1
+00:34:26.578 --> 00:34:31.704
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>personas bravas ponen una calificación
+baja y le pone una calificación baja.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/240-2
+00:34:31.704 --> 00:34:36.697
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Usted ya está suponiendo algo que no,
+que no dependen de las variables del</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/240-3
+00:34:36.697 --> 00:34:40.159
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>contexto,
+entonces en esas cuando ya ustedes dicen.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/242-0
+00:34:40.559 --> 00:34:44.640
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>No, la literalmente no,
+pues usted dice no la dejo quieta,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/242-1
+00:34:44.640 --> 00:34:48.029
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>no le puedo hacer nada más,
+me tengo que buscar.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/242-2
+00:34:48.029 --> 00:34:51.626
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Yo creo que esa pregunta sería en la
+primera clase,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/242-3
+00:34:51.626 --> 00:34:57.298
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>¿qué hago con los con los faltantes del
+NPS y a la final esto busco otra forma de</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/242-4
+00:34:57.298 --> 00:34:59.719
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>usarla, de pronto no la puedo usar.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/243-0
+00:34:59.839 --> 00:35:03.952
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Si va a ser un modelo,
+no la puedo usar literalmente porque qué</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/243-1
+00:35:03.952 --> 00:35:07.873
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>valor me la invento,
+pero sí contextualmente me puede dar un</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/243-2
+00:35:07.873 --> 00:35:09.159
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>índice de qué hacer.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/244-0
+00:35:10.479 --> 00:35:11.559
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entonces.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/245-0
+00:35:13.039 --> 00:35:17.857
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Los nulos de dormitorios no los no los
+tocamos, los dejamos ahí.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/245-1
+00:35:17.857 --> 00:35:21.416
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Acá es un completamente según esto,
+como vimos,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/245-2
+00:35:21.416 --> 00:35:25.716
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>no de no terminaba influyendo sobre la
+algunas variables.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/245-3
+00:35:25.716 --> 00:35:30.905
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Mira que acá solo analicé 2,
+pero lo ideal sería mirar porque con las</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/245-4
+00:35:30.905 --> 00:35:32.759
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>otras variables a ver si.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/246-0
+00:35:33.599 --> 00:35:37.047
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Si tenía algo,
+pero al menos con las que yo vi eran</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/246-1
+00:35:37.047 --> 00:35:40.959
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>completamente lazar,
+entonces no les hago nada, las puedo.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/247-0
+00:35:42.159 --> 00:35:46.792
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Las puedo excluir, no las puedo excluir,
+no me va a afectar nada acá,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/247-1
+00:35:46.792 --> 00:35:51.028
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>como no afecta el indicador que estoy
+usando, pues y el modelo,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/247-2
+00:35:51.028 --> 00:35:54.801
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>si hago un modelo,
+pues ya sé que pues no lo uso para no</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/247-3
+00:35:54.801 --> 00:35:59.765
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>tenerla que imputar o si la uso,
+pues la imputo y le pongo un valor que ya</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/247-4
+00:35:59.765 --> 00:36:02.479
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>sé que no me va a afectar el valor final.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/248-0
+00:36:05.279 --> 00:36:10.358
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Para cerrar esta sesión y para que
+ustedes puedan empezar a trabajar,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/248-1
+00:36:10.358 --> 00:36:15.729
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>miren que a medida que fuimos mirando
+cada uno de sus casas particulares,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/248-2
+00:36:15.729 --> 00:36:20.881
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>los outliers, los atípicos, bueno,
+los atípicos, los valores extremos,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/248-3
+00:36:20.881 --> 00:36:23.639
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>los nulos, fuimos encontrando algunas.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/249-0
+00:36:24.319 --> 00:36:29.674
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Causas,
+algunas efectos sobre la sobre la sobre</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/249-1
+00:36:29.674 --> 00:36:32.799
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>el dataset y dependiendo de.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/250-0
+00:36:34.159 --> 00:36:40.191
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y dependiendo de ese contexto,
+yo tomé una decisión de excluirlos o no</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/250-1
+00:36:40.191 --> 00:36:45.119
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>excluirlos y le puse una un motivo que si
+es válido o no.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/251-0
+00:36:46.079 --> 00:36:48.959
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Depende, ya es debatible, sí,
+de quién depende,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/251-1
+00:36:48.959 --> 00:36:53.519
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>pues de las personas a las que yo les
+quiero mostrar a mi público objetivo.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/252-0
+00:36:54.879 --> 00:36:59.939
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>En aras de la transparencia,
+eso no puede decir es tenemos cuando uno</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/252-1
+00:36:59.939 --> 00:37:05.649
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>empieza los análisis, uno dice como mire,
+nuestra población objetivo fue esta,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/252-2
+00:37:05.649 --> 00:37:09.553
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>no tuvimos en cuenta esto,
+esto y ellos ya nos dirán,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/252-3
+00:37:09.553 --> 00:37:15.625
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>pero es que este valor esta sí deberíamos
+haber incluido esta población porque pasó</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/252-4
+00:37:15.625 --> 00:37:16.999
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>esto, pasó lo otro.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/253-0
+00:37:17.279 --> 00:37:21.638
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Acá lo que les quise mostrar fue en áreas
+de transparencia,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/253-1
+00:37:21.638 --> 00:37:26.725
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>las transformaciones que hice para
+trabajar ya con mi dataset limpio.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/253-2
+00:37:26.725 --> 00:37:31.593
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>¿Qué queda después de esto?
+Pues ya un dataset conciliado, limpio,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/253-3
+00:37:31.593 --> 00:37:37.478
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>que va a ser mi base para en nuestro caso
+construir un tablero o seguir nuestros</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/253-4
+00:37:37.478 --> 00:37:41.039
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>análisis.
+No sé si hay alguna pregunta está ahí.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/254-0
+00:37:43.439 --> 00:37:49.239
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Pero en aras también de la transparencia,
+esas decisiones que implicaron,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/254-1
+00:37:49.239 --> 00:37:51.199
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>sacrifiqué casi 50 casos.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/255-0
+00:37:51.919 --> 00:37:57.679
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Del interior y estos casos acá en.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/256-0
+00:37:58.959 --> 00:38:05.319
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>De las otras de las otras no se ve tan
+afectado.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/257-0
+00:38:06.799 --> 00:38:07.599
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/258-0
+00:38:09.119 --> 00:38:13.208
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entonces,
+pareciera ser que las decisiones que tomo</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/258-1
+00:38:13.208 --> 00:38:18.162
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>no terminan incidiendo tanto en la, pues,
+en mi epa, es final,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/258-2
+00:38:18.162 --> 00:38:24.690
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>si una de esas decisiones que yo hubiera
+quitado me elimina toda a menos de 1 hora</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/258-3
+00:38:24.690 --> 00:38:25.319
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>del mar.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/259-0
+00:38:26.719 --> 00:38:33.267
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Pues yo ya veo que no puedo tomar esa
+decisión tan olímpicamente y tengo que</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/259-1
+00:38:33.267 --> 00:38:36.839
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>volver a revisar qué puedo hacer para eso.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/260-0
+00:38:39.359 --> 00:38:43.469
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entonces,
+en lo que ustedes van a hacer hoy y ya</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/260-1
+00:38:43.469 --> 00:38:50.180
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>con esto sí termino y es la ustedes saben
+que están analizando el la Conecta en</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/260-2
+00:38:50.180 --> 00:38:55.046
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>caso de Bogotá,
+Conecta tiene hogar y Internet móvil post</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/260-3
+00:38:55.046 --> 00:38:57.479
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>pago, prepago, Internet fijo.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/261-0
+00:38:58.879 --> 00:39:04.076
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Ustedes sacaron unos gráficos,
+sacaron unos en la sesión 2 para los que</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/261-1
+00:39:04.076 --> 00:39:09.778
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>vayan ahí establecer un indicador que ahí
+les decía armen un indicador de esas</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/261-2
+00:39:09.778 --> 00:39:13.676
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>características.
+Entonces ya tienen eso y tienen unos</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/261-3
+00:39:13.676 --> 00:39:18.079
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>análisis y unas gráficas a partir de unos
+datos que estaban.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/262-0
+00:39:19.359 --> 00:39:19.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/263-0
+00:39:21.039 --> 00:39:26.330
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>¿Que tenían algunas impurezas que van a
+hacer hoy? Entonces verificar,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/263-1
+00:39:26.330 --> 00:39:31.993
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>hacerle un doble check a ese indicador
+que hicieron a ver si ese indicador,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/263-2
+00:39:31.993 --> 00:39:36.837
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>así verse como lo tienen,
+es bueno o si tienen que hacerle algún</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/263-3
+00:39:36.837 --> 00:39:37.359
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>ajuste.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/264-0
+00:39:38.479 --> 00:39:38.799
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/265-0
+00:39:41.119 --> 00:39:44.959
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Mirar los datos y contestar las preguntas
+de.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/266-0
+00:39:46.159 --> 00:39:50.587
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Si son datos de calidad,
+si son aptos para mi análisis y aquellos</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/266-1
+00:39:50.587 --> 00:39:54.009
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>datos que ustedes consideren que no son
+tan aptos,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/266-2
+00:39:54.009 --> 00:39:58.908
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>hacerles esas exploraciones para ver si
+hacen imputaciones, si eliminan,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/266-3
+00:39:58.908 --> 00:40:02.062
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>si tienen que hacer algún proceso de
+limpieza.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/266-4
+00:40:02.062 --> 00:40:06.759
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Creo que los procesos de limpieza que
+tengan que ser así los fuertes.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/267-0
+00:40:07.359 --> 00:40:09.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Ya vienen ahí en el notebook.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/268-0
+00:40:10.319 --> 00:40:13.557
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Es más que todo para que ustedes analicen.
+O sea,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/268-1
+00:40:13.557 --> 00:40:16.537
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>recuerden que el propósito es nuestro
+gramar,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/268-2
+00:40:16.537 --> 00:40:18.999
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>sino el propósito de esto es analizar.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/270-0
+00:40:20.199 --> 00:40:23.144
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entonces,
+lo que terminan van a hacer hoy es la</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/270-1
+00:40:23.144 --> 00:40:27.991
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>calidad de datos frente al diccionario,
+frente a las a las dimensiones que les</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/270-2
+00:40:27.991 --> 00:40:31.059
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>compartí,
+establecer las reglas de limpieza en su</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/270-3
+00:40:31.059 --> 00:40:35.784
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>bitácora antes de decir elimino esto por
+esto, mantengo esto por esta razón,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/270-4
+00:40:35.784 --> 00:40:39.159
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>no hay razón inválida.
+Ustedes son los que la definen.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/271-0
+00:40:40.759 --> 00:40:40.919
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>A.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/274-0
+00:40:41.959 --> 00:40:48.334
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y valor sin indicador para ver si la
+cancelación que tienen definida está bien</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/274-1
+00:40:48.334 --> 00:40:53.256
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>o le hace falta algo,
+y el resultado final es a la final una</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/274-2
+00:40:53.256 --> 00:41:00.034
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>base de datos, un CSV con la base limpia,
+que es lujo en la que vamos a partir para</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/274-3
+00:41:00.034 --> 00:41:00.519
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>hacer.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/275-0
+00:41:00.839 --> 00:41:01.839
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>El salero.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/276-0
+00:41:02.839 --> 00:41:07.516
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y con unas UPZ que son como unas
+localidades candidatas para el fuerte.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/276-1
+00:41:07.516 --> 00:41:12.194
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Recuerden que nuestro fuerte es lo que
+vamos a hacer la próxima semana,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/276-2
+00:41:12.194 --> 00:41:16.806
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>que es la sesión cuatro, 5 y 6,
+pero más en este ser la sesión cuatro,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/276-3
+00:41:16.806 --> 00:41:22.199
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>que es que ya conociendo todo el contexto
+vamos a establecer cuál es la situación.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/277-0
+00:41:22.679 --> 00:41:26.965
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>¿Cuál es la pregunta?
+¿Cuál es la complicación y cuál es la</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/277-1
+00:41:26.965 --> 00:41:32.680
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>respuesta que vamos a dar a partir de eso?
+Entonces, hoy estamos en la parte 3,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/277-2
+00:41:32.680 --> 00:41:37.467
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>que es limpieza de datos.
+Es la última parte de esta primera fase,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/277-3
+00:41:37.467 --> 00:41:40.039
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>que es conocer los datos a la final.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/279-0
+00:41:42.679 --> 00:41:49.929
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Yo les compartí en la en el Grupo,
+no sé si ya lo han podido descargar,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/279-1
+00:41:49.929 --> 00:41:51.239
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>pero es este.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/280-0
+00:41:52.359 --> 00:41:53.719
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Este.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/281-0
+00:41:54.999 --> 00:42:00.025
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Archivo comprimido donde vienen los datos.
+Nuevamente los datos ves no deberían</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/281-1
+00:42:00.025 --> 00:42:04.172
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>tocarlos, ahí están todos.
+Creo que si mal no recuerdo con lo que</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/281-2
+00:42:04.172 --> 00:42:07.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>vimos ayer,
+es prácticamente una copia de lo mismo.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/282-0
+00:42:10.359 --> 00:42:15.258
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y viene el notebook de la sesión de hoy
+para que lo tomen de referencia.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/282-1
+00:42:15.258 --> 00:42:19.486
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Hay todos los gráficos que vimos en la
+presentación están ahí.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/282-2
+00:42:19.486 --> 00:42:24.453
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Si le encuentran algo adicional,
+súper bienvenido para que me lo comenten</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/282-3
+00:42:24.453 --> 00:42:28.279
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>y el que ustedes tienen que hacer es la
+sesión práctica.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/283-0
+00:42:28.839 --> 00:42:31.799
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>viene la presentación para que la tengan
+de referencia.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/284-0
+00:42:32.799 --> 00:42:33.119
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Yeah.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/285-0
+00:42:34.679 --> 00:42:41.500
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y viene la sesión práctica para que para
+que ustedes hagan nuevamente</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/285-1
+00:42:41.500 --> 00:42:48.906
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>encomendarles en aras de tener las notas
+listas el 23, el nombre del Grupo,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/285-2
+00:42:48.906 --> 00:42:54.559
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>el nombre del archivo.
+Yo cuando estuve haciendo ayer la.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/286-0
+00:42:54.679 --> 00:43:00.849
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>los integrales de la primera sesión vi
+que varios no pusieron pusieron fue su</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/286-1
+00:43:00.849 --> 00:43:07.256
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>nombre entonces voy a ponerles un número
+para que no me pongan el nombre sino el</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/286-2
+00:43:07.256 --> 00:43:12.952
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>número porque básicamente muchas de esas
+eran porque estaban trabajando</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/286-3
+00:43:12.952 --> 00:43:15.879
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>individualmente pero pero tratemos de</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/287-0
+00:43:16.839 --> 00:43:18.959
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Ahora terminamos para asignarles un
+número.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/288-0
+00:43:19.799 --> 00:43:19.879
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/289-0
+00:43:21.479 --> 00:43:21.799
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/290-0
+00:43:23.079 --> 00:43:24.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y ya.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/291-0
+00:43:25.559 --> 00:43:28.643
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Ya les dejo ahí para que lo revisen con
+calma,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/291-1
+00:43:28.643 --> 00:43:33.171
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>vayan revisando y cualquier pregunta me
+lo hayan dicho. En síntesis,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/291-2
+00:43:33.171 --> 00:43:38.420
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>la tarea uno es el perfil de calidad.
+Lo que les pide es a hacer el análisis de</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/291-3
+00:43:38.420 --> 00:43:43.670
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>el análisis de las limpiezas y mirar el
+tema de las categorías para ver cuál de</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/291-4
+00:43:43.670 --> 00:43:45.639
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>las dimensiones está fallando.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/292-0
+00:43:46.439 --> 00:43:50.975
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>El La tarea 2 son las reglas de limpieza.
+Entonces ya van a empezar a decir,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/292-1
+00:43:50.975 --> 00:43:55.511
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>ustedes voy a eliminar los duplicados,
+voy a hacer la limpieza de tal y tal,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/292-2
+00:43:55.511 --> 00:43:57.279
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>voy a corregir esa coordenada.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/293-0
+00:43:58.679 --> 00:44:04.846
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Acá viene,
+pues el tubo para hacer la pregunta de la</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/293-1
+00:44:04.846 --> 00:44:06.359
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>respuesta de.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/294-0
+00:44:07.559 --> 00:44:12.210
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>De esas reglas que aplicaron por aquí
+debe estar una nieta con el problema,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/294-1
+00:44:12.210 --> 00:44:13.679
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>la decisión, el por qué.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/295-0
+00:44:14.999 --> 00:44:21.913
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>¿Y cuántos registros afecta muy similar a
+lo que les mostré yo acá al final de esa</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/295-1
+00:44:21.913 --> 00:44:25.079
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>síntesis de qué tanto me afectaba eso?</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/296-0
+00:44:27.079 --> 00:44:32.999
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>La tarea 3 es cómo cuenta una cancelación.
+Entonces, este es el punto que les digo,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/296-1
+00:44:32.999 --> 00:44:38.073
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>donde van a revisar el tema de ustedes
+tienen una variable que se llama</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/296-2
+00:44:38.073 --> 00:44:38.919
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>cancelación.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/297-0
+00:44:41.559 --> 00:44:47.950
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Pero miren que de pronto esa variable le
+está incluyendo algo que de pronto no es</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/297-1
+00:44:47.950 --> 00:44:52.003
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>cancelación.
+Entonces lo tienen que comparar con el</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/297-2
+00:44:52.003 --> 00:44:58.239
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>tipo de cancelación y mirar si todo es
+cancelación o si hay una cancelación que</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/297-3
+00:44:58.239 --> 00:45:01.279
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>no es tan cancelación. Les pido que lo.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/298-0
+00:45:02.199 --> 00:45:06.479
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Que lo evalúen y que generen una nueva
+variable que se llame pérdida.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/299-0
+00:45:07.559 --> 00:45:11.088
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Donde acá lo que les dice es que,
+por ejemplo, cambie de plan,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/299-1
+00:45:11.088 --> 00:45:15.458
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>cambie de plan en la base de datos,
+pues les puede salir como una cancelación</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/299-2
+00:45:15.458 --> 00:45:19.827
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>porque está cancelando un producto,
+pero en aras de Chon de que el cliente se</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/299-3
+00:45:19.827 --> 00:45:23.189
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>va de la compañía, no.
+¿Qué tanto eso incide en su variable</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/299-4
+00:45:23.189 --> 00:45:25.654
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>objetivo?
+Porque esa variable si ya toca su</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/299-5
+00:45:25.654 --> 00:45:28.399
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>variable objetivo,
+entonces tienen que analizar.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/300-0
+00:45:30.279 --> 00:45:32.159
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Acá viene la.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/301-0
+00:45:35.559 --> 00:45:38.969
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Acá viene,
+pues para que analicen por rankings,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/301-1
+00:45:38.969 --> 00:45:44.013
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>esas por pues por algunas en particular
+por UPZ y cosas de ese estilo,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/301-2
+00:45:44.013 --> 00:45:48.559
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>por estrato, por segmento,
+ver qué tanto les afecta ese cambio.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/301-3
+00:45:48.559 --> 00:45:52.040
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Una conclusión acá,
+los datos faltantes del NPS,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/301-4
+00:45:52.040 --> 00:45:53.959
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>mirar qué tanto les afecta.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/302-0
+00:45:54.119 --> 00:45:58.943
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Mirar acá ya hemos dado unas luces de que
+podría ser, que no podría ser,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/302-1
+00:45:58.943 --> 00:46:03.239
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>pero igual abierta que ustedes cuando lo
+estén analizando digan.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/303-0
+00:46:04.439 --> 00:46:10.029
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>No lo voy a imputar porque pues a mí me
+parece que eso pues a mí me parece que</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/303-1
+00:46:10.029 --> 00:46:15.762
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>eso no afecta dado que el análisis que
+hice muestra que eso es así válido porque</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/303-2
+00:46:15.762 --> 00:46:21.423
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>lo están sustentando o no voy a hacer
+nada porque eso me induce un sesgo en tal</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/303-3
+00:46:21.423 --> 00:46:22.839
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>partido en tal cosa.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/304-0
+00:46:24.359 --> 00:46:25.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Válido también.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/305-0
+00:46:27.159 --> 00:46:30.999
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y una tabla limpia que ya el CCV.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/306-0
+00:46:31.719 --> 00:46:35.616
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Conecta limpieza 3.
+Esto yo creo que es base ya para las</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/306-1
+00:46:35.616 --> 00:46:39.923
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>siguientes análisis.
+Ya cada uno trabajará sobre ese sobre ese</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/306-2
+00:46:39.923 --> 00:46:43.479
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>data ser limpio.
+Ya creo que a ellos no les pasaré.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/307-0
+00:46:44.359 --> 00:46:49.545
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Ya pues tengan eso muy presente,
+pues porque ya vamos a trabajar sobre los</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/307-1
+00:46:49.545 --> 00:46:53.279
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>la base que ustedes limpiaran como la
+hayan limpiado.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/308-0
+00:46:55.479 --> 00:46:59.679
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y escoger unas su pesetas candidatas,
+unas localidades candidatas,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/308-1
+00:46:59.679 --> 00:47:03.879
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>acá les da la las indicaciones y unas
+preguntas de interpretación.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/309-0
+00:47:06.759 --> 00:47:09.541
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Bueno,
+ya les dejo ahí para que ustedes</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/309-1
+00:47:09.541 --> 00:47:14.479
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>continúen y cualquier duda me vayan a ir
+diciendo por acá alguna duda.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/310-0
+00:47:15.479 --> 00:47:18.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Del plan de lo que vamos a hacer ahorita
+en esa hora y media.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/311-0
+00:47:20.439 --> 00:47:23.787
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Listo,
+lo voy a dejar y ahorita definimos el</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/311-1
+00:47:23.787 --> 00:47:29.815
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>tema de entregas y el tema de la clase
+del jueves y todos estamos de acuerdo que</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/311-2
+00:47:29.815 --> 00:47:33.759
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>sea a las 6:00 o si hay alguien en
+desacuerdo, pues.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/312-0
+00:47:34.999 --> 00:47:39.279
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Pues avisa para ver cómo cuadramos con
+esa clase.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/313-0
+00:47:41.719 --> 00:47:43.879
+<v MAURICIO  MONTOYA RAMIREZ>Oh, está bien, está bien, profe.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/314-0
+00:47:45.159 --> 00:47:45.959
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Listo.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/315-0
+00:47:48.399 --> 00:47:48.639
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>No.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/316-0
+00:47:49.799 --> 00:47:50.199
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Google.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/317-0
+00:47:54.519 --> 00:47:57.366
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Sí,
+lo que pasa es que hubo como unos 67</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/317-1
+00:47:57.366 --> 00:48:02.644
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>estudiantes que lo que no sé si no
+pudieron venir y ellos me los estuvieron</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/317-2
+00:48:02.644 --> 00:48:07.158
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>enviando individuales.
+Entonces ya ahorita me paso esa listado y</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/317-3
+00:48:07.158 --> 00:48:09.519
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>les comparto lo que tengo oficial.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/318-0
+00:48:10.599 --> 00:48:14.239
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y les asendo un número para que me sigan
+escribiendo sobre ese número.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/319-0
+00:48:16.199 --> 00:48:16.599
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Set.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/320-0
+00:48:19.639 --> 00:48:20.879
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Acá, bueno, entonces.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/321-0
+00:48:19.879 --> 00:48:22.742
+<v MAURICIO  MONTOYA RAMIREZ>Pues por ahí,
+por el chat nos puede colocar los grupos</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/321-1
+00:48:22.742 --> 00:48:26.439
+<v MAURICIO  MONTOYA RAMIREZ>como para refrescar eso y que todo mundo
+sepa qué número tiene, no sé.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/322-0
+00:48:26.679 --> 00:48:30.707
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Sí, ya se los paso acá.
+Yo creo que todo el mundo está como de</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/322-1
+00:48:30.707 --> 00:48:34.479
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>acuerdo que empecemos la clase de las
+6:00, no veo ningún.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/323-0
+00:48:35.399 --> 00:48:38.782
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Ninguna contradicción,
+entonces yo creo que se hace en su primer</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/323-1
+00:48:38.782 --> 00:48:39.199
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>acuerdo.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/324-0
+00:48:40.279 --> 00:48:42.199
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Voy a ponerlo aquí en el.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/325-0
+00:48:43.239 --> 00:48:44.999
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>En nuestro general.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/326-0
+00:48:45.999 --> 00:48:47.559
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Para que no nos quede en este chat.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/330-0
+00:49:04.359 --> 00:49:08.639
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Uy, sí, incluso bajo la dinámica, no,
+yo no lo voy a tener hasta las 10.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/331-0
+00:49:10.679 --> 00:49:13.025
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>A 9,
+pero bajo la dinámica que estamos</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/331-1
+00:49:13.025 --> 00:49:16.154
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>trabajando,
+yo creo que hasta podríamos al menos la</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/331-2
+00:49:16.154 --> 00:49:20.907
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>clase presencial hasta las 8 porque la
+primera 2 horas sería en la teoría y ya</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/331-3
+00:49:20.907 --> 00:49:24.879
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>las siguientes como práctica que ustedes
+vayan haciendo entonces.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/332-0
+00:49:27.679 --> 00:49:31.479
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Los acuerdos a los que hemos llegado
+acuerdos.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/333-0
+00:49:39.879 --> 00:49:41.839
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Clase del jueves.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/334-0
+00:49:48.359 --> 00:49:50.559
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>El jueves 19 y 26.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/336-0
+00:50:01.399 --> 00:50:01.879
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>E.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/337-0
+00:50:04.119 --> 00:50:05.039
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Virtual.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/338-0
+00:50:06.519 --> 00:50:07.639
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Hora inicio.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/339-0
+00:50:09.479 --> 00:50:10.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Say "Fame".</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/345-0
+00:50:34.919 --> 00:50:37.919
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Habíamos hablado de que la entrega.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/346-0
+00:50:39.439 --> 00:50:42.599
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Voy a hacer un récord de lo que hemos
+entregado se lo aumento.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/348-0
+00:50:43.919 --> 00:50:45.959
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entrega ese uno.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/349-0
+00:50:48.239 --> 00:50:50.759
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Esa entrega fue hasta.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/350-0
+00:50:51.919 --> 00:50:55.799
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Ayer, viernes 13, uy, ayer era viernes 13.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/351-0
+00:50:57.999 --> 00:51:00.839
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Uy, sí, viernes 13 de noviembre.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/352-0
+00:51:02.319 --> 00:51:05.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>5 PM los que no lo hayan entregado.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/353-0
+00:51:08.319 --> 00:51:11.302
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Porfa,
+entregarlo más tardar ahorita en la</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/353-1
+00:51:11.302 --> 00:51:12.759
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>mañana, porque yo ya.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/354-0
+00:51:14.079 --> 00:51:16.559
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Ya estoy terminando de revisar,
+entonces no.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/355-0
+00:51:17.759 --> 00:51:19.599
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>no me quieren voltear con eso.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/356-0
+00:51:21.439 --> 00:51:24.679
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entrega s 2 s 3.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/357-0
+00:51:30.159 --> 00:51:32.079
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Sesión uno, uy.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/358-0
+00:51:33.199 --> 00:51:33.599
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Google.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/359-0
+00:51:35.799 --> 00:51:39.094
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Ahorita se los paso,
+ahorita se los paso de una vez,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/359-1
+00:51:39.094 --> 00:51:43.199
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>sesión uno, sesión 2, bueno,
+las entonces entrega sesión, uy, yo.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/362-0
+00:51:51.079 --> 00:51:55.472
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>S 2, s 3,
+s 2 y s 3 para que queden que son 2</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/362-1
+00:51:55.472 --> 00:52:00.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>entregables,
+van a ser el dijimos que el miércoles.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/363-0
+00:52:05.119 --> 00:52:07.159
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Miércoles, 18 de noviembre.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/364-0
+00:52:08.239 --> 00:52:11.159
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Pues o sea, le digo que a más tardar,
+pero.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/366-0
+00:52:12.319 --> 00:52:15.519
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Pero yo espero que con el tiempo que
+tenemos hoy,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/366-1
+00:52:15.519 --> 00:52:18.399
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>a menos la deseo me lo envíen durante
+clase.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/367-0
+00:52:20.799 --> 00:52:21.519
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>May I not.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/368-0
+00:52:23.039 --> 00:52:23.359
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Hello.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/369-0
+00:52:26.879 --> 00:52:33.079
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Creo que no tenemos hasta el momento más
+acuerdos y bueno, correo entrega.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/370-0
+00:52:37.999 --> 00:52:39.119
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Este correo.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/374-0
+00:53:02.239 --> 00:53:03.039
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Formato.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/375-0
+00:53:04.799 --> 00:53:06.479
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Del asunto.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/376-0
+00:53:08.799 --> 00:53:12.639
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y nombre del archivo puede ser el mismo
+Serena Elia.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/377-0
+00:53:15.519 --> 00:53:16.279
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Yes.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/378-0
+00:53:22.039 --> 00:53:24.559
+<v MAURICIO  MONTOYA RAMIREZ>Simplemente adicionando el grupo y ya.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/379-0
+00:53:26.199 --> 00:53:26.679
+<v MAURICIO  MONTOYA RAMIREZ>Gent.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/380-0
+00:53:26.319 --> 00:53:28.759
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Exacto, eso lo antes cambiarle el grupo.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/381-0
+00:53:29.839 --> 00:53:32.599
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Pero así tan sencillo que suena.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/382-0
+00:53:33.919 --> 00:53:37.871
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y hay gente que, o sea, cada uno,
+eso es algo muy interesante porque cada</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/382-1
+00:53:37.871 --> 00:53:42.143
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>uno lo interpreta de una forma diferente
+y salen muchas combinaciones de lo que</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/382-2
+00:53:42.143 --> 00:53:43.639
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>uno no esperaría que pasara.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/383-0
+00:53:44.639 --> 00:53:50.279
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entonces lo único que tiene que cambiar
+es la sesión, pues depende de la sesión,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/383-1
+00:53:50.279 --> 00:53:54.317
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>pues sesión 123, y el Grupo,
+el Grupo que cada uno tenga,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/383-2
+00:53:54.317 --> 00:53:55.919
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>pues voy a ponerlo acá.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/384-0
+00:54:00.079 --> 00:54:04.923
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Todo dice proyecto a porque fue el
+proyecto que alcanzamos a el que alcancé</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/384-1
+00:54:04.923 --> 00:54:08.364
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>a preparar,
+pero la idea era que hubieran 3 proyectos</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/384-2
+00:54:08.364 --> 00:54:11.679
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>diferentes,
+entonces por eso siempre va proyecto a.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/385-0
+00:54:15.519 --> 00:54:16.319
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Yeah.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/386-0
+00:54:18.639 --> 00:54:20.479
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>X es el.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/387-0
+00:54:21.519 --> 00:54:22.959
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Número de la sesión.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/388-0
+00:54:25.999 --> 00:54:26.719
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>E.J.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/389-0
+00:54:27.919 --> 00:54:28.759
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Es.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/390-0
+00:54:30.159 --> 00:54:32.879
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>El no matter del group.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/391-0
+00:54:35.679 --> 00:54:36.959
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Todos claros hasta ahí.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/392-0
+00:54:39.359 --> 00:54:39.999
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Y.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/393-0
+00:54:41.599 --> 00:54:44.942
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>bueno,
+voy a voy a enviarme lo que tengo de los</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/393-1
+00:54:44.942 --> 00:54:47.799
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>grupos y ya definimos los que nos faltan.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/397-0
+00:55:05.759 --> 00:55:07.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>¿Entonces me voy a enviar acá?</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/398-0
+00:55:09.119 --> 00:55:09.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>And.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/399-0
+00:55:13.199 --> 00:55:14.079
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Loki thing.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/416-0
+00:56:20.079 --> 00:56:23.834
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Listo, chicos,
+si quieren todos tenemos aquí a la</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/416-1
+00:56:23.834 --> 00:56:29.015
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>pantalla. Yo tengo esos grupos,
+esos grupos los tengo identificados.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/416-2
+00:56:29.015 --> 00:56:34.047
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Tengo 18 grupos oficiales,
+hay varios grupos que están individual,</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/416-3
+00:56:34.047 --> 00:56:35.399
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>o sea, no hay lío.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/417-0
+00:56:37.399 --> 00:56:41.359
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Me faltan estos de los que están aquí en
+clase.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/418-0
+00:56:42.959 --> 00:56:45.279
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>¿O alguien conoce alguno de ellos?</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/419-0
+00:56:47.119 --> 00:56:48.279
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Que no tenga grupo.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/420-0
+00:56:49.519 --> 00:56:50.999
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>O de los que están en Teams.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/423-0
+00:56:59.199 --> 00:57:02.439
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>bueno, Uy, gracias, yo no lo vi,
+voy a buscarlo.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/424-0
+00:57:08.719 --> 00:57:11.359
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>O alguien los tiene por ahí pronto la
+mano que me ayude para no.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/425-0
+00:57:16.959 --> 00:57:19.599
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Hoy no voy a publicar esto y voy a mirar
+publicar.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/426-0
+00:57:28.799 --> 00:57:29.039
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Oh.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/427-0
+00:57:41.839 --> 00:57:43.279
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>A ver, I say good.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/430-0
+00:58:01.759 --> 00:58:05.039
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>¿Nicole Gaviria, listo,
+hay alguien más en ese grupo?</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/431-0
+00:58:07.919 --> 00:58:08.399
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Lisa.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/432-0
+00:58:14.719 --> 00:58:15.959
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Maria Camila.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/433-0
+00:58:16.959 --> 00:58:17.999
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Individual, ajá.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/434-0
+00:58:20.359 --> 00:58:20.759
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Sara.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/435-0
+00:58:23.359 --> 00:58:23.399
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>O.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/437-0
+00:58:24.959 --> 00:58:25.839
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Allison.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/438-0
+00:58:31.679 --> 00:58:35.627
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Listo, no súper.
+Entonces yo sí voy antes a continuar con</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/438-1
+00:58:35.627 --> 00:58:40.052
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>la suposición que tenía,
+que los que faltaban eran individuales.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/438-2
+00:58:40.052 --> 00:58:41.959
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>No hay más grupos, entonces.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/439-0
+00:58:45.599 --> 00:58:51.359
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Voy a asignarles aquí un número y si van
+en grupo, pues me avisan para unelos.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/440-0
+00:58:53.279 --> 00:58:56.559
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Si hay alguien que no se vea en esta
+lista, también.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/441-0
+00:58:57.479 --> 00:59:00.819
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Me avisan para pasar,
+pues pasar la novedad ahí a la</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/441-1
+00:59:00.819 --> 00:59:01.639
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>coordinación.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/442-0
+00:59:09.999 --> 00:59:13.839
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Entonces acá va a poner eso aquí en la
+general.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/445-0
+00:59:27.839 --> 00:59:28.679
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>De trabajo.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/446-0
+00:59:31.519 --> 00:59:32.599
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>This is acá.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/447-0
+00:59:34.399 --> 00:59:38.519
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Iba a poner acá si no aparece su nombre.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/448-0
+00:59:42.319 --> 00:59:44.919
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Sí, me escribe.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/449-0
+00:59:48.639 --> 00:59:50.639
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Al escribe.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/450-0
+00:59:52.879 --> 00:59:56.479
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Para pasar la novedad con.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/451-0
+00:59:57.359 --> 00:59:57.599
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>No.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/452-0
+00:59:59.919 --> 01:00:00.559
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>What do you mean?</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/453-0
+01:00:09.839 --> 01:00:12.571
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Listo, chicos,
+entonces ya no molesta más y ya los dejo</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/453-1
+01:00:12.571 --> 01:00:15.255
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>ahí para que sigan trabajando.
+Muchas gracias a todos.</v>
+
+d3bdb0c2-d4dc-49f5-abbc-a8fb3ca9a1b6/453-2
+01:00:15.255 --> 01:00:16.719
+<v Esp. Anal&#237;tica de Datos Segundo Semestre G2>Cualquier duda me preguntando.</v>

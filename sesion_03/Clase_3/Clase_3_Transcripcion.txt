@@ -1,0 +1,4577 @@
+TRANSCRIPCIÓN — REUNIÓN SESIÓN 3
+Curso: Visualización de Datos y Gerencia de la Información
+(Dos partes; formato: Ponente: intervención)
+
+===== PARTE 1 =====
+
+Se han notado,
+
+el curso no es para aprender a programar.
+
+Vienen bloques de código,
+
+código denso que nosotros no estamos
+
+revisando acá en clase,
+
+incluso les paso los nodos para que lo
+
+Esp. Analítica de Datos Segundo Semestre G2: tomen como referencia.
+
+Porque el propósito del curso no es
+
+programar ya ustedes a este nivel y ya
+
+este siendo el último curso de ustedes en
+
+la especialización,
+
+que han tenido muchas otras materias para
+
+ponerse a practicar y desarrollar en
+
+Python y ponerse a mirar por qué el
+
+código, por qué el otro igual.
+
+Igual súper bienvenido,
+
+si hay que hacer alguna revisión o algo.
+
+El propósito del curso es ver la
+
+visualización y cómo.
+
+Esta nos puede ayudar a transmitir el
+
+mensaje que queremos transmitir.
+
+Quería hacer esa aclaración,
+
+pues para que no, de pronto no.
+
+No se sientan ahí que este es u otro
+
+curso más de programación, sino es.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Es más de cómo uso?
+
+Eso es herramienta para transmitir el
+
+mensaje.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces.
+
+La sesión de hoy es podemos confiar en lo
+
+que vemos.
+
+Y en últimas lo que queremos hacer aquí
+
+es un tema de calidad de datos,
+
+Esp. Analítica de Datos Segundo Semestre G2: queremos a correr para no.
+
+Esp. Analítica de Datos Segundo Semestre G2: O.
+
+En últimas,
+
+es un tema de calidad de datos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Un tema de.
+
+¿Puedo confiar en lo en los datos que
+
+están o tengo que hacerle alguna
+
+Esp. Analítica de Datos Segundo Semestre G2: transformación?
+
+Esp. Analítica de Datos Segundo Semestre G2: Cambia.
+
+Esp. Analítica de Datos Segundo Semestre G2: Cambia es el resultado.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿O influye?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Sí, voy a tomar una decisión, qué tan?
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+¿Qué debería ser este y yo y cómo lo
+
+puedo mitigar?
+
+O al menos saber qué es lo que voy a
+
+hacer, no es eliminar por eliminar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Como a veces terminamos haciendo de.
+
+Eliminamos los nulos y entrenamos y ya,
+
+sino esos nulos me estaban aportando algo,
+
+si valían la pena eliminarlos,
+
+no valían la pena eliminarlos,
+
+podía imputarlos.
+
+Entonces la clase de hoy va a ser en
+
+últimas, que es un dato de calidad,
+
+unas dimensiones definidas ahí.
+
+¿Los problemas del caso para ver qué pues
+
+esos valores atípicos faltantes,
+
+Esp. Analítica de Datos Segundo Semestre G2: cómo nos afectan?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Y un tema de cómo?
+
+¿Cómo documentarlas y verificar su
+
+impacto?
+
+¿Entonces,
+
+por qué es importante esta sesión dentro
+
+Esp. Analítica de Datos Segundo Semestre G2: del mapa que tenemos planteado?
+
+Porque ya la el objetivo de hoy de esta
+
+sesión con este notebook es ya dejar
+
+Esp. Analítica de Datos Segundo Semestre G2: nuestros datos limpios.
+
+Y listos para procesar.
+
+Entonces ya esa va a ser nuestra base,
+
+prácticamente lo que sigue en adelante
+
+del SSQ A,
+
+del tablero y cuando estemos en las
+
+sesiones prácticas de Power Bi,
+
+pues muy probablemente la base que usemos
+
+es la que generemos de aquí.
+
+Ahí yo creo que nos toca agregar una base
+
+más para el tema de los mapas,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero el corazón va a salir de esta clase.
+
+Entonces, la teoría en teoría,
+
+como lo que vamos a ver hoy es la calidad
+
+Esp. Analítica de Datos Segundo Semestre G2: como actitud para el uso.
+
+Actitud,
+
+datos aptos para tomar decisiones,
+
+Esp. Analítica de Datos Segundo Semestre G2: vamos a analizar.
+
+¿Cuál Los valores límites,
+
+los imposibles y los outliers.
+
+Vamos a mirar cómo tratar los datos
+
+faltantes. Yo creo que.
+
+Esp. Analítica de Datos Segundo Semestre G2: A este punto no sé si para todos es.
+
+Pues esas siglas en car,
+
+en mar y en nar son este.
+
+Pues son conocidas o desconocidas,
+
+igual vamos a ver aquí. este.
+
+Una definición y porque y porque esas
+
+definiciones y vamos a hacer la bitácora
+
+de todas las cosas que estamos haciendo.
+
+Entonces, a la final es documentar, bueno,
+
+eliminamos esto, esto nos implica esto,
+
+eliminamos esto, agregamos esto,
+
+Esp. Analítica de Datos Segundo Semestre G2: esto no lo tocamos, etcétera.
+
+Tenemos los 2 casos en el caso de Golden
+
+State,
+
+Esp. Analítica de Datos Segundo Semestre G2: que es el que estoy llevando yo en clase.
+
+Vamos a analizar que 10 de las mejoras de
+
+las mejores.
+
+Valores, por así decirlo,
+
+y ver si es que tan real es eso,
+
+Esp. Analítica de Datos Segundo Semestre G2: si yo lo hubiera propuesto como.
+
+Como una solución como para ir a invertir
+
+las reglas de exclusión,
+
+la bitácora y unos candidatos
+
+preliminares a partir de lo que de lo que
+
+hagamos hoy y en Conecta,
+
+el caso que ustedes llamando a ustedes,
+
+Esp. Analítica de Datos Segundo Semestre G2: lo que yo espero es que.
+
+Que revisemos bien la variable que
+
+debemos definida de cancelación y eso que
+
+tanto les afecta.
+
+Miren también el tema de las de la
+
+limpieza en su base de datos y al final
+
+ustedes deben entregar una tabla limpia y
+
+unas y unas pues localidades candidatas
+
+para el análisis.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces es lo que vamos a hacer hoy.
+
+Si ustedes ven,
+
+va muy en línea con lo que habían hecho
+
+ayer,
+
+porque ayer ustedes lo que estaban
+
+haciendo era explorar con gráficos un
+
+montón de la base de datos,
+
+Esp. Analítica de Datos Segundo Semestre G2: conocer que hay ahí.
+
+Entonces podemos ver la clase ayer como
+
+una clase de exploración de datos,
+
+conocer más los datos y la clase de hoy
+
+ya es como sentar una base y decir que me
+
+Esp. Analítica de Datos Segundo Semestre G2: sirve y que no de ahí.
+
+Entonces, en resumen,
+
+de nuestra clase de la sesión 2,
+
+hemos visto un tema de gangas.
+
+¿Alguien recuerda cómo definimos nosotros
+
+Esp. Analítica de Datos Segundo Semestre G2: la gangas en el?
+
+Esp. Analítica de Datos Segundo Semestre G2: En nuestro caso de Conecta de Housing.
+
+¿Alguien recuerda el indica?
+
+¿Alguien recuerda el housing?
+
+5%.
+
+Nosotros habíamos definido un indicador,
+
+el indicador era a la final cuántos años
+
+de salario.
+
+¿Necesito una persona para pagar su casa,
+
+cierto?
+
+Esp. Analítica de Datos Segundo Semestre G2: DS.
+
+Nosotros dijimos,
+
+hay personas que necesitan un año de
+
+salario,
+
+unas personas necesitan menos de un
+
+salario,
+
+otras personas necesitan más de un
+
+salario y personas que necesitan hasta 14
+
+años de salario para pagar salario anual
+
+para pagar su casa.
+
+Entonces ese fue nuestro indicador.
+
+Cierto,
+
+y de ayer del análisis encontramos que.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+Estas que estaban aquí en la mitad,
+
+que era la franja central,
+
+eran los que tenían los distintos con
+
+mejores gangas, por así decirlo,
+
+porque están por debajo del umbral del 5%,
+
+que el umbral del 5% estaba en 2 años,
+
+Esp. Analítica de Datos Segundo Semestre G2: como que las personas que.
+
+Tenían 2 años o menos de salario los
+
+distritos que tuvieran 2 años o menos de.
+
+De salario para pagar su casa,
+
+pues eran los que íbamos a definir
+
+Esp. Analítica de Datos Segundo Semestre G2: nosotros como una ganga.
+
+Eso nos dejó una cantidad de distritos
+
+que no recuerdo que eran 1032.
+
+Esp. Analítica de Datos Segundo Semestre G2: El 92% de 2032 estaba acá en el interior.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+A partir de 3 gráficos vimos unas cosas
+
+sospechosas.
+
+La primera que yo recuerdo y que la puse
+
+aquí era que había un valor de.
+
+Había un valor de del precio de la casa
+
+que se que se que se que en 15000 marcaba
+
+como un pico.
+
+No sé si recuerdan que estaba la
+
+distribución y ya al final había como una
+
+barra que sobresalía.
+
+Esp. Analítica de Datos Segundo Semestre G2: Esa era una.
+
+También habían unos distritos a que
+
+valían 500000 USD y se quedan ahí 965.
+
+Y una variable que no creo que alcanzamos
+
+a ver y no sé si bueno,
+
+no la no la vimos en ayer en clase,
+
+pero era.
+
+Esp. Analítica de Datos Segundo Semestre G2: La antiwear.
+
+Esp. Analítica de Datos Segundo Semestre G2: Antigua tan tenía.
+
+Esp. Analítica de Datos Segundo Semestre G2: Un pico raro.
+
+Esp. Analítica de Datos Segundo Semestre G2: Aquí en la.
+
+La fe de erratas de con respecto a la
+
+sesión anterior,
+
+que es el comentario que me hizo Mario
+
+ayer cuando estaba revisando el notebook
+
+de la clase guiada,
+
+cuando él estaba intentando entender un
+
+poco más a partir del código,
+
+lo que habíamos visto era este sanking.
+
+Todos recuerdan lo que cómo interpretar
+
+ese sanki.
+
+Que teníamos 2 ejes,
+
+en un eje estaba la categoría,
+
+si era hogar, móvil, postpago,
+
+prepago y en la otra estaba,
+
+pues estaba la final del periodo de
+
+tiempo. Si continúan en la compañía,
+
+si se habían retirado de forma voluntaria,
+
+si se habían retirado por mora y si se
+
+Esp. Analítica de Datos Segundo Semestre G2: habían retirado por recarga.
+
+¿Dónde estaba el error? O,
+
+pero ese error era de ese error era al
+
+momento de hacer la fórmula para saber
+
+quiénes continuaban y quiénes no.
+
+Lo que pasa es que la fórmula evaluaba
+
+que si yo empezaba al final, bueno.
+
+A la final era como que él miraba el
+
+último mes,
+
+Esp. Analítica de Datos Segundo Semestre G2: si ya estaba en el último mes de la base.
+
+Me continuaba como que yo seguía vivo en
+
+la empresa.
+
+Pero el último mes no verificaba el
+
+Estado.
+
+En el último mes también hay gente que se
+
+va,
+
+que entonces tocaba agregarle una
+
+condición diciéndole que estuviera en el
+
+Esp. Analítica de Datos Segundo Semestre G2: último mes y que no hubiera cancelado.
+
+Esa fue la corrección, mal no recuerdo,
+
+no sé si pues si Maria está por ahí,
+
+no sé si iba por ahí o si él encontró
+
+algo más.
+
+No sé si era Mario, Carlos, bueno,
+
+uno de los 2 fue el que me el que me hizo
+
+la el comentario,
+
+pero en últimas muy valioso ese
+
+comentario porque lo corregí de una vez y
+
+lo otro es que en proporciones,
+
+si ustedes ven acá no lo no lo mostré,
+
+pero en proporciones estos en acá está.
+
+En proporciones cambia y miren aquí una
+
+cosa, miren que ese cambio.
+
+Yo estaba acá ya haciendo algo mal porque
+
+con respecto,
+
+yo ya estaba inventando datos,
+
+estaba dándoles datos erróneos.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué me salvó a mí?
+
+Pues que en últimas la tendencia
+
+pareciera que continúa el menor,
+
+la menor cantidad de gente que ciudad
+
+está en home. Acá también está en home,
+
+en postpago 154168 aumenta un punto,
+
+acá más o menos 1.3933.
+
+Más o menos 2 puntos y aquí más o menos
+
+hay unos.
+
+Esp. Analítica de Datos Segundo Semestre G2: 700800 que se fuera.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces.
+
+Vean que muy valioso eso y lo y lo
+
+resalto porque a veces uno comete errores
+
+y por eso es que cuando uno está también
+
+en una situación real,
+
+pues uno muestra de mostrarle nuestros
+
+resultados a un compañero para que él.
+
+Esp. Analítica de Datos Segundo Semestre G2: A partir de su expertise.
+
+También le haga un nuevo feedback, sí,
+
+y pues puede que sigan pasando errores
+
+porque puede que él no vea cosas,
+
+pero ya son 2 ojos y no solamente uno.
+
+A veces uno cuando está haciendo algo se
+
+concentra y no ve unas cosas que para de
+
+pronto para otros puede ser muy obvia y
+
+cuando le hacen, entonces uno dice, uy,
+
+Esp. Analítica de Datos Segundo Semestre G2: si no la tenía en cuenta y uno corre.
+
+Entonces es una buena práctica también
+
+que hay que desarrollar ahí en la.
+
+Pues sobre todo acá en analítica que
+
+nosotros tenemos esa responsabilidad de
+
+los datos. Entonces,
+
+muchas gracias ahí por el feedback.
+
+Ahí yo me llevé la corrección. Entonces,
+
+el primer tema de la clase, ahora sí,
+
+entrando en clase es la calidad de los
+
+datos. Entonces,
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿qué es un dato de calidad?
+
+Entonces hay un artículo por allá en el
+
+96,
+
+donde Juan y Stone preguntaron a usuarios
+
+de datos que entendían por calidad.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+Y a la final estaban buscando cuáles eran
+
+los datos óptimos para el uso de quien
+
+los consume. Por lo general,
+
+nosotros solamente nos enfocamos en
+
+cuando estamos girando la calidad de
+
+datos en la exactitud de que sea exacto,
+
+pero hay otras dimensiones que hay que
+
+tener en cuenta.
+
+Esp. Analítica de Datos Segundo Semestre G2: Vamos a verlo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Esa es la tabla.
+
+Esta tabla es una tabla densa donde en
+
+últimas se resume en cuatro categorías la
+
+Esp. Analítica de Datos Segundo Semestre G2: calidad de un dato.
+
+Cada categoría tiene unas dimensiones y
+
+yo traté de aquí hacer un símil para.
+
+Esp. Analítica de Datos Segundo Semestre G2: Para.
+
+Para nuestros casos en particular,
+
+entonces, por ejemplo,
+
+en la categoría intrínseca,
+
+las dimensiones están la exactitud,
+
+la objetividad,
+
+la credibilidad y la reputación.
+
+Esp. Analítica de Datos Segundo Semestre G2: Creo que me voy a ir aquí para.
+
+Y ahorita volvemos a esta diapositiva
+
+para entender un poco la definición.
+
+Entonces,
+
+que es un que un dato sea exacto,
+
+que los datos sean correctos, confiables,
+
+que sean certificados y libres de error,
+
+que sean objetivos,
+
+que los datos sean imparciales y sin
+
+Esp. Analítica de Datos Segundo Semestre G2: sesgo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+Aquí importante el tema del sesgo y la
+
+imparcialidad, entonces.
+
+Por ejemplo, en empresas,
+
+cuando por ejemplo,
+
+las empresas como la banca,
+
+que usted tiene que hacer modelos para
+
+Esp. Analítica de Datos Segundo Semestre G2: saber si le presta a alguien o no.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué pasa?
+
+Esp. Analítica de Datos Segundo Semestre G2: Hay un área.
+
+De que viene a ser auditoría y dice,
+
+bueno, muéstreme el modelo.
+
+¿Cuáles son las variables?
+
+Y la misión de ellos es evitar que uno
+
+induzca sesgos. Por ejemplo, si yo,
+
+si yo pongo el género de una persona,
+
+Esp. Analítica de Datos Segundo Semestre G2: entonces.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué va a pasar?
+
+Si nuestra base está sesgada,
+
+que muchas de las personas que hacen un
+
+Esp. Analítica de Datos Segundo Semestre G2: préstamo son hombres.
+
+Esp. Analítica de Datos Segundo Semestre G2: K.
+
+Entonces,
+
+podría el modelo empezar a sesgarse para
+
+que a lo si es hombre le dé un puntaje un
+
+poquitico más alto que las mujeres.
+
+Ahí le estamos metiendo sesgo al modelo y
+
+hay áreas de calidad que vienen a auditar
+
+eso. Entonces,
+
+por eso es muy importante uno evaluar si
+
+Esp. Analítica de Datos Segundo Semestre G2: hay un posible sesgo.
+
+Si lo va a prestar, pues no debería,
+
+no debería importar ni el género ni la
+
+Esp. Analítica de Datos Segundo Semestre G2: raza, no sé.
+
+El estrato es debatible,
+
+pero no debería decir que solo le presto
+
+a los ricos y no a los pobres.
+
+Eso es un sesgo, pero.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+Pero eso sería política,
+
+porque podría ser que la política indique
+
+que solamente le presten a gente que
+
+tenga cédula colombiana,
+
+porque yo necesito rastrear eso y
+
+necesito reportarlo a la dian. y.
+
+Exacto,
+
+entonces hay importantes y esos son
+
+gabelas y son lineamientos que definen y
+
+digamos que no en todos los casos,
+
+por ejemplo, en mi caso de servicio,
+
+yo hago un modelo y pues un modelo,
+
+mi modelo no lo van a auditar para ver
+
+sin porque yo estoy buscando,
+
+Esp. Analítica de Datos Segundo Semestre G2: son dolores del cliente.
+
+A mí sí me interesaría saber, por ejemplo,
+
+si no sé si de pronto mi alguien está
+
+sufriendo porque no puede entrar a la
+
+aplicación.
+
+Y ahí,
+
+pues no tendría ningún tema de calidad.
+
+Y si yo tuviera la variable de género,
+
+probablemente eso no debería indicarme
+
+Esp. Analítica de Datos Segundo Semestre G2: nada, porque pues porque.
+
+Pues no hay indicativo de que si es
+
+hombre o mujer,
+
+a no ser de que sean asesores humanos y
+
+pasen cosas ahí, pero bueno.
+
+Esp. Analítica de Datos Segundo Semestre G2: El caso es que.
+
+El tema de la objetividad,
+
+la credibilidad,
+
+los datos se aceptan o se consideran
+
+verdaderos, reales y creíbles.
+
+La reputación se confía en los datos por
+
+su fuente o su contenido.
+
+Eso de manera intrínseca debe tener los
+
+datos de manera contextual.
+
+Los datos traen beneficios y ventajas,
+
+o sea, es decir,
+
+pues presentan un valor agregado,
+
+tienen relevancia,
+
+los datos son aplicables y útiles para la
+
+tarea.
+
+No sé si ustedes recuerdan ayer una
+
+gráfica.
+
+Donde veíamos el hit map de las
+
+correlaciones y veíamos 2 clusters,
+
+2 grupitos de variables que eran muy
+
+similares.
+
+Entonces, si las 2 variables,
+
+a pesar de que sean diferentes,
+
+me dicen lo mismo de cara al modelo,
+
+pues hay una redundancia, puedo usar una,
+
+puedo usar la otra.
+
+Hay modelos de clasificación de como de
+
+selección de orden de importancia de
+
+variables para decir.
+
+¿Cuál me aporta un poquitico más y cuál
+
+podría dejar de pronto por fuera?
+
+Oportunidad,
+
+la antigüedad de datos es apropiada para
+
+la tarea. No voy a, por ejemplo,
+
+a predecir el churn de julio y solo tengo
+
+los datos de febrero,
+
+sino si yo tengo un compilado de datos un
+
+poco extenso,
+
+yo ya puedo más o menos generalizar todos
+
+los comportamientos y no sesgarlo a un
+
+comportamiento en particular.
+
+Y eso pasa mucho, por ejemplo, en Churn,
+
+en para Churn.
+
+Nosotros a veces usábamos bases de
+
+diciembre o enero,
+
+que son meses estacionales donde la tasa
+
+de Churn aumentaba.
+
+Nuestros modelos aprendían las
+
+características de diciembre, enero,
+
+y cuando íbamos a aplicarlo en febrero,
+
+marzo.
+
+Pues él se aprendió lo que pasó en
+
+noviembre, diciembre, en diciembre, enero,
+
+ya cuando era febrero, marzo,
+
+un mes normal, no. Entonces,
+
+cuando nos auditaron esa parte,
+
+nos dijeron no tienen que meter más datos
+
+para coger esas estacionalidades para que
+
+el modelo no se nos aprenda algo
+
+Esp. Analítica de Datos Segundo Semestre G2: particular.
+
+Completitud,
+
+cantidad apropiada de los datos.
+
+No vamos a hacer una serie de tiempo con
+
+5 datos,
+
+sino que necesitamos una cantidad mínima
+
+de datos para hacerlo.
+
+La de la categoría de representación,
+
+la interpretabilidad son datos
+
+interpretables,
+
+la facilidad de comprensión son claros,
+
+la consistencia están en el mismo formato
+
+y son compatibles con los históricos de
+
+concisión que sean concisos.
+
+Los datos se representan en forma
+
+Esp. Analítica de Datos Segundo Semestre G2: compacta, sin abrumar.
+
+Y de accesibilidad ya se hace referencia
+
+a.
+
+¿A cómo se obtiene?
+
+Entonces se obtienen con facilidad o
+
+tengo que solicitar algunos permisos para
+
+acceder a esos datos y el acceso. y.
+
+Y pues también sí son datos sensibles,
+
+pues que tengan cierta restricción para
+
+que se mantengan seguros,
+
+entonces en nuestro caso.
+
+De la categoría intrínseca en Golden
+
+State tenemos unos,
+
+tenemos unos problemas que vamos nosotros
+
+a solucionar o vamos a buscar solucionar.
+
+Por ejemplo,
+
+tenemos en Golden Estate cuatro distritos
+
+Esp. Analítica de Datos Segundo Semestre G2: que están en 15 en 14999 USD.
+
+¿Qué es el valor piso de esa variable?
+
+Creo que esa es la ganancia de las
+
+Esp. Analítica de Datos Segundo Semestre G2: personas.
+
+Entonces tenemos un problema con la
+
+dimensión, exactitud,
+
+no confiamos que ese dato sea correcto,
+
+tenemos que revisarlo y 37.
+
+más de 10 personas y 37.
+
+más de 10 personas por hogar.
+
+Entonces también imagínense que según
+
+esto hay hogares que tienen más de 10
+
+Esp. Analítica de Datos Segundo Semestre G2: personas y hay 37 distritos que.
+
+Muestran esa,
+
+entonces suena como un poco raro, ¿no?
+
+Que en un hogar haga hayan más de 10
+
+personas, puede pasar.
+
+Pero nos toca verificar porque es una
+
+variable que puede ser,
+
+que puede suscitar un poco de duda y
+
+hacerlo. Yo les puse para Conecta,
+
+pero la idea es que ustedes con lo que
+
+están haciendo y creo que el primer
+
+ejercicio de la de la del taller de
+
+ustedes de hoy es eso,
+
+Esp. Analítica de Datos Segundo Semestre G2: es verificar esos esos datos que tienen.
+
+Ahí les proponen una metodología,
+
+mire falta antes, mire esto.
+
+Y verifique si hay una,
+
+si alguno de esos dominios se se se toca
+
+o no. De modo contextual,
+
+nosotros teníamos en Golden State una
+
+variable que se llama dormitorios,
+
+que tiene 207 nulos. entonces.
+
+Hay un problema de completitud.
+
+También tenemos 234 distritos con menos
+
+de 100 habitantes.
+
+Entonces también son distritos muy
+
+pequeñitos que de pronto nos dicen de los
+
+25000, pues de pronto no,
+
+pues no sabemos si se generan la cantidad
+
+apropiada.
+
+Y otra variable que no está acá,
+
+pero que si vimos ayer,
+
+no sé si recuerdan islas.
+
+Ya teníamos unas categorías,
+
+una de las categorías era islas y solo
+
+tenía como 5 distritos,
+
+Esp. Analítica de Datos Segundo Semestre G2: entonces en comparación.
+
+Con las otras que tenían 1002 1000 n 1000,
+
+esta pues esta variable también nos
+
+representaba ahí un tema de que le
+
+faltaban datos de representación.
+
+El ingreso viene en decenas de miles de
+
+dólares.
+
+Entonces podría haber un posible tema de
+
+interpretabilidad.
+
+Si esa variable no viene etiquetada,
+
+si no viene referenciada,
+
+que la escala son miles de dólares.
+
+Si yo veo un 3,5 en el ingreso, yo diría,
+
+Esp. Analítica de Datos Segundo Semestre G2: pues se podría suscitar la duda de son 3.
+
+3.5 USD o 35000.
+
+Entonces hay un tema ahí de
+
+interpretabilidad y de accesibilidad.
+
+En mi caso,
+
+mi base es de es de acceso público,
+
+entonces era es fácil de acceso y ya no
+
+vienen datos personales.
+
+Entonces también viene ahí curada con eso.
+
+Esp. Analítica de Datos Segundo Semestre G2: En el caso de ustedes revisarán.
+
+Los datos que tengan a ver qué les qué
+
+les pasa.
+
+Esp. Analítica de Datos Segundo Semestre G2: Todos claros hasta ahí.
+
+Idea central de lo que acabo de decir es
+
+los datos no solamente se miran por su
+
+exactitud,
+
+sino tienen unas unas dimensiones,
+
+unas categorías que toca también estar
+
+pendientes y revisarlas.
+
+El objetivo ahorita de la clase es
+
+evaluar una de esas inconsistencias y ver
+
+todo el valor agregado que le podemos
+
+sacar a eso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces.
+
+¿Y cómo hacemos para encontrar esos
+
+problemas entonces nosotros?
+
+Para eso hacemos un edad.
+
+Ustedes ya hicieron un curso en el edad,
+
+donde buscaban nulos,
+
+donde buscaban duplicados,
+
+donde buscaban un montón de cosas.
+
+El propósito del edad es darnos una
+
+visual de los datos.
+
+Nosotros digamos que dejamos el edad
+
+prácticamente para la sesión 3 porque
+
+nuestro curso es visualización.
+
+Esp. Analítica de Datos Segundo Semestre G2: Nosotros queríamos primero.
+
+Gráficos al montón y ya los tenemos,
+
+ya tenemos un directorio.
+
+Ahora ya nuestro nuestro objetivo es
+
+depurar la información para tener unos
+
+Esp. Analítica de Datos Segundo Semestre G2: gráficos de calidad.
+
+Entonces,
+
+miren que yo les voy a proponer aquí
+
+cuatro revisiones que salen de seda.
+
+La primera, cuántos valores,
+
+cuántos valores quedan exactamente con el
+
+mínimo y con el máximo. Entonces,
+
+mire que cuando ustedes hacen un edad,
+
+buscan mínimos máximos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces el primero que yo propongo es.
+
+Miremos esos valores límite o extremos
+
+para ver qué tan confiables, qué tan.
+
+¿A la final,
+
+qué tan nos que tanto nos pueden servir a
+
+Esp. Analítica de Datos Segundo Semestre G2: nosotros para el caso?
+
+Cuando ustedes estén viendo sus datos en
+
+Conecta van a ver,
+
+van a encontrar de pronto acá yo le
+
+señalo unas la.
+
+Unas latitudes de pronto raras o
+
+diferentes.
+
+Entonces vamos a lo que les propongo a
+
+ustedes y si mal no estoy en el taller,
+
+Esp. Analítica de Datos Segundo Semestre G2: les digo, bueno, revisemos esos casos.
+
+Esp. Analítica de Datos Segundo Semestre G2: But...
+
+Esp. Analítica de Datos Segundo Semestre G2: Para ver si qué podemos hacer con ellos.
+
+Una Otra segunda revisión que podemos
+
+hacer es mirar la distribución.
+
+Entonces nosotros empezamos a ver las
+
+distribuciones.
+
+Ayer vimos un montón de gráficas de
+
+distribuciones.
+
+Hoy vamos a ver esas distribuciones,
+
+pero con sentido que nos van a aportar a
+
+nosotros para nuestro caso en particular.
+
+En Golden State vamos a encontrar que
+
+vamos a encontrar que hay distritos donde
+
+tienen más de 10 personas por hogar.
+
+Y que hay unos distritos que son muy
+
+pequeñitos.
+
+Entonces vamos a mirar eso que tanto nos
+
+incide para analizar.
+
+¿O no?
+
+Y miren quién conecta acá le señala que
+
+hay 150 cuentas con pago en cero en todo
+
+el año.
+
+Entonces eso es lo que les debería estar
+
+mostrando lo que ustedes han ido viendo
+
+Esp. Analítica de Datos Segundo Semestre G2: en cada una de las cosas.
+
+De la tercera revisión que les propongo
+
+es contar los nulos. Entonces ya ahora sí,
+
+mirar los nulos y preguntar si la si la
+
+pregunta que nos que estamos solucionando
+
+la USA, ¿no?
+
+¿Y por qué esto es importante?
+
+Porque si yo veo aquí el tema de los
+
+nulos, yo puedo decirle a la primera,
+
+eliminemos cierto,
+
+eso ya eso ya es como un estándar de si
+
+hay nulos, eliminar y no,
+
+y pues hay otras cosas que se pueden
+
+hacer acá.
+
+En nuestro caso de Golden State tenemos
+
+207 nulos.
+
+Vamos a ver si vale la pena quitar o no.
+
+¿Y qué implicación tiene a la final?
+
+Cuando ustedes quitan datos,
+
+como les mostré ayer,
+
+dependiendo de cómo ustedes quiten datos,
+
+pueden estar sesgando la información.
+
+Puede que los nulos sean los clientes más
+
+buenos y ustedes los quitaron porque
+
+tenían la regla de que quitemos nulos,
+
+Esp. Analítica de Datos Segundo Semestre G2: entonces no.
+
+Esp. Analítica de Datos Segundo Semestre G2: Toca mirar esa implicación.
+
+En Conecta ustedes tienen una variable,
+
+yo no sé si hay más,
+
+pero al menos esta la tengo mapeada yo de
+
+que le en el EPS les falta,
+
+les faltan datos. Entonces ustedes,
+
+en su caso,
+
+tienen que revisar si eso les aporta o no,
+
+y qué tienen, qué implicaciones tienen.
+
+Hacer alguna de las opciones que tenemos
+
+para completar o quitar o eliminar todas
+
+Esp. Analítica de Datos Segundo Semestre G2: esas cosas.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y la última.
+
+La última revisión ya es más de leer
+
+diccionarios y contar valores distintos
+
+para ver si de pronto encontramos alguna
+
+inconsistencia. Por ejemplo,
+
+yo sé que en el caso de ustedes hay unas.
+
+Bogotá tiene 19 localidades y si ustedes
+
+hacen el conteo de las localidades les
+
+van a salir 38.
+
+¿Entonces que eso qué quiere decir?
+
+Puede que haya mayúsculas, minúsculas,
+
+tildes, cosas de ese estilo,
+
+que a eso hace que cuando ustedes estén
+
+haciendo los análisis,
+
+cuando repartan por localidades,
+
+pues les reparta la información y de
+
+pronto no estén diciendo encontrando la
+
+Esp. Analítica de Datos Segundo Semestre G2: verdad.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces empezamos con los valores límite.
+
+De los valores límite, el valor límite,
+
+pues son esos valores extremos.
+
+Y nosotros vamos a mirar en nuestro caso
+
+3 valores límites que encontramos en el
+
+caso de housing,
+
+entonces aquí hay 3 variables.
+
+La primera variable, si ustedes ven,
+
+parece muy sospechoso esta parte,
+
+por ejemplo,
+
+esta primera gráfica es la variable del
+
+valor de la vivienda que sean miles de
+
+dólares y ahí está la cantidad de
+
+distritos.
+
+Ustedes ven aquí la distribución,
+
+Esp. Analítica de Datos Segundo Semestre G2: miren que pareciera ser.
+
+Esp. Analítica de Datos Segundo Semestre G2: G.
+
+En el valor 500000 se corta la
+
+información, es decir,
+
+pareciera ser que cuando estaban pasando
+
+esta tabla,
+
+cuando llegaron al valor de viviendas es
+
+de 500000 o superiores,
+
+dijeron no todo lo que sea 500000 o
+
+superiores los vamos a dejar en 500000.
+
+Esp. Analítica de Datos Segundo Semestre G2: Eso es un valor límite.
+
+Y ahorita lo vamos a analizar.
+
+En nuestro caso teníamos 965 datos en
+
+500000.
+
+Ahora miremos esta variable de ingreso de
+
+Esp. Analítica de Datos Segundo Semestre G2: miles de dólares.
+
+Mire que pasa algo similar,
+
+sospechosamente llega hasta 150000 y
+
+Esp. Analítica de Datos Segundo Semestre G2: aunque se ve pequeñito.
+
+Pero miren que la escala de los que están
+
+por encima de 100000 ya es más, o sea,
+
+esta escala de 150000 vuelve a tocar como
+
+esa escala de 100000.
+
+Eso quiere decir que al parecer también
+
+cortaron la base en ingresos cuando se
+
+llegaba hasta ahí y en el tema de la edad
+
+de la vivienda en años se ve un poco más
+
+Esp. Analítica de Datos Segundo Semestre G2: evidente también.
+
+Que a los 50 años, bueno,
+
+acá 52 años también hicieron un corte.
+
+Todo lo que fuera superior a 52 lo
+
+pararon.
+
+¿Entonces,
+
+eso dónde lo sacamos del exploratorio del
+
+Esp. Analítica de Datos Segundo Semestre G2: EA?
+
+¿Cómo ustedes lo pueden encontrar en sus
+
+casos?
+
+Pues en el LED van a ver datos mínimos,
+
+datos máximos.
+
+Creo que ahí les propone una estrategia
+
+para que ustedes hagan ese análisis,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero esa es la idea.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces.
+
+En mi caso, este era, vamos,
+
+es parte de mi edad.
+
+Entonces si ustedes ven aquí está la
+
+variable longitud.
+
+El mínimo está en menos 124.
+
+35 y solamente hay uno en el mínimo.
+
+Esp. Analítica de Datos Segundo Semestre G2: El máximo está en ciento.
+
+Esp. Analítica de Datos Segundo Semestre G2: Menos 114 y solamente hay una del máximo.
+
+Entonces no hay como que una acumulación
+
+en esos extremos. Entonces yo digo, listo,
+
+pareciera que no hay problemas en esa
+
+variable de valores extremos.
+
+Miren que yo voy iterando por cada una de
+
+las variables cuando llego a la variable
+
+house,
+
+la antigüedad de la casa de la casa,
+
+Esp. Analítica de Datos Segundo Semestre G2: mire que en el mínimo.
+
+Hay cuatro valores, yo podría decir,
+
+pues normal es el valor mínimo,
+
+pues no sé,
+
+no sé cuánto es el valor mínimo.
+
+Acá dice que el valor mínimo es uno y eso
+
+está en escala de 1000. O sea,
+
+es como si hubiera una casa que cuesta,
+
+que tiene de antigüedad un año.
+
+Es válido porque es una casa entonces muy
+
+nueva y hay cuatro,
+
+pero miren para el otro lado,
+
+en el máximo que 52 años tiene 1273.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pareciera ser que.
+
+Ahí hay un corte de datos,
+
+entonces es una variable que la sacamos
+
+para analizarla un poco más a detalle,
+
+los el total de cuartos,
+
+el total de dormitorios,
+
+la población y la cantidad de hogares.
+
+No tienen nada que pareciera raro y
+
+cuando venimos al ingreso medio,
+
+mire que en el valor mínimo que es 0.5,
+
+que serían como no sé 500 USD,
+
+porque eso está en escala de miles.
+
+Hay 12 personas,
+
+Esp. Analítica de Datos Segundo Semestre G2: pues deben ser 12 personas que están.
+
+Tienen poquito de ingreso,
+
+pero en el valor máximo hay 50,
+
+entonces hay 49.
+
+Entonces pareciera ser que no hay ningún
+
+indicativo que nos dijera que un salario
+
+tiene que parar en algún punto. entonces.
+
+Se hace sospechoso para analizar.
+
+En últimas,
+
+acá no estamos sacando una conclusión
+
+antes y no estamos es detectando posibles
+
+variables para hacer análisis.
+
+Puede que eso sea un comportamiento
+
+normal o no. ¿Quién lo decide a la final?
+
+Nuestro análisis y el valor de la casa.
+
+Mire que hay 965 valores en el valor
+
+extremo.
+
+Es en que nos incide a nosotros que si
+
+esos 49 están con esto,
+
+pues este indicador nos va a dar
+
+relativamente alto.
+
+Entonces podríamos estar es ganando
+
+nuestro indicador por esos valores.
+
+Y entonces nosotros dijimos,
+
+el top 5 son nuestras gangas,
+
+el top 5 de personas que el indicador que
+
+de que en últimas era como las casas que
+
+tuvieran menos de 2 salarios,
+
+2 años de salario para pagarlas,
+
+eran nuestras gangas y viendo nuestras
+
+gangas.
+
+Miren que Miren esta gráfica que
+
+interpretan aquí.
+
+El primer valor que yo iba a recomendar,
+
+que es este.
+
+¿Estaba el indicador en cero 36?
+
+Ese indicador traducido en nuestro
+
+Esp. Analítica de Datos Segundo Semestre G2: lenguaje, ¿qué significa?
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿El indicador en uno, qué significaría?
+
+Que en un año para pagar,
+
+o sea que si está en cero 36.
+
+En el primer trimestre,
+
+cuatro meses ya estoy pagando la casa.
+
+Esp. Analítica de Datos Segundo Semestre G2: Se me hace sospechoso porque está muy.
+
+Y cuando vamos a ver eso es porque el
+
+valor.
+
+De la casa está en el borde inferior,
+
+14999 y el ingreso está en 41000,
+
+eso es 628.
+
+Este distrito tiene el valor de 14 de
+
+15000 y el ingreso de 41000 en ese
+
+distrito y hay 628 habitantes.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces, digamos que.
+
+Probablemente este esta de este tipo de
+
+lugares no me sirvan para recomendar,
+
+porque pareciera ser que hay un problema
+
+con estos datos,
+
+pareciera igual uno los denuncia.
+
+Entonces acá estoy tocando un valor piso
+
+Esp. Analítica de Datos Segundo Semestre G2: del archivo.
+
+Obviamente,
+
+eso lo estoy haciendo yo bajo los
+
+supuestos del caso.
+
+Cada uno cuando está con sus datasets,
+
+pues tiene más razones de peso para decir
+
+que excluye y que no para mí que esté el
+
+valor del ingreso del de la casa en el en
+
+uno de los mínimos.
+
+Y que ese mínimo se repita me lo hace
+
+sospechoso para no tenerlo en cuenta para
+
+Esp. Analítica de Datos Segundo Semestre G2: mi análisis.
+
+Miren,
+
+ese cero 71 pasa por el mismo valor,
+
+Esp. Analítica de Datos Segundo Semestre G2: el piso en el valor del de la casa.
+
+Este valor pareciera ser un valor normal
+
+acá este valor.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+Miren ese caso en particular,
+
+el valor del de la casa está en 32500,
+
+el ingreso está en 40000,
+
+pareciera bien da cero 8 ese esa razón.
+
+Pero la cantidad de habitantes es de 51.
+
+Estamos encontrando un distrito que solo
+
+tiene 51 habitantes,
+
+entonces un distrito que la mediana de
+
+habitantes por eso es de 51,
+
+yo podría decir.
+
+Que una regla podría ser de que si la
+
+mediana supera los 20 hogares,
+
+Esp. Analítica de Datos Segundo Semestre G2: no me interesa porque está superpoblada.
+
+Y ese es un criterio que yo defino como
+
+válido y entonces no lo tengo en cuenta
+
+porque tampoco me interesa invertir en un
+
+lugar donde ya no puedo hacer nada más.
+
+Miren que estos criterios que estoy
+
+denunciando son criterios que yo defino a
+
+partir del conocimiento del caso y lo que
+
+yo espero de eso. No hay un criterio.
+
+Aquí no le estoy diciendo que porque la
+
+fórmula de nada,
+
+sino porque yo empiezo a definir unos
+
+criterios de a la final lo que yo quiero
+
+Esp. Analítica de Datos Segundo Semestre G2: es que una mesa directiva invierta.
+
+Y yo le estoy tratando de ofrecer las
+
+como las.
+
+Gabelas o las cosas,
+
+los plus que puede tener cada sitio.
+
+Y así sucesivamente con cada uno de estos
+
+puedo mirar ahí y establecer unas unas
+
+Esp. Analítica de Datos Segundo Semestre G2: reglas para.
+
+Para escribirlos o tenerlos en cuenta,
+
+entonces aquí ya una vez el mensaje es
+
+una vez yo empiezo a analizar esos
+
+valores topes,
+
+yo ya puedo empezar a mirar cosas que me
+
+hacen sentido o no,
+
+y decidir si las tengo en cuenta o no
+
+para mi análisis.
+
+¿Entonces, qué hemos visto hasta aquí?
+
+Entonces vamos a armar una bitácora
+
+porque todo tiene que ir sustentado,
+
+porque yo puedo decirles a ustedes si yo
+
+veo que el valor del tope de la de la
+
+vivienda está en 500000 USD,
+
+lo excluyo porque no es un dato real,
+
+hay 965 datos, pero puede que.
+
+La mesa directiva diga no,
+
+eso es normal porque para mí eso
+
+significa que hay un potencial porque
+
+ellos ganan porque las casas cuestan
+
+500000 o más. Entonces,
+
+si yo invierto ahí, puedo ganar,
+
+no sé cualquier cosa o porque es muy
+
+exclusivo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yo.
+
+Como el que estoy haciendo el análisis
+
+transparentemente le digo, mire,
+
+esto no me pareció correcto, lo excluyo.
+
+Sí, ya la mesa directiva me dice,
+
+no inclúyalo, pues yo lo incluyo,
+
+pero en mi labor está en conocer que se
+
+Esp. Analítica de Datos Segundo Semestre G2: está pasando en los datos.
+
+Esp. Analítica de Datos Segundo Semestre G2: El mínimo.
+
+El mínimo acá lo también lo estuvieron
+
+porque no era un dato real, habían cuatro,
+
+entonces sacrificando cuatro datos el
+
+ingreso en el tope.
+
+Esp. Analítica de Datos Segundo Semestre G2: El bar el.
+
+Ese no me acuerdo cuál era,
+
+pero también lo excluí y son 51 distritos
+
+que tienen esa característica y hay una,
+
+hay una.
+
+Hay una variable que es el la edad de la
+
+vivienda de la vivienda en 52 años.
+
+En este caso yo decido que de pronto para
+
+la inversión no me importa la edad,
+
+aunque la edad puede ser un símil de qué
+
+tan buena puede estar la casa,
+
+porque una casa de 52 años o más puede
+
+que ya esté muy deteriorada y yo diga no,
+
+Esp. Analítica de Datos Segundo Semestre G2: pues no me sirve, la quito.
+
+O no me importa la edad porque la veo
+
+como un terreno para invertir.
+
+Por ejemplo, le digo que para en el banco,
+
+para que donde presten nada para el
+
+Esp. Analítica de Datos Segundo Semestre G2: crédito de la casa.
+
+Esp. Analítica de Datos Segundo Semestre G2: Una de las.
+
+Una de las validaciones es la antigüedad,
+
+porque entiendo que las casas que son muy
+
+antiguas no tienen unos estándares nuevos
+
+y como el banco es el que le presta este
+
+Esp. Analítica de Datos Segundo Semestre G2: dinero para comprar esa casa.
+
+A la final,
+
+ellos están es como invirtiendo en esa
+
+casa y si la casa no sé,
+
+hay un temblor y se cae,
+
+pues es como mayor riesgo.
+
+Entonces como que esos casos que son
+
+casas muy antiguas,
+
+creo que hay como un tope en 50 años.
+
+Ellos ya empiezan a decir que toca hacer
+
+un peritaje y que el peritaje me diga si
+
+Esp. Analítica de Datos Segundo Semestre G2: esa casa aguanta o no.
+
+Para invertir,
+
+entonces miren que en este caso en mi no
+
+la voy a tocar porque en mi indicador era
+
+cantidad de veces que yo.
+
+De mi salario para comprar una casa,
+
+entonces para mí no me tocaba,
+
+pero puedo que un versionista diga sí,
+
+inclúyala o no, inclúyala y ya mi.
+
+El mensaje a la final es en aras de la
+
+transparencia,
+
+digo las transformaciones que estoy
+
+haciendo,
+
+no muestro resultados sin esos como esos
+
+asteriscos, esa letra pequeña.
+
+Ahora vamos a mirar el tema de los
+
+valores imposibles.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces mire que.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Hay distritos?
+
+Que tienen menos de 100 habitantes y
+
+cuando yo miro la distribución.
+
+De las gangas,
+
+esos que tienen menos de 100 habitantes,
+
+miren que miren cómo están en gangas,
+
+bueno.
+
+Ya que estamos admirando esta gráfica,
+
+vamos a un segundito,
+
+revísenla y díganme que entienden de esta
+
+gráfica, que estamos graficando.
+
+¿Qué hay en el eje X?
+
+¿Qué hay en el eje Y?
+
+Esp. Analítica de Datos Segundo Semestre G2: Es entendible.
+
+Esp. Analítica de Datos Segundo Semestre G2: Muestra algo.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué hay en el eje X?
+
+Nuestro indicador, cierto,
+
+es la cantidad de años para pagar la casa.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué hay aquí en el?
+
+Una distribución de habitantes,
+
+cuántos hay menos de 100 habitantes,
+
+entre 100 y 500, 500 a 1000,
+
+1000 a 5000 y más de 5000 habitantes.
+
+¿Y qué vemos en este, en esta,
+
+en esta línea?
+
+Ese punto, si mal no soy,
+
+debe ser la mediana. Ahorita lo confirmo,
+
+pero podría ser la mediana o la media de
+
+este de este valor.
+
+Creería que acá está calculada la mediana,
+
+que es el valor del 50%.
+
+Esp. Analítica de Datos Segundo Semestre G2: Okay, mira.
+
+Pero de ese grupo,
+
+pero de ese grupo de menos de 100000
+
+MAURICIO  MONTOYA RAMIREZ: habitantes.
+
+Esp. Analítica de Datos Segundo Semestre G2: De menos de 100 habitantes, sí.
+
+MAURICIO  MONTOYA RAMIREZ: Sí.
+
+Esp. Analítica de Datos Segundo Semestre G2: sí, porque eso se va variando.
+
+MAURICIO  MONTOYA RAMIREZ: Ms.
+
+MAURICIO  MONTOYA RAMIREZ: sí.
+
+Entonces,
+
+mire que lo que vemos es que hay menos de
+
+100 habitantes.
+
+La razón de precio la varía entre 2 2
+
+años de salario para pagar su casa hasta
+
+14.
+
+¿Entonces es una barrita que está
+
+distribuida, cierto?
+
+Esp. Analítica de Datos Segundo Semestre G2: Dispersa eso.
+
+Pero esa barrita me representa que al hay
+
+17.1.
+
+Esp. Analítica de Datos Segundo Semestre G2: Distritos con gangas, entonces mire que.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+Eso es lo que nos muestra,
+
+es que al parecer eso es de menos de 100
+
+habitantes,
+
+hay más gangas que y que a media que
+
+aumenta la cantidad de personas de
+
+habitantes.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+Esa cantidad,
+
+primero la razón precio ingreso se
+
+normaliza un poco más.
+
+Acá viene un valor que decía como del 80%
+
+está entre 21 y cuatro 6. O sea,
+
+esto pareciera ser la distribución del
+
+80% y que está a más de 5000.
+
+¿Qué más de 5000?
+
+Más o menos está en 4 años la razón de
+
+años de ingreso para pagar su casa,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero está menos distribuida.
+
+Entonces acá me hace ya dudar un poco de
+
+esas de esas de esas.
+
+De esas De esos distritos que tenga que
+
+sean muy pequeñitos,
+
+entonces yo ya aquí ya puedo establecer
+
+de pronto otro criterio.
+
+En la que yo haga pensar de que no,
+
+de que pronto los distintos con menos de
+
+100 habitantes no sean datos que sean
+
+reales,
+
+sino que sean de pronto artificiales o
+
+sesgados por alguna motivo.
+
+Y mire que aquí hay un tema de valores
+
+imposibles.
+
+Y es con esto hay distritos que tienen
+
+7460 habitantes con y de mediana 6
+
+hogares.
+
+Eso nos daría una razón de 1240 personas
+
+del hogar.
+
+Entonces se vuelven valores imposibles.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y pues.
+
+Eso también sería como que pues si yo voy
+
+a recomendar algo de pronto.
+
+Tener en cuenta que voy a recomendar
+
+alguno de estos lugares o no incluirlos,
+
+que sería como lo mejor.
+
+Si yo ya quiero transmitir un mensaje
+
+limpio,
+
+esto podría pasar a ser una etapa más de
+
+Esp. Analítica de Datos Segundo Semestre G2: validación y no.
+
+Y no exponerlo de pronto al público
+
+objetivo,
+
+que en nuestro caso es nuestra mesa
+
+directiva.
+
+Entonces,
+
+de analizar los valores imposibles y los
+
+distintos que son pequeñitos,
+
+nos da unos 2 criterios que nosotros
+
+vamos a agregar.
+
+¿Y qué tanto sacrifica eso? El primero es,
+
+bueno,
+
+va a apurarle para que salgamos a las
+
+Esp. Analítica de Datos Segundo Semestre G2: 9:30 de descanso, pero el primero es.
+
+Va de 10 personas por hogar,
+
+los excluimos porque no es un hogar que
+
+Esp. Analítica de Datos Segundo Semestre G2: sea.
+
+Físicamente creíble y los distritos que
+
+tengan menos de 100 se excluyen porque la
+
+mediana no es estable,
+
+se vuelve muy que muy dispersa el tema de
+
+Esp. Analítica de Datos Segundo Semestre G2: la.
+
+De Del tema de precio,
+
+ingreso es un criterio que esté bien lo
+
+que esté mal.
+
+Es un criterio que definimos.
+
+Esp. Analítica de Datos Segundo Semestre G2: El mensaje de esto es.
+
+Esp. Analítica de Datos Segundo Semestre G2: En últimas.
+
+Esp. Analítica de Datos Segundo Semestre G2: En la exploración.
+
+El EA no solamente es para poner los
+
+valores faltantes y completar y saber
+
+cuántos datos tienen,
+
+sino el EA también es para que esos datos
+
+que son atípicos, que son raros,
+
+los analicemos y tomemos conclusiones de
+
+ahí. ¿Por qué?
+
+Porque parte fundamental de la idea es.
+
+Construir una base limpia de análisis acá
+
+yo estoy mostrándoles unos unos problemas
+
+con unas decisiones basadas en lo que yo
+
+considero que mi público objetivo
+
+Esp. Analítica de Datos Segundo Semestre G2: necesita.
+
+Y que en la sesión podría mostrarlo para
+
+decir esos fueron los supuestos que yo
+
+usé para hacer este análisis.
+
+Si alguna de la mesa directiva me dice no,
+
+estos deberíamos incluirlos, pues listo,
+
+se incluyen y los hacemos parte del
+
+Esp. Analítica de Datos Segundo Semestre G2: análisis, pero en nuestro en nuestro.
+
+Nuestro objetivo está al menos
+
+detectarlos.
+
+Creo que la última parte de nuestro de
+
+nuestro curso de nuestro de la sesión de
+
+hoy es el tema de los datos faltantes.
+
+Entonces no sé, bueno,
+
+para los que de pronto no sientan
+
+familiarizados con estas 3 siglas.
+
+Cuando hay un dato faltante,
+
+el dato faltante.
+
+¿Hay un estudio o hay un artículo que
+
+hace un ese análisis de y por qué falta
+
+Esp. Analítica de Datos Segundo Semestre G2: ese dato?
+
+¿Y eso por qué es importante?
+
+Porque vamos a ver 3 categorías o 3
+
+mecanismos de por qué un dato puede ser
+
+aleatorio.
+
+Entonces,
+
+el primer mecanismo es el completamente
+
+Esp. Analítica de Datos Segundo Semestre G2: al azar.
+
+Esp. Analítica de Datos Segundo Semestre G2: El MK.
+
+¿Eso qué significa?
+
+Que no depende de nada.
+
+Cualquier nulo tiene la misma
+
+probabilidad de aparecer en cualquier
+
+Esp. Analítica de Datos Segundo Semestre G2: parte.
+
+Acá hay un ejemplo del artículo donde lo
+
+tomé que dice.
+
+Esp. Analítica de Datos Segundo Semestre G2: Imagínense una báscula, un peso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y se queda sin baterías.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+Esp. Analítica de Datos Segundo Semestre G2: Is.
+
+De que se haya quedado sin baterías
+
+depende de algo en particular de esa de
+
+esa báscula.
+
+Por ser la báscula más grande o más
+
+Esp. Analítica de Datos Segundo Semestre G2: pequeña, puede que fallen las baterías.
+
+No hay no pareciera haber una relación,
+
+entonces cuando es completamente al azar.
+
+Lo que significa es que el valor del nulo
+
+no depende de nada,
+
+Esp. Analítica de Datos Segundo Semestre G2: es literalmente un valor.
+
+Que no sé,
+
+alguien escribiendo no lo escribió,
+
+que cuando hubo el sistema se cayó a
+
+cierta hora y no puso y siguió
+
+registrando el resto.
+
+Son completamente al azar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Elmar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Es.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué?
+
+No es como completamente al azar, o sea,
+
+que es totalmente,
+
+depende de la lectoridad,
+
+sino que es como un intermedio ahí,
+
+Esp. Analítica de Datos Segundo Semestre G2: como es de.
+
+Como hay un cierto azar,
+
+depende de algo de que de que sí está en
+
+Esp. Analítica de Datos Segundo Semestre G2: los datos.
+
+Entonces, en otras palabras,
+
+es falta más en algunos grupos,
+
+pero en los grupos,
+
+pero los grupos se ven en la tabla.
+
+Entonces, esta frase no está tan clara,
+
+pero lo que hace referencia a esto es que
+
+Esp. Analítica de Datos Segundo Semestre G2: ustedes sí empiezan a notar una relación.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entre, por ejemplo.
+
+Esp. Analítica de Datos Segundo Semestre G2: En el caso de nosotros de Conecta.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+¿Que ¿Cómo podríamos verlo? De pronto,
+
+no sé,
+
+en ciertos estratos hay cierta cantidad
+
+de aleatorios. Entonces dirían,
+
+Esp. Analítica de Datos Segundo Semestre G2: por ejemplo, los aleatorios.
+
+Es como si fuera un aleatorio
+
+estratificado.
+
+Los aleatorios de un grupito dependen
+
+porque están en ese grupito de ese valor,
+
+pero los aleatorios del otro grupito
+
+dependen de los valores que están al en
+
+el otro valor.
+
+Ahorita vamos a verlo con un ejemplo más
+
+claro,
+
+y el que no es completamente al azar es
+
+Esp. Analítica de Datos Segundo Semestre G2: que depende el valor propio que falta.
+
+Esp. Analítica de Datos Segundo Semestre G2: Por ejemplo.
+
+Acá sí ya hay una correlación.
+
+¿Por qué no hay un valor?
+
+Porque ese valor en esos, en esos,
+
+en esos casos no aparece.
+
+Acá ponen el ejemplo de la báscula,
+
+que por ejemplo,
+
+hay nulos o no registra valores porque
+
+para objetos muy pesados, pues.
+
+Ese valor no existe,
+
+entonces ahí pone un nulo.
+
+Entonces no es completamente al azar,
+
+sino que ese valor.
+
+Ese valor falsante depende de otra de
+
+otra variable.
+
+Voy a pasarlo aquí a nuestro caso en
+
+particular.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces.
+
+Cada uno de esos lo que nos indica la
+
+final es que nosotros cuando tenemos uno,
+
+lo tenemos que analizar porque está
+
+faltando.
+
+En este caso, en mi caso,
+
+de la variable de.
+
+En la variable de dormitorios vamos a
+
+analizar eso.
+
+Vamos a ver si están completamente al
+
+azar o no hay, no o no,
+
+o pareciera que no hay temas del azar.
+
+Entonces vamos a mirar el primero,
+
+Esp. Analítica de Datos Segundo Semestre G2: el que es completamente al azar.
+
+Entonces vamos a hacer el análisis y
+
+vamos a ver esos nulos cómo se
+
+Esp. Analítica de Datos Segundo Semestre G2: distribuyen.
+
+Entonces,
+
+acá lo que encuentra este análisis es que
+
+la proporción sin dato es pareja entre
+
+zonas y es entre niveles de ingresos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces, miren que yo cogí ese nulo.
+
+Ese no lo cogí,
+
+unas variables en particular,
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿qué variables escogí?
+
+El la zona y el nivel de ingreso y empecé
+
+a mirar ese nulo aparece más en una zona
+
+o en otra,
+
+o aparece en más en un nivel o en otro,
+
+porque si apareciera más en un nivel o en
+
+una zona,
+
+yo podría decir que ese nulo no está tan
+
+aleatorio,
+
+sino que está dependiendo de una variable
+
+en particular.
+
+En el caso de ustedes con Conecta tienen
+
+el NPS, entonces la primera,
+
+lo primero que ustedes tienen que
+
+verificar es completamente al azar.
+
+¿Hay un tema de azar o no depende del
+
+azar?
+
+¿Y qué es lo que hacen?
+
+Ustedes cogen el nulo y empiezan a mirar
+
+la distribución de nulos y no nulos en
+
+algunas variables.
+
+Si ustedes ven que los nulos se empiezan
+
+a ir más a ciertos categorías,
+
+ustedes ya están viendo que ese nulo no
+
+es tan al azar y dependiendo de eso,
+
+ustedes tienen que tomar una decisión o
+
+no,
+
+si lo completan o no lo completan y todo
+
+eso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Vale.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+Esp. Analítica de Datos Segundo Semestre G2: Aplique esa lógica también.
+
+Porque lo que y aquí para los que de
+
+pronto no lo escucharon es para imputar
+
+Esp. Analítica de Datos Segundo Semestre G2: valores.
+
+Entonces yo puedo imputar para imputar
+
+valores,
+
+yo puedo imputar valores con la mediana,
+
+porque ¿cuál es el objetivo de imputar
+
+uno a la final una variable?
+
+Pues de que la distribución no cambie,
+
+que o sea, si yo voy a hacer un daño,
+
+voy a agregar o inventar datos,
+
+que ese dato no me cambie lo que está
+
+viendo la distribución de esa variable.
+
+Por lo general,
+
+entonces usted puede decir lo imputo con
+
+la media,
+
+entonces no me voy a alterar la media
+
+porque cuando promedio me va a dar el
+
+mismo valor, lo promedio con la mediana.
+
+Entonces cuando llegue a la mediana me va
+
+a dar el mismo valor,
+
+lo puede decir lo completo con cero,
+
+lo completo con.
+
+Exacto,
+
+y entonces lo que acá dice mi compañero
+
+Esp. Analítica de Datos Segundo Semestre G2: es.
+
+Eso es Eso sí lo miro a nivel general.
+
+Ahora,
+
+si yo empiezo a identificar unas
+
+variables, yo empiezo a mirar sí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí, ese valor que quiere imputar.
+
+Veo que varía más en algunas zonas o en
+
+algunos grupos,
+
+pues yo ya puedo imputar inteligentemente
+
+en esa zona le puedo imputar la media.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces sería como una imputación más.
+
+Más contextual de lo que del que ponerle
+
+la mediana general de todo.
+
+No,
+
+porque ahí digamos que depende del caso,
+
+porque, por ejemplo,
+
+en el caso de conecta,
+
+se hace en el 78% de nulos.
+
+Así ustedes imputen con la mediana y
+
+estratifiquen y hagan un montón de cosas,
+
+ustedes le están inventando un valor en
+
+Esp. Analítica de Datos Segundo Semestre G2: últimas.
+
+Esp. Analítica de Datos Segundo Semestre G2: A una persona.
+
+Ahora, si ustedes hacen el análisis,
+
+dicen es que las personas que más se
+
+quejan son las que más producen,
+
+más califican el NPS porque una persona
+
+más brava es la persona que dice voy a
+
+castigar y le voy a escribir.
+
+Entonces ya encuentran una relación,
+
+entonces no es completamente al azar,
+
+sino ya está en un azar,
+
+ya hay una distribución, entonces bien.
+
+bueno,
+
+puedo completar aquellos clientes que sí
+
+se quejan y yo ya tengo el comportamiento
+
+de esos clientes.
+
+Entonces ya imputan solamente los nulos
+
+del NPS,
+
+pero basados en en los clientes que se
+
+quejan y no están induciendo nada porque
+
+a ustedes ya no le están induciendo la
+
+variable que.
+
+Esp. Analítica de Datos Segundo Semestre G2: Si no se queja.
+
+Es el al que no se queja,
+
+por lo general no genera eso,
+
+entonces ahí ya le van a dejar de
+
+inventar datos al que no se queja.
+
+Esp. Analítica de Datos Segundo Semestre G2: Eso es por ahí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero esa es la idea por ahí, sí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces aquí.
+
+Pareciera que si ustedes ven esos datos
+
+por zona está en 113112087 y 084.
+
+Acá la gráfica nos haría pensar de que
+
+están de pronto más en la cerca al mar y
+
+menos al a 1 hora,
+
+pero si ustedes lo miran en cero 9 y uno
+
+uno está muy cerquita la cantidad de
+
+nulos.
+
+Con cierto margen de error,
+
+yo podría decir que están en la misma
+
+cantidad. Entonces no es, no es,
+
+no hay ni encuentro una dependencia a
+
+alguna zona en particular.
+
+Si acá cerca el mar estuviera, no sé,
+
+en 5% y el 2 en uno, yo diría,
+
+pareciera ser que mi dato nulo está allá,
+
+Esp. Analítica de Datos Segundo Semestre G2: pareciera que allá hubo algo.
+
+Cuando están registrando los datos y
+
+cuando usted lo mira por nivel de ingreso
+
+está 110102106093 acá por la escala,
+
+pero eso es prácticamente un 1%.
+
+Pareciera que en nuestro caso de la
+
+variable de dormitorios no está sesgada
+
+por alguna de esas. En el caso de ustedes,
+
+creo que el taller lo que les va a pedir
+
+a ustedes es que mire esa variable con
+
+otras variables y empieza y empieza a
+
+determinar. Es completamente al azar.
+
+¿Tiene algo alguna señal de azar?
+
+Esp. Analítica de Datos Segundo Semestre G2: Acá dice que no hay alguna señal para.
+
+Para hacer esto y no se puede descartar
+
+si dependiera del número de dormitorios,
+
+hágase acá el dice como pues no lo puedo
+
+descartar porque usted solo ha analizado
+
+variables. Si hubiera analizado las otras,
+
+yo creo que.
+
+Que ya dejamos hasta aquí,
+
+vamos al descanso y ahorita antes
+
+seguimos con el taller para que en las
+
+siguientes 2 horas y si hay algunas dudas
+
+las atendemos ahorita después de la
+
+sesión.
+
+Una consulta y el taller de la sesión 3
+
+es diferente al de ayer.
+
+Esp. Analítica de Datos Segundo Semestre G2: Oh.
+
+Esp. Analítica de Datos Segundo Semestre G2: Señora.
+
+Esp. Analítica de Datos Segundo Semestre G2: Es diferente.
+
+GRACE LORENA LONDONO ARANGO: O K.
+
+O sea,
+
+pero entonces este se entregaría cuando,
+
+GRACE LORENA LONDONO ARANGO: igual que el miércoles o el jueves.
+
+El miércoles,
+
+pues yo espero ahorita que les doy las 2
+
+horas de la clase para que terminen lo
+
+que tengan que terminar del anterior y
+
+que empiecen y dejen muy estructurado el
+
+otro para que no se lleve mucho trabajo
+
+Esp. Analítica de Datos Segundo Semestre G2: de la casa, pero sí hasta el miércoles.
+
+GRACE LORENA LONDONO ARANGO: Okay.
+
+GRACE LORENA LONDONO ARANGO: A abrir la clase del jueves es virtual.
+
+La clase del juez es virtual,
+
+si quieren ahorita la definimos después
+
+del descanso para ver porque habíamos
+
+dicho que para empezarle a las 5:30,
+
+6 de la tarde,
+
+a mí me conviene también empezarle a las
+
+Esp. Analítica de Datos Segundo Semestre G2: 6:00 porque yo estoy trabajando.
+
+Y me dan permiso solo el viernes de 5 a 6
+
+también.
+
+GRACE LORENA LONDONO ARANGO: Listo, brother, gracias.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero ahorita lo definimos.
+
+Listo, chicos, los que estamos aquí,
+
+si quieren salir a al descanso con el
+
+algo,
+
+pueden salir y los que están virtual,
+
+Esp. Analítica de Datos Segundo Semestre G2: pues nos vemos ahorita, ya les.
+
+Esp. Analítica de Datos Segundo Semestre G2: Can't let's get there.
+
+Esp. Analítica de Datos Segundo Semestre G2: Carajo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Google.
+
+===== PARTE 2 =====
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+Esp. Analítica de Datos Segundo Semestre G2: List.
+
+Esp. Analítica de Datos Segundo Semestre G2: Vamos a retomar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Lisa chicos.
+
+Entonces,
+
+¿qué nos queda faltando el de la sesión?
+
+Esp. Analítica de Datos Segundo Semestre G2: Antes de salir al descanso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+Lo que estábamos hablando era del tema de
+
+los nulos y cómo darles tratamiento.
+
+Esp. Analítica de Datos Segundo Semestre G2: Espera que esta cosa así.
+
+Esp. Analítica de Datos Segundo Semestre G2: Si algo, sí, estaba escuchando.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces.
+
+Entonces hablábamos de 3 tipos,
+
+entonces toda la final se resume en este
+
+Esp. Analítica de Datos Segundo Semestre G2: en este como esquemita que tengo acá.
+
+¿Si usted tiene una variable que le que
+
+tiene datos faltantes,
+
+lo primero que se deben preguntar es esa
+
+variable se usa?
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+¿Se usa para responder la pregunta o lo
+
+que están analizando, o sea, es decir,
+
+Esp. Analítica de Datos Segundo Semestre G2: incide en lo que ustedes están analizando?
+
+Esp. Analítica de Datos Segundo Semestre G2: Ahí sale una respuesta, sí o no.
+
+Sí,
+
+esa variable no incide en la variable que
+
+ustedes están usando como, digamos,
+
+su y o como su indicador.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues.
+
+Esp. Analítica de Datos Segundo Semestre G2: Mirar a ver si.
+
+Pues no, pues no hacerla nada,
+
+no eliminarla, no quitarla,
+
+Esp. Analítica de Datos Segundo Semestre G2: sino dejarla ahí, dejarla hacer.
+
+Porque no les va a afectar a ustedes en
+
+su medición.
+
+Al menos per se,
+
+pero si esa variable sí la sí hace parte
+
+de la que del corazón del análisis que
+
+están haciendo,
+
+y no tienes que evalúen la importancia de
+
+esa variable, sí.
+
+Si ustedes quieren saber precios y para
+
+tienen, no sé, la variable el sol, no sé,
+
+la temperatura del estado y la
+
+temperatura del estado tiene varios,
+
+varias, varios faltantes,
+
+pues para que se desgastan analizando esa
+
+Esp. Analítica de Datos Segundo Semestre G2: variable no tiene sentido.
+
+Ahora sí hace parte porque es fundamental
+
+para el análisis que están haciendo o
+
+tiene alguna incidencia,
+
+entonces vienen los 3 mecanismos, o sea,
+
+Esp. Analítica de Datos Segundo Semestre G2: al final son 3 preguntas.
+
+Esp. Analítica de Datos Segundo Semestre G2: La primera es.
+
+Es completamente aleatoria, es decir,
+
+ustedes no ven ninguna relación entre ese
+
+faltante con alguna de esas otras
+
+variables.
+
+Pues es de puede ser del estilo en card y
+
+del estilo en card,
+
+y lo que significa en últimas es que
+
+ustedes podrían.
+
+Acá con asteriscos,
+
+eliminarla y no le va a pasar nada porque
+
+esa variable no le está influyendo a
+
+otras, ¿cómo lo saben?
+
+Por eso, mire que acá,
+
+si hubieran 10 datos nulos y se los
+
+eliminan,
+
+la incidencia sobre estas variables,
+
+pues sería muy mínimo porque no va a
+
+cambiar ninguna distribución.
+
+Entonces,
+
+pueden eliminarlas o hacerles algo acá al
+
+menos eliminarlas.
+
+¿Cuál es el trade off e que pierden
+
+información?
+
+Ustedes evalúan si vale la pena perder
+
+Esp. Analítica de Datos Segundo Semestre G2: información por eso o no.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ahora.
+
+Esp. Analítica de Datos Segundo Semestre G2: Si ustedes notan que esa variable.
+
+¿Afecta otra variable que tienen dentro
+
+del dataset?
+
+Ustedes pueden asumir o pueden presumir
+
+que es un estilo que es al azar,
+
+no completamente al azar,
+
+sino que es un tema de un azar,
+
+pero pareciera ser un azar selectivo.
+
+Entonces ya saben que.
+
+Si es selectivo quiere decir que si
+
+quitan esa variable,
+
+empiezan a cambiar las distribuciones de
+
+las otras variables. Entonces,
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿qué es lo que podrían hacer?
+
+Esp. Analítica de Datos Segundo Semestre G2: Imputarla.
+
+Pero imputarla sabiamente,
+
+imputarla estratificadamente,
+
+por así decirlo,
+
+aquí para imputar esas variables hay
+
+muchos métodos.
+
+Yo no sé si ustedes conocen,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero hay un método.
+
+De las cosas cuando le dicen a una
+
+imputación, póngale vacío,
+
+póngale un valor raro, póngale la media,
+
+póngale la mediana,
+
+pero hay un método de imputación en el
+
+que usted deja el valor nulo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Como si fuera la y.
+
+La columna que tiene los valores nulos
+
+vienen siendo la y las otras columnas son
+
+Esp. Analítica de Datos Segundo Semestre G2: las xy entrenan algún modelito.
+
+¿Un qué?
+
+Un método de por árboles o una regresión,
+
+cualquier cosa.
+
+Y entonces lo que pasa es que ese nulo se
+
+aprende lo que pasa con sus alrededores y
+
+él dice,
+
+si mis alrededores tienen esas
+
+características,
+
+Esp. Analítica de Datos Segundo Semestre G2: acá pongo este valor porque.
+
+Cuando van estas características,
+
+por lo general va ese valor, pero.
+
+Que sea un método un poco más elaborado
+
+que poner la mediana.
+
+La media no lo hace mejor o peor,
+
+incluso en algunos ejercicios que he
+
+hecho con modelos,
+
+cuando uno termina imputando,
+
+Esp. Analítica de Datos Segundo Semestre G2: termina dañando el performance del.
+
+De la Del modelo que uno está haciendo,
+
+entonces a veces uno no prefiere no
+
+imputar.
+
+A veces uno cree que por ser más
+
+elaborado es mejor y no es así.
+
+Depende mucho del caso de ustedes.
+
+Entonces no es que porque sea el método
+
+más elaborado tengo que usarlo, sino es.
+
+De la evaluación no es tan sencilla como
+
+esta, ustedes toman la decisión sí o sí,
+
+no,
+
+si ustedes ven que esa variable nula le
+
+Esp. Analítica de Datos Segundo Semestre G2: está afectando.
+
+Está tiene incidencia en otras variables,
+
+o sea que ese nulo hace que pareciera que
+
+tuviera incidencia en algunas variables.
+
+En particular utilicen algún método para
+
+Esp. Analítica de Datos Segundo Semestre G2: imputarlo, pero sabiamente.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí.
+
+Cuando se imputa y hace modelo,
+
+entonces se hace,
+
+se empieza siempre cuando uno hace modelo
+
+la versión.
+
+La primera, la como la cruda,
+
+que usted dice aquí no me voy a poner a
+
+mirar que los hiperparámetros,
+
+porque hay modelos que se pueden demorar
+
+hasta cuatro o 5 horas en entrenar.
+
+Si se necesita,
+
+usted no va a gastar sintonizando
+
+parámetros.
+
+Y perder todo ese tiempo.
+
+Entonces establece una línea base.
+
+Entonces, por lo general,
+
+la línea base es el un modelo,
+
+un boosting ahí o un modelo por defecto
+
+que usted sepa que no lo va,
+
+Esp. Analítica de Datos Segundo Semestre G2: no le va a colgar su máquina.
+
+Los métodos de imputación, una media,
+
+una mediana, un cero,
+
+eliminar algo muy básico, o sea,
+
+algo que usted dice, no me voy a.
+
+No me voy a poner aquí a dar todo el
+
+tecnicismo,
+
+Esp. Analítica de Datos Segundo Semestre G2: sino que se pone en la línea base.
+
+A veces de esa línea base que usted
+
+prácticamente coge los datos con un poco
+
+de cariñito,
+
+tampoco es que lo cojan en cero,
+
+sino después de un cariñito de mirar que
+
+hay de limpiezas. Entonces dicen, listo,
+
+con eso ya me voy,
+
+entreno y veo que me saca el modelo.
+
+Eso me establece una línea base sobre esa
+
+línea base.
+
+Empieza uno antes a mirar, bueno,
+
+y sin **** si hago este método,
+
+si pongo esto y usted empieza a comparar
+
+con la línea base y a veces no la
+
+diferencia entre hacer eso y no hacerlo
+
+es muy mínima.
+
+Entonces dice voy a gastar 3 horas
+
+haciendo todo eso para que me dé el mismo
+
+Esp. Analítica de Datos Segundo Semestre G2: resultado, no tiene sentido, lo dejo así.
+
+o incluso puede degradar el performance
+
+del modelo porque le enseña un sesgo le
+
+enseña un sesgo que Y esa variable a
+
+veces pasa a ser de las importantes y no
+
+Entonces ahí es donde usted dice la
+
+embarré no puedo hacerlo
+
+Esp. Analítica de Datos Segundo Semestre G2: No, no los.
+
+Esp. Analítica de Datos Segundo Semestre G2: What am I having?
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+Esp. Analítica de Datos Segundo Semestre G2: A minute of Umar Power.
+
+Esp. Analítica de Datos Segundo Semestre G2: Thank you.
+
+Esp. Analítica de Datos Segundo Semestre G2: Starting what?
+
+Esp. Analítica de Datos Segundo Semestre G2: Ese hay un dilema ahí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Porque si es sudario el objetivo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pues, o sea, y si es nula.
+
+Esp. Analítica de Datos Segundo Semestre G2: No.
+
+No, pero imagínese, o sea,
+
+es como si estuviéramos imputándola,
+
+o sea, si podemos hacerla como eso,
+
+pero mire, hay una cosa y es.
+
+Que yo buscaría dentro,
+
+si me si ese fuera un reto para mí,
+
+lo que yo buscaría es o asignarle una
+
+categoría.
+
+Para ver si esa categoría tiene un
+
+comportamiento especial, o sea, no,
+
+si su categoría es cero uno. Bueno, a ver,
+
+primero pasamos del problema,
+
+Esp. Analítica de Datos Segundo Semestre G2: es regresión o clasificación.
+
+Esp. Analítica de Datos Segundo Semestre G2: O sea, es una regresión.
+
+Esp. Analítica de Datos Segundo Semestre G2: Con una regresión.
+
+Yo buscaría esto es imputarla con algún
+
+valor,
+
+Esp. Analítica de Datos Segundo Semestre G2: es que lo que iba a decir era ponerle un.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ponerle una.
+
+Si era clasificación,
+
+ponerle una categoría,
+
+una categoría que fuera,
+
+si fuera cero uno,
+
+que ponerle una categoría 2 para ver ese
+
+2. ¿Qué característica tienes?
+
+Y si yo puedo replicar con las con el
+
+dataset, esa variable que no conozco,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero si es de regresión.
+
+Sí,
+
+lo que se me ocurre es imputarla con hay
+
+Esp. Analítica de Datos Segundo Semestre G2: un método de imputación.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué es?
+
+Con camints y él mira el alrededor de ese
+
+punto,
+
+pero en últimas es predecir el valor
+
+faltante a partir de las otras y luego sí
+
+Esp. Analítica de Datos Segundo Semestre G2: hacer el modelo con esa imputación.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces.
+
+Su línea base podría ser quito eso,
+
+pues dependiendo de cuántos nulos hay.
+
+hago el modelo sin esos con sin esos sin
+
+esas yes Por así decirles que no conozco
+
+que hay como es una regresión pues me va
+
+a dar algo luego imputarlas esas yes que
+
+me faltan nulas a partir de las otras
+
+variables con un modelo que me diga a
+
+partir de eso pues póngale ese valor y
+
+tiene las otras para
+
+Esp. Analítica de Datos Segundo Semestre G2: Para de entrenamiento, sí.
+
+Y hacer el modelo completo para ver si
+
+con si que tanto le varía no tenerlas en
+
+cuenta, tenerlas en cuenta.
+
+Sería ese el ejercicio que haría al menos
+
+inicial para evaluar ese faltante,
+
+ese pues,
+
+pero me causa curiosidad cuál es ese
+
+problema.
+
+Esp. Analítica de Datos Segundo Semestre G2: I can.
+
+Pero lo tienen en algún caso en
+
+particular.
+
+Entonces quería predecir el puntaje del
+
+IFES y habían IFES que no tenían.
+
+Esp. Analítica de Datos Segundo Semestre G2: El puntaje final.
+
+Porque mire que en ese caso en particular,
+
+si es puntaje total.
+
+Uno sabría que el puntaje total viene
+
+siendo la suma. o la.
+
+Pues la completo de esa forma,
+
+llegado el caso,
+
+Esp. Analítica de Datos Segundo Semestre G2: o al menos yo sé que si sumo eso.
+
+Para dar un estimado muy similar,
+
+Alexander,
+
+yo creo que ahí sí serviría el método de
+
+imputarlo con.
+
+Esp. Analítica de Datos Segundo Semestre G2: Mhm.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sin.
+
+Pero sí, pero sí es, o sea,
+
+me sorprende el.
+
+Pues lo que es la variable efectivo y que
+
+se anula, pues ahí dicen bueno.
+
+Que le falten predictoras es normal,
+
+pero que la variable que yo quiero
+
+predecir no tenga el valor me parece un
+
+poco porque sería entonces un problema no
+
+Esp. Analítica de Datos Segundo Semestre G2: supervisado.
+
+Esp. Analítica de Datos Segundo Semestre G2: Then.
+
+Paso aparte, entonces,
+
+si yo veo que hay una relación,
+
+aplicarle algún método de imputación y el
+
+último escenario es.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué?
+
+Esp. Analítica de Datos Segundo Semestre G2: Es que la que no es completamente al azar.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Eso qué quiere decir? que?
+
+En este caso, por lo general,
+
+lo que se hace con este tipo de variables
+
+es que no se no se imputa,
+
+no se hace nada,
+
+sino que se deja así tal cual,
+
+porque imputarla podría tener un problema
+
+Esp. Analítica de Datos Segundo Semestre G2: de sesgo.
+
+Porque ya depende de algo que no está
+
+dentro de su dataset y ustedes en el dato,
+
+en el caso de Conecta tienen ese caso en
+
+particular. ¿Por qué? Porque el NPS.
+
+Ustedes pueden encontrar de pronto que la
+
+relación de quienes contesten sea porque
+
+están,
+
+tienen más quejas y están más bravos y
+
+podrían encontrar esa relación,
+
+pero igual que el componente de.
+
+Depende de una persona que esté
+
+totalmente, pues con el problema, si esa,
+
+o sea, no,
+
+con las variables que usted tiene,
+
+no pueden imponerse a inventar,
+
+porque si usted ya sabe que si pone un
+
+número está inventando,
+
+puede que una verdad haya tenido 5 quejas,
+
+pero las 5 quejas se la hayan solucionado
+
+súper bien y nos no.
+
+Y no necesariamente este bravo,
+
+si usted le pone ahí porque todas las
+
+personas bravas ponen una calificación
+
+baja y le pone una calificación baja.
+
+Usted ya está suponiendo algo que no,
+
+que no dependen de las variables del
+
+contexto,
+
+entonces en esas cuando ya ustedes dicen.
+
+No, la literalmente no,
+
+pues usted dice no la dejo quieta,
+
+no le puedo hacer nada más,
+
+me tengo que buscar.
+
+Yo creo que esa pregunta sería en la
+
+primera clase,
+
+¿qué hago con los con los faltantes del
+
+NPS y a la final esto busco otra forma de
+
+Esp. Analítica de Datos Segundo Semestre G2: usarla, de pronto no la puedo usar.
+
+Si va a ser un modelo,
+
+no la puedo usar literalmente porque qué
+
+valor me la invento,
+
+pero sí contextualmente me puede dar un
+
+Esp. Analítica de Datos Segundo Semestre G2: índice de qué hacer.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entonces.
+
+Los nulos de dormitorios no los no los
+
+tocamos, los dejamos ahí.
+
+Acá es un completamente según esto,
+
+como vimos,
+
+no de no terminaba influyendo sobre la
+
+algunas variables.
+
+Mira que acá solo analicé 2,
+
+pero lo ideal sería mirar porque con las
+
+Esp. Analítica de Datos Segundo Semestre G2: otras variables a ver si.
+
+Si tenía algo,
+
+pero al menos con las que yo vi eran
+
+completamente lazar,
+
+entonces no les hago nada, las puedo.
+
+Las puedo excluir, no las puedo excluir,
+
+no me va a afectar nada acá,
+
+como no afecta el indicador que estoy
+
+usando, pues y el modelo,
+
+si hago un modelo,
+
+pues ya sé que pues no lo uso para no
+
+tenerla que imputar o si la uso,
+
+pues la imputo y le pongo un valor que ya
+
+Esp. Analítica de Datos Segundo Semestre G2: sé que no me va a afectar el valor final.
+
+Para cerrar esta sesión y para que
+
+ustedes puedan empezar a trabajar,
+
+miren que a medida que fuimos mirando
+
+cada uno de sus casas particulares,
+
+los outliers, los atípicos, bueno,
+
+los atípicos, los valores extremos,
+
+Esp. Analítica de Datos Segundo Semestre G2: los nulos, fuimos encontrando algunas.
+
+Causas,
+
+algunas efectos sobre la sobre la sobre
+
+Esp. Analítica de Datos Segundo Semestre G2: el dataset y dependiendo de.
+
+Y dependiendo de ese contexto,
+
+yo tomé una decisión de excluirlos o no
+
+excluirlos y le puse una un motivo que si
+
+es válido o no.
+
+Depende, ya es debatible, sí,
+
+de quién depende,
+
+pues de las personas a las que yo les
+
+quiero mostrar a mi público objetivo.
+
+En aras de la transparencia,
+
+eso no puede decir es tenemos cuando uno
+
+empieza los análisis, uno dice como mire,
+
+nuestra población objetivo fue esta,
+
+no tuvimos en cuenta esto,
+
+esto y ellos ya nos dirán,
+
+pero es que este valor esta sí deberíamos
+
+haber incluido esta población porque pasó
+
+Esp. Analítica de Datos Segundo Semestre G2: esto, pasó lo otro.
+
+Acá lo que les quise mostrar fue en áreas
+
+de transparencia,
+
+las transformaciones que hice para
+
+trabajar ya con mi dataset limpio.
+
+¿Qué queda después de esto?
+
+Pues ya un dataset conciliado, limpio,
+
+que va a ser mi base para en nuestro caso
+
+construir un tablero o seguir nuestros
+
+análisis.
+
+No sé si hay alguna pregunta está ahí.
+
+Pero en aras también de la transparencia,
+
+esas decisiones que implicaron,
+
+Esp. Analítica de Datos Segundo Semestre G2: sacrifiqué casi 50 casos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Del interior y estos casos acá en.
+
+De las otras de las otras no se ve tan
+
+afectado.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+Entonces,
+
+pareciera ser que las decisiones que tomo
+
+no terminan incidiendo tanto en la, pues,
+
+en mi epa, es final,
+
+si una de esas decisiones que yo hubiera
+
+quitado me elimina toda a menos de 1 hora
+
+Esp. Analítica de Datos Segundo Semestre G2: del mar.
+
+Pues yo ya veo que no puedo tomar esa
+
+decisión tan olímpicamente y tengo que
+
+Esp. Analítica de Datos Segundo Semestre G2: volver a revisar qué puedo hacer para eso.
+
+Entonces,
+
+en lo que ustedes van a hacer hoy y ya
+
+con esto sí termino y es la ustedes saben
+
+que están analizando el la Conecta en
+
+caso de Bogotá,
+
+Conecta tiene hogar y Internet móvil post
+
+Esp. Analítica de Datos Segundo Semestre G2: pago, prepago, Internet fijo.
+
+Ustedes sacaron unos gráficos,
+
+sacaron unos en la sesión 2 para los que
+
+vayan ahí establecer un indicador que ahí
+
+les decía armen un indicador de esas
+
+características.
+
+Entonces ya tienen eso y tienen unos
+
+análisis y unas gráficas a partir de unos
+
+datos que estaban.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+¿Que tenían algunas impurezas que van a
+
+hacer hoy? Entonces verificar,
+
+hacerle un doble check a ese indicador
+
+que hicieron a ver si ese indicador,
+
+así verse como lo tienen,
+
+es bueno o si tienen que hacerle algún
+
+Esp. Analítica de Datos Segundo Semestre G2: ajuste.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+Mirar los datos y contestar las preguntas
+
+de.
+
+Si son datos de calidad,
+
+si son aptos para mi análisis y aquellos
+
+datos que ustedes consideren que no son
+
+tan aptos,
+
+hacerles esas exploraciones para ver si
+
+hacen imputaciones, si eliminan,
+
+si tienen que hacer algún proceso de
+
+limpieza.
+
+Creo que los procesos de limpieza que
+
+tengan que ser así los fuertes.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ya vienen ahí en el notebook.
+
+Es más que todo para que ustedes analicen.
+
+O sea,
+
+recuerden que el propósito es nuestro
+
+gramar,
+
+Esp. Analítica de Datos Segundo Semestre G2: sino el propósito de esto es analizar.
+
+Entonces,
+
+lo que terminan van a hacer hoy es la
+
+calidad de datos frente al diccionario,
+
+frente a las a las dimensiones que les
+
+compartí,
+
+establecer las reglas de limpieza en su
+
+bitácora antes de decir elimino esto por
+
+esto, mantengo esto por esta razón,
+
+no hay razón inválida.
+
+Ustedes son los que la definen.
+
+Esp. Analítica de Datos Segundo Semestre G2: A.
+
+Y valor sin indicador para ver si la
+
+cancelación que tienen definida está bien
+
+o le hace falta algo,
+
+y el resultado final es a la final una
+
+base de datos, un CSV con la base limpia,
+
+que es lujo en la que vamos a partir para
+
+Esp. Analítica de Datos Segundo Semestre G2: hacer.
+
+Esp. Analítica de Datos Segundo Semestre G2: El salero.
+
+Y con unas UPZ que son como unas
+
+localidades candidatas para el fuerte.
+
+Recuerden que nuestro fuerte es lo que
+
+vamos a hacer la próxima semana,
+
+que es la sesión cuatro, 5 y 6,
+
+pero más en este ser la sesión cuatro,
+
+que es que ya conociendo todo el contexto
+
+vamos a establecer cuál es la situación.
+
+¿Cuál es la pregunta?
+
+¿Cuál es la complicación y cuál es la
+
+respuesta que vamos a dar a partir de eso?
+
+Entonces, hoy estamos en la parte 3,
+
+que es limpieza de datos.
+
+Es la última parte de esta primera fase,
+
+Esp. Analítica de Datos Segundo Semestre G2: que es conocer los datos a la final.
+
+Yo les compartí en la en el Grupo,
+
+no sé si ya lo han podido descargar,
+
+Esp. Analítica de Datos Segundo Semestre G2: pero es este.
+
+Esp. Analítica de Datos Segundo Semestre G2: Este.
+
+Archivo comprimido donde vienen los datos.
+
+Nuevamente los datos ves no deberían
+
+tocarlos, ahí están todos.
+
+Creo que si mal no recuerdo con lo que
+
+vimos ayer,
+
+es prácticamente una copia de lo mismo.
+
+Y viene el notebook de la sesión de hoy
+
+para que lo tomen de referencia.
+
+Hay todos los gráficos que vimos en la
+
+presentación están ahí.
+
+Si le encuentran algo adicional,
+
+súper bienvenido para que me lo comenten
+
+y el que ustedes tienen que hacer es la
+
+sesión práctica.
+
+viene la presentación para que la tengan
+
+de referencia.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+Y viene la sesión práctica para que para
+
+que ustedes hagan nuevamente
+
+encomendarles en aras de tener las notas
+
+listas el 23, el nombre del Grupo,
+
+el nombre del archivo.
+
+Yo cuando estuve haciendo ayer la.
+
+los integrales de la primera sesión vi
+
+que varios no pusieron pusieron fue su
+
+nombre entonces voy a ponerles un número
+
+para que no me pongan el nombre sino el
+
+número porque básicamente muchas de esas
+
+eran porque estaban trabajando
+
+Esp. Analítica de Datos Segundo Semestre G2: individualmente pero pero tratemos de
+
+Ahora terminamos para asignarles un
+
+número.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y ya.
+
+Ya les dejo ahí para que lo revisen con
+
+calma,
+
+vayan revisando y cualquier pregunta me
+
+lo hayan dicho. En síntesis,
+
+la tarea uno es el perfil de calidad.
+
+Lo que les pide es a hacer el análisis de
+
+el análisis de las limpiezas y mirar el
+
+tema de las categorías para ver cuál de
+
+Esp. Analítica de Datos Segundo Semestre G2: las dimensiones está fallando.
+
+El La tarea 2 son las reglas de limpieza.
+
+Entonces ya van a empezar a decir,
+
+ustedes voy a eliminar los duplicados,
+
+voy a hacer la limpieza de tal y tal,
+
+Esp. Analítica de Datos Segundo Semestre G2: voy a corregir esa coordenada.
+
+Acá viene,
+
+pues el tubo para hacer la pregunta de la
+
+Esp. Analítica de Datos Segundo Semestre G2: respuesta de.
+
+De esas reglas que aplicaron por aquí
+
+debe estar una nieta con el problema,
+
+Esp. Analítica de Datos Segundo Semestre G2: la decisión, el por qué.
+
+¿Y cuántos registros afecta muy similar a
+
+lo que les mostré yo acá al final de esa
+
+Esp. Analítica de Datos Segundo Semestre G2: síntesis de qué tanto me afectaba eso?
+
+La tarea 3 es cómo cuenta una cancelación.
+
+Entonces, este es el punto que les digo,
+
+donde van a revisar el tema de ustedes
+
+tienen una variable que se llama
+
+Esp. Analítica de Datos Segundo Semestre G2: cancelación.
+
+Pero miren que de pronto esa variable le
+
+está incluyendo algo que de pronto no es
+
+cancelación.
+
+Entonces lo tienen que comparar con el
+
+tipo de cancelación y mirar si todo es
+
+cancelación o si hay una cancelación que
+
+Esp. Analítica de Datos Segundo Semestre G2: no es tan cancelación. Les pido que lo.
+
+Que lo evalúen y que generen una nueva
+
+variable que se llame pérdida.
+
+Donde acá lo que les dice es que,
+
+por ejemplo, cambie de plan,
+
+cambie de plan en la base de datos,
+
+pues les puede salir como una cancelación
+
+porque está cancelando un producto,
+
+pero en aras de Chon de que el cliente se
+
+va de la compañía, no.
+
+¿Qué tanto eso incide en su variable
+
+objetivo?
+
+Porque esa variable si ya toca su
+
+variable objetivo,
+
+entonces tienen que analizar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Acá viene la.
+
+Acá viene,
+
+pues para que analicen por rankings,
+
+esas por pues por algunas en particular
+
+por UPZ y cosas de ese estilo,
+
+por estrato, por segmento,
+
+ver qué tanto les afecta ese cambio.
+
+Una conclusión acá,
+
+los datos faltantes del NPS,
+
+Esp. Analítica de Datos Segundo Semestre G2: mirar qué tanto les afecta.
+
+Mirar acá ya hemos dado unas luces de que
+
+podría ser, que no podría ser,
+
+pero igual abierta que ustedes cuando lo
+
+estén analizando digan.
+
+No lo voy a imputar porque pues a mí me
+
+parece que eso pues a mí me parece que
+
+eso no afecta dado que el análisis que
+
+hice muestra que eso es así válido porque
+
+lo están sustentando o no voy a hacer
+
+nada porque eso me induce un sesgo en tal
+
+Esp. Analítica de Datos Segundo Semestre G2: partido en tal cosa.
+
+Esp. Analítica de Datos Segundo Semestre G2: Válido también.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y una tabla limpia que ya el CCV.
+
+Conecta limpieza 3.
+
+Esto yo creo que es base ya para las
+
+siguientes análisis.
+
+Ya cada uno trabajará sobre ese sobre ese
+
+data ser limpio.
+
+Ya creo que a ellos no les pasaré.
+
+Ya pues tengan eso muy presente,
+
+pues porque ya vamos a trabajar sobre los
+
+la base que ustedes limpiaran como la
+
+hayan limpiado.
+
+Y escoger unas su pesetas candidatas,
+
+unas localidades candidatas,
+
+acá les da la las indicaciones y unas
+
+preguntas de interpretación.
+
+Bueno,
+
+ya les dejo ahí para que ustedes
+
+continúen y cualquier duda me vayan a ir
+
+diciendo por acá alguna duda.
+
+Del plan de lo que vamos a hacer ahorita
+
+en esa hora y media.
+
+Listo,
+
+lo voy a dejar y ahorita definimos el
+
+tema de entregas y el tema de la clase
+
+del jueves y todos estamos de acuerdo que
+
+sea a las 6:00 o si hay alguien en
+
+desacuerdo, pues.
+
+Pues avisa para ver cómo cuadramos con
+
+esa clase.
+
+MAURICIO  MONTOYA RAMIREZ: Oh, está bien, está bien, profe.
+
+Esp. Analítica de Datos Segundo Semestre G2: Listo.
+
+Esp. Analítica de Datos Segundo Semestre G2: No.
+
+Esp. Analítica de Datos Segundo Semestre G2: Google.
+
+Sí,
+
+lo que pasa es que hubo como unos 67
+
+estudiantes que lo que no sé si no
+
+pudieron venir y ellos me los estuvieron
+
+enviando individuales.
+
+Entonces ya ahorita me paso esa listado y
+
+Esp. Analítica de Datos Segundo Semestre G2: les comparto lo que tengo oficial.
+
+Y les asendo un número para que me sigan
+
+escribiendo sobre ese número.
+
+Esp. Analítica de Datos Segundo Semestre G2: Set.
+
+Esp. Analítica de Datos Segundo Semestre G2: Acá, bueno, entonces.
+
+Pues por ahí,
+
+por el chat nos puede colocar los grupos
+
+como para refrescar eso y que todo mundo
+
+sepa qué número tiene, no sé.
+
+Sí, ya se los paso acá.
+
+Yo creo que todo el mundo está como de
+
+acuerdo que empecemos la clase de las
+
+6:00, no veo ningún.
+
+Ninguna contradicción,
+
+entonces yo creo que se hace en su primer
+
+Esp. Analítica de Datos Segundo Semestre G2: acuerdo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Voy a ponerlo aquí en el.
+
+Esp. Analítica de Datos Segundo Semestre G2: En nuestro general.
+
+Esp. Analítica de Datos Segundo Semestre G2: Para que no nos quede en este chat.
+
+Uy, sí, incluso bajo la dinámica, no,
+
+yo no lo voy a tener hasta las 10.
+
+A 9,
+
+pero bajo la dinámica que estamos
+
+trabajando,
+
+yo creo que hasta podríamos al menos la
+
+clase presencial hasta las 8 porque la
+
+primera 2 horas sería en la teoría y ya
+
+las siguientes como práctica que ustedes
+
+vayan haciendo entonces.
+
+Los acuerdos a los que hemos llegado
+
+acuerdos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Clase del jueves.
+
+Esp. Analítica de Datos Segundo Semestre G2: El jueves 19 y 26.
+
+Esp. Analítica de Datos Segundo Semestre G2: E.
+
+Esp. Analítica de Datos Segundo Semestre G2: Virtual.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hora inicio.
+
+Esp. Analítica de Datos Segundo Semestre G2: Say "Fame".
+
+Esp. Analítica de Datos Segundo Semestre G2: Habíamos hablado de que la entrega.
+
+Voy a hacer un récord de lo que hemos
+
+entregado se lo aumento.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entrega ese uno.
+
+Esp. Analítica de Datos Segundo Semestre G2: Esa entrega fue hasta.
+
+Esp. Analítica de Datos Segundo Semestre G2: Ayer, viernes 13, uy, ayer era viernes 13.
+
+Esp. Analítica de Datos Segundo Semestre G2: Uy, sí, viernes 13 de noviembre.
+
+Esp. Analítica de Datos Segundo Semestre G2: 5 PM los que no lo hayan entregado.
+
+Porfa,
+
+entregarlo más tardar ahorita en la
+
+Esp. Analítica de Datos Segundo Semestre G2: mañana, porque yo ya.
+
+Ya estoy terminando de revisar,
+
+entonces no.
+
+Esp. Analítica de Datos Segundo Semestre G2: no me quieren voltear con eso.
+
+Esp. Analítica de Datos Segundo Semestre G2: Entrega s 2 s 3.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sesión uno, uy.
+
+Esp. Analítica de Datos Segundo Semestre G2: Google.
+
+Ahorita se los paso,
+
+ahorita se los paso de una vez,
+
+sesión uno, sesión 2, bueno,
+
+las entonces entrega sesión, uy, yo.
+
+S 2, s 3,
+
+s 2 y s 3 para que queden que son 2
+
+entregables,
+
+van a ser el dijimos que el miércoles.
+
+Esp. Analítica de Datos Segundo Semestre G2: Miércoles, 18 de noviembre.
+
+Pues o sea, le digo que a más tardar,
+
+pero.
+
+Pero yo espero que con el tiempo que
+
+tenemos hoy,
+
+a menos la deseo me lo envíen durante
+
+clase.
+
+Esp. Analítica de Datos Segundo Semestre G2: May I not.
+
+Esp. Analítica de Datos Segundo Semestre G2: Hello.
+
+Creo que no tenemos hasta el momento más
+
+acuerdos y bueno, correo entrega.
+
+Esp. Analítica de Datos Segundo Semestre G2: Este correo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Formato.
+
+Esp. Analítica de Datos Segundo Semestre G2: Del asunto.
+
+Y nombre del archivo puede ser el mismo
+
+Serena Elia.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yes.
+
+MAURICIO  MONTOYA RAMIREZ: Simplemente adicionando el grupo y ya.
+
+MAURICIO  MONTOYA RAMIREZ: Gent.
+
+Esp. Analítica de Datos Segundo Semestre G2: Exacto, eso lo antes cambiarle el grupo.
+
+Esp. Analítica de Datos Segundo Semestre G2: Pero así tan sencillo que suena.
+
+Y hay gente que, o sea, cada uno,
+
+eso es algo muy interesante porque cada
+
+uno lo interpreta de una forma diferente
+
+y salen muchas combinaciones de lo que
+
+Esp. Analítica de Datos Segundo Semestre G2: uno no esperaría que pasara.
+
+Entonces lo único que tiene que cambiar
+
+es la sesión, pues depende de la sesión,
+
+pues sesión 123, y el Grupo,
+
+el Grupo que cada uno tenga,
+
+Esp. Analítica de Datos Segundo Semestre G2: pues voy a ponerlo acá.
+
+Todo dice proyecto a porque fue el
+
+proyecto que alcanzamos a el que alcancé
+
+a preparar,
+
+pero la idea era que hubieran 3 proyectos
+
+diferentes,
+
+entonces por eso siempre va proyecto a.
+
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+
+Esp. Analítica de Datos Segundo Semestre G2: X es el.
+
+Esp. Analítica de Datos Segundo Semestre G2: Número de la sesión.
+
+Esp. Analítica de Datos Segundo Semestre G2: E.J.
+
+Esp. Analítica de Datos Segundo Semestre G2: Es.
+
+Esp. Analítica de Datos Segundo Semestre G2: El no matter del group.
+
+Esp. Analítica de Datos Segundo Semestre G2: Todos claros hasta ahí.
+
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+
+bueno,
+
+voy a voy a enviarme lo que tengo de los
+
+Esp. Analítica de Datos Segundo Semestre G2: grupos y ya definimos los que nos faltan.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿Entonces me voy a enviar acá?
+
+Esp. Analítica de Datos Segundo Semestre G2: And.
+
+Esp. Analítica de Datos Segundo Semestre G2: Loki thing.
+
+Listo, chicos,
+
+si quieren todos tenemos aquí a la
+
+pantalla. Yo tengo esos grupos,
+
+esos grupos los tengo identificados.
+
+Tengo 18 grupos oficiales,
+
+hay varios grupos que están individual,
+
+Esp. Analítica de Datos Segundo Semestre G2: o sea, no hay lío.
+
+Me faltan estos de los que están aquí en
+
+clase.
+
+Esp. Analítica de Datos Segundo Semestre G2: ¿O alguien conoce alguno de ellos?
+
+Esp. Analítica de Datos Segundo Semestre G2: Que no tenga grupo.
+
+Esp. Analítica de Datos Segundo Semestre G2: O de los que están en Teams.
+
+bueno, Uy, gracias, yo no lo vi,
+
+voy a buscarlo.
+
+O alguien los tiene por ahí pronto la
+
+mano que me ayude para no.
+
+Hoy no voy a publicar esto y voy a mirar
+
+publicar.
+
+Esp. Analítica de Datos Segundo Semestre G2: Oh.
+
+Esp. Analítica de Datos Segundo Semestre G2: A ver, I say good.
+
+¿Nicole Gaviria, listo,
+
+hay alguien más en ese grupo?
+
+Esp. Analítica de Datos Segundo Semestre G2: Lisa.
+
+Esp. Analítica de Datos Segundo Semestre G2: Maria Camila.
+
+Esp. Analítica de Datos Segundo Semestre G2: Individual, ajá.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sara.
+
+Esp. Analítica de Datos Segundo Semestre G2: O.
+
+Esp. Analítica de Datos Segundo Semestre G2: Allison.
+
+Listo, no súper.
+
+Entonces yo sí voy antes a continuar con
+
+la suposición que tenía,
+
+que los que faltaban eran individuales.
+
+Esp. Analítica de Datos Segundo Semestre G2: No hay más grupos, entonces.
+
+Voy a asignarles aquí un número y si van
+
+en grupo, pues me avisan para unelos.
+
+Si hay alguien que no se vea en esta
+
+lista, también.
+
+Me avisan para pasar,
+
+pues pasar la novedad ahí a la
+
+Esp. Analítica de Datos Segundo Semestre G2: coordinación.
+
+Entonces acá va a poner eso aquí en la
+
+general.
+
+Esp. Analítica de Datos Segundo Semestre G2: De trabajo.
+
+Esp. Analítica de Datos Segundo Semestre G2: This is acá.
+
+Esp. Analítica de Datos Segundo Semestre G2: Iba a poner acá si no aparece su nombre.
+
+Esp. Analítica de Datos Segundo Semestre G2: Sí, me escribe.
+
+Esp. Analítica de Datos Segundo Semestre G2: Al escribe.
+
+Esp. Analítica de Datos Segundo Semestre G2: Para pasar la novedad con.
+
+Esp. Analítica de Datos Segundo Semestre G2: No.
+
+Esp. Analítica de Datos Segundo Semestre G2: What do you mean?
+
+Listo, chicos,
+
+entonces ya no molesta más y ya los dejo
+
+ahí para que sigan trabajando.
+
+Muchas gracias a todos.
+
+Esp. Analítica de Datos Segundo Semestre G2: Cualquier duda me preguntando.
