@@ -2,68 +2,68 @@
 
 **Expositor:** Mario Daniel Enrique Perez Jimenez · **Curso:** Visualización de Datos y Gerencia de la Información (UNAULA)
 **Deck:** `presentacion_avance.pdf`: se exponen las diapositivas 1 a 10; las 11 y 12 son anexos para las preguntas.
-**Duración objetivo:** 6:50 (máximo 7:00). Lo que va entre comillas es lo que se dice; las **negritas** son las cifras que no pueden faltar.
+**Duración objetivo:** 6:55 (máximo 7:00). Lo que va entre comillas es lo que se dice; las **negritas** son las cifras que no pueden faltar.
 
 | Bloque | Diapositiva | Tiempo | Acumulado |
 |---|---|---|---|
-| Apertura | 1. Portada | 0:20 | 0:20 |
-| La respuesta primero | 2. SCQA | 0:50 | 1:10 |
-| Para quién | 3. Ficha del comité | 0:35 | 1:45 |
-| Lo que vimos | 4. S2: Kennedy y el prepago | 0:40 | 2:25 |
-| Lo que corregimos | 5. S3: «perdida» y 10 candidatas | 0:50 | 3:15 |
-| El hallazgo resiste | 6. S4: 6 de 10 y Hogar | 0:55 | 4:10 |
-| Qué lo explica | 7. Mecanismo y serie mensual | 0:45 | 4:55 |
-| Cuánto vale | 8. Escenarios | 0:45 | 5:40 |
-| Gráfico principal | 9. Mapa + barras | 0:35 | 6:15 |
-| La decisión | 10. Decisión y próximos pasos | 0:35 | 6:50 |
+| Apertura | 1. Portada | 0:30 | 0:30 |
+| La respuesta primero | 2. SCQA | 0:45 | 1:15 |
+| Para quién | 3. Ficha del comité | 0:35 | 1:50 |
+| Lo que vimos | 4. S2: Kennedy y el prepago | 0:40 | 2:30 |
+| Lo que corregimos | 5. S3: «perdida» y 10 candidatas | 0:50 | 3:20 |
+| El hallazgo resiste | 6. S4: 6 de 10 y Hogar | 0:55 | 4:15 |
+| Qué lo explica | 7. Mecanismo y serie mensual | 0:45 | 5:00 |
+| Cuánto vale | 8. Escenarios | 0:45 | 5:45 |
+| Gráfico principal | 9. Mapa + barras | 0:35 | 6:20 |
+| La decisión | 10. Decisión y próximos pasos | 0:35 | 6:55 |
 
 ---
 
-## 1. Portada (0:00 – 0:20)
+## 1. Portada (0:00 – 0:30)
 
-> «Buenos días. Soy Mario Perez, del Grupo 9. Trabajé toda la data mensual de CONECTA: **36 450 clientes**, **351 127 registros** de **doce meses**, con la línea Hogar y los móviles pospago y prepago. Sobre esa data les traigo una propuesta concreta para el comité: retener a los clientes de Hogar de seis UPZ vale unos **102 millones de pesos al año**, y la campaña puede costar hasta **116 mil pesos por cliente**.»
+> «Buenos días. Soy Mario Perez, del Grupo 9. Trabajé toda la data mensual de CONECTA: **36 450 clientes**, **351 127 registros** de **doce meses**, ya depurados, con la línea Hogar y los móviles pospago y prepago. Sobre esa data les traigo una propuesta concreta para el comité: retener a los clientes de Hogar de seis UPZ vale unos **102 millones de pesos al año**, y la campaña puede costar hasta **116 mil pesos por cliente**.»
 
-## 2. SCQA (0:20 – 1:10)
+## 2. SCQA (0:30 – 1:15)
 
-> «La data son **36 450 clientes** y **351 127 registros** de doce meses, con localidad, UPZ, segmento, ingreso, NPS y cancelaciones por mes. En diciembre, el comité reparte el presupuesto de retención del primer trimestre, y una campaña solo vale la pena si cuesta menos que el ingreso que protege.
+> «Cada registro trae localidad, UPZ, segmento, ingreso, NPS y si el cliente canceló ese mes. En diciembre, el comité reparte el presupuesto de retención del primer trimestre, y una campaña solo vale la pena si cuesta menos que el ingreso que protege.
 > La complicación: las diez UPZ que más pierden podían ser un espejismo, porque el prepago pierde **3,72 %** al mes y cuatro de ellas son **60 a 72 %** prepago.
 > La pregunta es dónde, para quién y cuánto.
 > Nuestra respuesta: para los clientes de **Hogar de seis UPZ** de Kennedy, Engativá y Suba, que pierden **tres veces** lo esperado. Son unos **388 clientes de más al año**, **408 millones** de ingreso; recuperar la cuarta parte vale **~102 millones**.»
 
-## 3. Ficha del comité (1:10 – 1:45)
+## 3. Ficha del comité (1:15 – 1:50)
 
 > «Desde la primera sesión fijamos para quién es esto: el comité directivo, que conoce churn, ARPU y NPS. Decide un monto en pesos y su reparto entre zonas y líneas, con una restricción: la oferta debe costar menos que el ingreso protegido, y solo se retiene la cancelación evitable. Por eso la pregunta no es quién cancela más, sino **dónde se concentra la pérdida evitable** frente al ingreso.»
 
-## 4. S2: lo que mostraban los datos (1:45 – 2:25)
+## 4. S2: lo que mostraban los datos (1:50 – 2:30)
 
 > «Con los datos crudos, Kennedy lideraba con **3,39 %** frente al **3,08 %** general, y el prepago cancelaba **3,70 %**, 1,4 veces el Hogar. Engativá y Bosa estaban sobre el promedio casi todo el año. Pero era provisional: había unas **7 100 filas** con la localidad mal escrita, y "cancelo" mezclaba bajas reales con cambios de plan.»
 
-## 5. S3: lo que hubo que corregir (2:25 – 3:15)
+## 5. S3: lo que hubo que corregir (2:30 – 3:20)
 
 > «En la tercera sesión limpiamos la base. La corrección que cambia la conclusión es esta: el **22,6 %** de las "cancelaciones" eran **cambios de plan**, clientes que siguen con nosotros, y el 78 % de esos cambios eran de Hogar. Con la pérdida real, la tasa baja de **3,1 % a 2,4 %**, y Hogar de 2,7 a 1,5 %.
 > Además quitamos 1 765 duplicados y 150 cuentas internas, y pasamos de 38 grafías a 19 localidades. Quedaron **351 127 filas** y **36 450 clientes**. Con esa base salen las **10 UPZ candidatas**: el 10 % peor entre las 95 con al menos 80 clientes.»
 
-## 6. S4: el hallazgo resiste (3:15 – 4:10)
+## 6. S4: el hallazgo resiste (3:20 – 4:15)
 
 > «Ahora, ¿las candidatas son reales o solo tienen más prepago? Comparamos sus pérdidas con las que tendrían si cada cliente perdiera como su segmento en Bogotá.
 > **Seis de diez** pierden más de **1,5 veces** lo esperado, de **1,63** en Bavaria a **1,89** en Américas. Las cuatro de San Cristóbal y Bosa quedan en 1,0 a 1,1: pierden lo que predice su prepago.
 > Lo clave: dentro de esas seis, **Hogar pierde 3,02 veces** lo esperado, mientras pospago y prepago pierden lo normal. La campaña es para **Hogar**. Y es robusto: con umbral de 1,3 salen las mismas seis.»
 
-## 7. Qué lo explica (4:10 – 4:55)
+## 7. Qué lo explica (4:15 – 5:00)
 
 > «¿Por qué se van? No es la red: las quejas son iguales, 0,17 frente a 0,19. Tampoco es el precio, apenas un 2 % más, ni el uso. Lo que cambia es la satisfacción: un **NPS de 6,8 frente a 8,1**, y el **86,5 %** de las salidas son voluntarias.
 > Y no es un mes malo: la pérdida de Hogar en estas UPZ está entre **3,7 y 6,5 %** los doce meses, frente a ~1,3 % en el resto, y sube desde agosto. Es un mecanismo probable, no probado: solo ~18 % responde el NPS.»
 
-## 8. Cuánto vale (4:55 – 5:40)
+## 8. Cuánto vale (5:00 – 5:45)
 
 > «La cuenta es simple: **387,5 clientes** de más al año, por un ARPU de **87 703 pesos** al mes, por 12, son **408 millones** al año que se van.
 > No sabemos cuántos recuperará la campaña, así que es un supuesto con dos escenarios: con 1/4, **102 millones al año**; con la mitad, **204 millones**. Fijamos el techo con el prudente: **102 millones entre 878 clientes activos** da **116 121 pesos por cliente**. Por encima de eso, la campaña pierde plata.»
 
-## 9. Gráfico principal (5:40 – 6:15)
+## 9. Gráfico principal (5:45 – 6:20)
 
 > «Este es el gráfico de la decisión: el mapa muestra **dónde**, las seis UPZ, y las barras **cuánto** gana cada localidad en el escenario prudente: Kennedy **41,8 millones**, Engativá **36,8** y Suba **23,2**. Kennedy y Engativá concentran el **77 %**. Las barras suman 101,8 porque usan el ARPU de cada localidad; los 102 usan el ARPU conjunto.»
 
-## 10. Decisión y próximos pasos (6:15 – 6:50)
+## 10. Decisión y próximos pasos (6:20 – 6:55)
 
 > «Le pedimos al comité aprobar hoy una campaña de retención para los **878 clientes de Hogar** de estas seis UPZ, con un techo de **~102 millones al año**, es decir **116 mil por cliente**. Los próximos pasos: una revisión técnica en sitio para entender **qué cambió en agosto**, costear las acciones y medir cada mes la pérdida de Hogar frente a su esperada de **1,55 %** en un tablero. Gracias.»
 
