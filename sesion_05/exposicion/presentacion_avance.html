@@ -60,13 +60,44 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
   </div>
 </section>
 
-<!-- 2. SCQA -->
+<!-- 2. Contexto: la data -->
 <section class="slide">
   <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>2</span></div>
+  <div class="kicker">Contexto · CONECTA y la data · S1</div>
+  <h1>CONECTA es una operadora de telecomunicaciones: seguimos a sus clientes 12 meses, registro a registro</h1>
+  <div class="cols c3" style="margin-top:10px">
+    <div class="card"><div class="big">36 601</div><div class="lbl">Clientes en el crudo (36 450 tras la limpieza de la S3)</div></div>
+    <div class="card"><div class="big">354 693</div><div class="lbl">Registros cliente-mes (351 127 limpios): nov. 2025 – oct. 2026</div></div>
+    <div class="card"><div class="big">3,08 %</div><div class="lbl">Tasa de cancelación mensual de Bogotá (2,40 % contando solo la pérdida real)</div></div>
+  </div>
+  <div class="cols c2" style="margin-top:26px">
+    <div class="card borde"><h2>Qué trae cada registro</h2><p>Localidad y <b>UPZ</b> (95 elegibles), segmento, estrato, <b>ingreso mensual</b> (ARPU), <b>NPS</b>, quejas, antigüedad y el resultado del mes: activo, cancelación o cambio de plan.</p></div>
+    <div class="card borde"><h2>Tres líneas de negocio</h2><p><b>Hogar</b> (internet fijo), móvil <b>pospago</b> y móvil <b>prepago</b>. Pierden distinto: 1,55 %, 1,69 % y <b>3,72 %</b> al mes — el prepago pierde más del doble que el Hogar, y eso será clave.</p></div>
+  </div>
+  <div class="foot">Fuente: conecta_clientes_mes.csv y diccionario_conecta.md (datos sintéticos del curso). Tasas por línea sobre la base limpia, notebooks de la S3 y la S4.</div>
+</section>
+
+<!-- 3. Contexto: de dónde venimos -->
+<section class="slide">
+  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>3</span></div>
+  <div class="kicker">Contexto · el punto de partida · S1</div>
+  <h1>El informe anterior hacía creer que los clientes se desplomaban; la data decía otra cosa: el problema es de dónde, no de pánico</h1>
+  <div class="cols c2" style="margin-top:12px">
+    <div class="card gris"><h2>Lo que se creía</h2><p>El informe del trimestre anterior sugería una caída generalizada de la base y pedía una campaña «a toda Bogotá».</p></div>
+    <div class="card borde"><h2>Lo que la data dice</h2><p>Los activos bajan solo <b>3,7 %</b> en un año (de 30 000 a 28 886) y la cancelación ronda el <b>3,1 %</b> mensual. La pérdida no es pareja: se concentra en zonas y segmentos concretos — es un problema de <b>focalización</b>.</p></div>
+  </div>
+  <h2 style="margin-top:24px">El recorrido del proyecto</h2>
+  <p><span class="chip">S1 · la base y el comité</span> <span class="chip">S2 · primer indicador por localidad</span> <span class="chip">S3 · limpieza y 10 candidatas</span> <span class="chip">S4 · verificación, mecanismo y valor</span> <span class="chip" style="background:var(--marino);color:#fff">S5 · esta exposición</span></p>
+  <div class="foot">Fuente: ficha del comité y notebooks de la S1 a la S4. Cada sesión respondió una capa de la misma pregunta.</div>
+</section>
+
+<!-- 4. SCQA -->
+<section class="slide">
+  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>4</span></div>
   <div class="kicker">La respuesta primero · SCQA</div>
   <h1>El problema no es de zonas con mucho prepago: es de los clientes de Hogar de seis UPZ, y recuperarlos vale ~COP 102 M al año</h1>
   <div class="scqa">
-    <div class="l s">S · Situación</div><div class="t">Trabajamos la data mensual de CONECTA: <b>36 450 clientes</b>, <b>351 127 registros</b> de <b>12 meses</b> (nov. 2025 – oct. 2026, ya depurados), con línea Hogar y móviles pospago/prepago. El comité reparte en diciembre el presupuesto del primer trimestre de 2027: retención pide una campaña, y solo vale la pena si cada oferta cuesta menos que el ingreso que protege.</div>
+    <div class="l s">S · Situación</div><div class="t">Sobre la data mensual de CONECTA (36 450 clientes, 351 127 registros limpios) el comité reparte en diciembre el presupuesto del primer trimestre de 2027: retención pide una campaña, y solo vale la pena si cada oferta cuesta menos que el ingreso que protege.</div>
     <div class="l c">C · Complicación</div><div class="t">Las 10 UPZ que más pierden podían ser un espejismo: el prepago pierde <b>3,72 %</b> al mes en Bogotá y cuatro de ellas tienen <b>60–72 %</b> de filas prepago.</div>
     <div class="l q">Q · Pregunta</div><div class="t">¿Dónde y para quién hacemos la campaña, y cuánto puede costar como máximo?</div>
     <div class="l">A · Respuesta</div><div class="t">Para los <b>clientes de Hogar de 6 UPZ</b> de Kennedy, Engativá y Suba, que pierden <b>3,0×</b> lo esperado: un exceso de <b>~388 clientes al año</b>, o <b>COP 408 M</b> de ingreso. Si la campaña recupera 1/4, gana <b>~COP 102 M al año</b>, así que su techo es de <b>~COP 116 mil por cliente</b> (878 activos).</div>
@@ -74,9 +105,9 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
   <div class="foot">Fuente: CONECTA S.A., datos sintéticos del curso (nov. 2025 – oct. 2026). Escenario prudente: se recupera 1/4 del exceso de pérdidas (supuesto del caso, no un dato).</div>
 </section>
 
-<!-- 3. Ficha del comité -->
+<!-- 5. Ficha del comité -->
 <section class="slide">
-  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>3</span></div>
+  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>5</span></div>
   <div class="kicker">Para quién y qué se decide · S1, Tarea 1</div>
   <h1>El comité no necesita saber quién cancela más: necesita saber dónde una oferta evita pérdidas y cuánto puede gastar en ella</h1>
   <div class="cols c3" style="margin-top:14px">
@@ -84,13 +115,12 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
     <div class="card borde"><h2>Qué decide</h2><p>El <b>monto en pesos</b> de la campaña de retención del primer trimestre de 2027 y su reparto entre zonas y líneas.</p><p style="margin-top:10px"><b>Restricción:</b> cada oferta debe costar menos que el ingreso que protege, y solo se puede retener la cancelación evitable (no el cambio de plan).</p></div>
     <div class="card borde"><h2>Qué pregunta</h2><p>¿En qué zonas se concentra la <b>pérdida de clientes evitable</b>, frente al tamaño de su base y al ingreso en juego, para decidir <b>dónde</b> concentrar la campaña y <b>cuánto</b> invertir?</p></div>
   </div>
-  <p style="margin-top:22px" class="gris">La data: 36 601 clientes y 354 693 filas en el crudo (36 450 y 351 127 tras la limpieza de la S3), con localidad, UPZ, segmento, ingreso, NPS y cancelaciones mensuales. Punto de partida: el informe del trimestre anterior hacía creer que los clientes se desplomaban, pero los activos bajan 3,7 % (de 30 000 a 28 886) y la cancelación registrada ronda el 3,1 % mensual.</p>
   <div class="foot">Fuente: ficha del comité, notebook de la S1 (Tarea 1).</div>
 </section>
 
-<!-- 4. S2 -->
+<!-- 6. S2 -->
 <section class="slide">
-  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>4</span></div>
+  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>6</span></div>
   <div class="kicker">Lo que mostraban los datos · S2</div>
   <h1>Con los datos crudos, Kennedy lideraba la cancelación (3,39 %) y el prepago era el segmento que más cancelaba</h1>
   <div class="cols c64">
@@ -107,9 +137,9 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
   <div class="foot">Fuente: CONECTA S.A., datos crudos (conecta_clientes_mes.csv), notebook de la S2 (Tareas 1, 3 y 5). Indicador: promedio de «cancelo» × 100 en filas cliente-mes.</div>
 </section>
 
-<!-- 5. S3 -->
+<!-- 7. S3 -->
 <section class="slide">
-  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>5</span></div>
+  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>7</span></div>
   <div class="kicker">Lo que hubo que corregir · S3</div>
   <h1>Contar solo la pérdida real baja la tasa de 3,1 % a 2,4 % y cambia la lista: 10 UPZ candidatas</h1>
   <div class="cols c64">
@@ -127,9 +157,9 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
   <div class="foot">Fuente: CONECTA S.A., datos sintéticos del curso; notebook de la S3 (Tareas 3 y 5). Las reglas de limpieza están en el anexo A.</div>
 </section>
 
-<!-- 6. Verificación S4 -->
+<!-- 8. Verificación S4 -->
 <section class="slide">
-  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>6</span></div>
+  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>8</span></div>
   <div class="kicker">El hallazgo resiste · S4, Tareas 2 y 3</div>
   <h1>Seis de las diez candidatas pierden más de 1,5 veces lo que predice su mezcla de segmentos, y el exceso está todo en Hogar</h1>
   <img class="fig" src="imagenes/verificacion_candidatas.png" style="max-height:300px" alt="Pérdidas observadas frente a esperadas en las diez candidatas">
@@ -140,9 +170,9 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
   <div class="foot">Esperadas: cada cliente pierde como su segmento en toda Bogotá (Hogar 1,55 %, pospago 1,69 %, prepago 3,72 % mensual). Fuente: CONECTA S.A., datos sintéticos del curso.</div>
 </section>
 
-<!-- 7. Mecanismo y serie -->
+<!-- 9. Mecanismo y serie -->
 <section class="slide">
-  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>7</span></div>
+  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>9</span></div>
   <div class="kicker">Qué lo explica y qué no · S4, Tareas 3 y 4</div>
   <h1>No es la red ni el precio: los clientes de Hogar de estas UPZ se van insatisfechos todo el año, y más desde agosto</h1>
   <div class="cols c46">
@@ -164,9 +194,9 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
   <div class="foot">Fuente: CONECTA S.A., datos sintéticos del curso. La razón mensual entre las 6 UPZ y el resto va de 2,8× (enero) a 4,8× (agosto de 2026).</div>
 </section>
 
-<!-- 8. Cuánto vale -->
+<!-- 10. Cuánto vale -->
 <section class="slide">
-  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>8</span></div>
+  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>10</span></div>
   <div class="kicker">Cuánto vale · S4, Tarea 4</div>
   <h1>Las 6 UPZ pierden COP 408 M al año en clientes de Hogar de más; recuperar una cuarta parte vale ~COP 102 M</h1>
   <div class="formula">Exceso <b>387,5 clientes/año</b> (579 observadas − 192 esperadas) × ARPU <b>COP 87 703/mes</b> × 12 = <b>COP 408 M/año</b> de ingreso que se va</div>
@@ -182,9 +212,9 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
   <div class="foot">ARPU: promedio de ingreso_mensual_cop en las filas cliente-mes de Hogar de las 6 UPZ. Fuente: CONECTA S.A., datos sintéticos del curso.</div>
 </section>
 
-<!-- 9. Gráfico principal -->
+<!-- 11. Gráfico principal -->
 <section class="slide">
-  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>9</span></div>
+  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>11</span></div>
   <div class="kicker">El gráfico principal · S4, Tarea 5</div>
   <h1>Campaña de Hogar en 6 UPZ de Kennedy, Engativá y Suba: ~COP 102 M al año, y Kennedy y Engativá concentran el 77 %</h1>
   <div class="cols c64" style="align-items:center">
@@ -198,9 +228,9 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
   <div class="foot">Fuente: CONECTA S.A., datos sintéticos del curso. Escenario: se recupera 1/4 del exceso de pérdidas.</div>
 </section>
 
-<!-- 10. Decisión -->
+<!-- 12. Decisión -->
 <section class="slide">
-  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>10</span></div>
+  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>12</span></div>
   <div class="kicker">Lo que le pedimos al comité</div>
   <h1>Pedimos aprobar hoy una campaña de retención para 878 clientes de Hogar con un techo de COP 102 M al año</h1>
   <div class="cols c3">
@@ -215,9 +245,9 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
   <div class="foot">Fuente: CONECTA S.A., datos sintéticos del curso (nov. 2025 – oct. 2026). Notebooks del Grupo 9, S1 a S4.</div>
 </section>
 
-<!-- 11. Anexo A -->
+<!-- 13. Anexo A -->
 <section class="slide anexo">
-  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>11</span></div>
+  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>13</span></div>
   <div class="kicker">Anexo A · La calidad de los datos · S3, Tareas 1 a 3 · No se expone</div>
   <h1>Los datos tenían problemas de las cuatro categorías de calidad; el que cambió la conclusión fue el «cambio de plan»</h1>
   <table>
@@ -236,9 +266,9 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
   <div class="foot">Fuente: notebook de la S3 del Grupo 9 (perfil de calidad, reglas y bitácora).</div>
 </section>
 
-<!-- 12. Anexo B -->
+<!-- 14. Anexo B -->
 <section class="slide anexo">
-  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>12</span></div>
+  <div class="top"><span>UNAULA · Visualización de Datos y Gerencia de la Información · Presentación de avance · Grupo 9</span><span>14</span></div>
   <div class="kicker">Anexo B · Robustez y preguntas del comité · No se expone</div>
   <h1>El resultado aguanta otro umbral y los 12 meses; con «cancelo» se habría dejado fuera a Bavaria</h1>
   <div class="cols c2">
