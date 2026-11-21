@@ -21,11 +21,11 @@
 
 ## 1. Portada (0:00 – 0:20)
 
-> «Buenos días. Soy Mario Perez, del Grupo 9. Les traigo una propuesta concreta para el comité de CONECTA: retener a los clientes de Hogar de seis UPZ vale unos **102 millones de pesos al año**, y la campaña puede costar hasta **116 mil pesos por cliente**.»
+> «Buenos días. Soy Mario Perez, del Grupo 9. Trabajé toda la data mensual de CONECTA: **36 450 clientes**, **351 127 registros** de **doce meses**, con la línea Hogar y los móviles pospago y prepago. Sobre esa data les traigo una propuesta concreta para el comité: retener a los clientes de Hogar de seis UPZ vale unos **102 millones de pesos al año**, y la campaña puede costar hasta **116 mil pesos por cliente**.»
 
 ## 2. SCQA (0:20 – 1:10)
 
-> «En diciembre, el comité reparte el presupuesto de retención del primer trimestre, y una campaña solo vale la pena si cuesta menos que el ingreso que protege.
+> «La data son **36 450 clientes** y **351 127 registros** de doce meses, con localidad, UPZ, segmento, ingreso, NPS y cancelaciones por mes. En diciembre, el comité reparte el presupuesto de retención del primer trimestre, y una campaña solo vale la pena si cuesta menos que el ingreso que protege.
 > La complicación: las diez UPZ que más pierden podían ser un espejismo, porque el prepago pierde **3,72 %** al mes y cuatro de ellas son **60 a 72 %** prepago.
 > La pregunta es dónde, para quién y cuánto.
 > Nuestra respuesta: para los clientes de **Hogar de seis UPZ** de Kennedy, Engativá y Suba, que pierden **tres veces** lo esperado. Son unos **388 clientes de más al año**, **408 millones** de ingreso; recuperar la cuarta parte vale **~102 millones**.»
