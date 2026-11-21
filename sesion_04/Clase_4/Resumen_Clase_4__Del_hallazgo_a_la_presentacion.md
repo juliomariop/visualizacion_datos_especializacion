@@ -42,9 +42,9 @@ La idea rectora que repitió el profesor: el curso no es de herramientas sino de
 
 ## 4. 🗓️ Entregas y tiempos
 
-- **Exposición:** sábado 21 de noviembre, **máximo 6–7 minutos** por grupo; las preguntas salen solo si la presentación deja dudas — «si se autocontesta, no hay preguntas». *(clase)*
-- **Presentación:** compartirla al profesor, preferiblemente en **PDF** (PowerPoint también vale); plazo máximo el **domingo al mediodía**. *(clase)*
-- **Talleres pendientes (S3 y S4):** plazo máximo de entrega **domingo al mediodía** — el lunes se reportan notas. *(clase)*
+- **Exposición:** sábado 21 de noviembre, **máximo 7 minutos** por grupo; las preguntas salen solo si la presentación deja dudas — «si se autocontesta, no hay preguntas». **Hora de inicio 8:30 am** (tentativa, según cómo vaya la clase del viernes). *(clase / chat de la reunión)*
+- **Presentación:** compartirla al profesor, preferiblemente en **PDF** (PowerPoint también vale). *(clase)*
+- **Talleres s1, s2, s3, s4 y el PDF de la presentación:** plazo máximo de entrega **domingo 22 de noviembre a mediodía** — el lunes se reportan notas. *(chat de la reunión)*
 - Si hace falta, el sábado se abre una hora al inicio para terminar la presentación. *(clase)*
 
 ---
