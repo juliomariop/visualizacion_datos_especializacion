@@ -1,0 +1,22 @@
+Grupo 9
+Mario Daniel Enrique Perez Jimenez
+
+Cedula: 1152456361
+Codigo Estudiante: 202610093727
+
+
+---------------------
+
+Sesion 5 - Exposicion del avance del proyecto (sabado 21 de noviembre 2026)
+
+- Maximo 7 minutos por grupo; el comite lo hace el profesor.
+- Hora de inicio 8:30 am (tentativa, depende de como vaya la clase del viernes).
+- Presentacion preferiblemente en PDF, compartida al profesor.
+- Plazo maximo de entrega (presentacion y talleres s1-s4): domingo 22 de
+  noviembre mediodia.
+- Esqueleto sugerido en plantilla_avance.pptx; se aceptan propuestas propias que
+  respeten los lineamientos de las primeras diapositivas.
+- sesion_05_herramientas.ipynb es opcional: funciones de mapas para generar
+  graficas adicionales con los datos propios (ejecutar y pegar el resultado).
+
+---------------------

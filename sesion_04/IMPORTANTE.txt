@@ -1,0 +1,28 @@
+Grupo 9
+Mario Daniel Enrique Perez Jimenez
+
+Cedula: 1152456361
+Codigo Estudiante: 202610093727
+
+
+---------------------
+
+Compromisos (clase del 20 de noviembre 2026, chat de la reunion)
+
+Exposicion del avance del proyecto: sabado 21 de noviembre, maximo 7 minutos por
+grupo; el comite lo hace el profesor. Hora de inicio 8:30 am (tentativa, depende
+de como vaya la clase con la actividad). Si hace falta, el sabado se abre una hora
+al inicio para terminar la presentacion.
+La presentacion se comparte al profesor, preferiblemente en PDF.
+Talleres s1, s2, s3, s4 y pdf de presentacion: plazo maximo de entrega domingo 22
+de noviembre mediodia (el lunes se reportan notas).
+La proxima semana se ve Power BI.
+correo de entrega: espanaliticadatos.ssemestre.g2@unaula.edu.co
+formato del asunto y nombre del archivo: DATAVIZ_sesion_X_proyecto_A_grupo_Y
+(X es el numero de la sesion y Y es el numero del grupo)
+
+---------------------
+
+Notas para la entrega s4:
+El notebook se entrega ejecutado de inicio a fin como DATAVIZ_sesion_4_proyecto_A_grupo_9.ipynb.
+Las figuras que genera quedan en imagenes/ — son las que se pegan en la presentacion.

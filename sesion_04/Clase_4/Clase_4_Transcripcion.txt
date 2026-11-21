@@ -1,0 +1,482 @@
+Esp. Analítica de Datos Segundo Semestre G2: Hola Mario.
+Esp. Analítica de Datos Segundo Semestre G2: Estaba hablando de mi equipo una pagada.
+Esp. Analítica de Datos Segundo Semestre G2: No, lo que les decía es que para mañana no va
+Esp. Analítica de Datos Segundo Semestre G2: a ser el.
+Esp. Analítica de Datos Segundo Semestre G2: No hacer con Power BI y Power BI va a ser la próxima semana lo que vamos a hacer
+Esp. Analítica de Datos Segundo Semestre G2: todo ya para mañana. Es una síntesis de lo que hemos trabajado
+Esp. Analítica de Datos Segundo Semestre G2: hasta el momento. No ahorita más adelante les doy unos
+Esp. Analítica de Datos Segundo Semestre G2: lineamientos para eso, para la presentación,
+Esp. Analítica de Datos Segundo Semestre G2: pero lo que me interesa ahorita es que.
+Esp. Analítica de Datos Segundo Semestre G2: tengan el tiempo suficiente para terminar la el taller de la sesión cuatro que es
+Esp. Analítica de Datos Segundo Semestre G2: como les decía el más importante porque es el que une toda la historia que están
+Esp. Analítica de Datos Segundo Semestre G2: trabajando No sé si con eso tenía claro Mario
+MARIO DANIEL ENRIQUE PEREZ JIMENEZ: So, problem.
+Esp. Analítica de Datos Segundo Semestre G2: Listo.
+Esp. Analítica de Datos Segundo Semestre G2: Hola Carlos, ¿me puedes explicar un poco qué le puedo
+Esp. Analítica de Datos Segundo Semestre G2: la pregunta?
+CARLOS ALBERTO OSPINA QUINCHIA: Hola Edgar, no, lo que pasa es que veo que no cuando
+CARLOS ALBERTO OSPINA QUINCHIA: desarrollé el notebook de la sesión cuatro,
+Esp. Analítica de Datos Segundo Semestre G2: Yes.
+CARLOS ALBERTO OSPINA QUINCHIA: yo veo que en la preparación del entorno habla como algo.
+Esp. Analítica de Datos Segundo Semestre G2: Hey.
+CARLOS ALBERTO OSPINA QUINCHIA: De salida, pero no entendí realmente si es un
+Esp. Analítica de Datos Segundo Semestre G2: Thank you.
+CARLOS ALBERTO OSPINA QUINCHIA: gráfico o qué más te entrega la parte del desarrollo de notebook.
+Esp. Analítica de Datos Segundo Semestre G2: No solo el notebook nada más.
+Esp. Analítica de Datos Segundo Semestre G2: Subrillan.
+CARLOS ALBERTO OSPINA QUINCHIA: bueno, listo, muchas gracias.
+Esp. Analítica de Datos Segundo Semestre G2: Sí, hola chicos, vamos a retomar los que están acá virtual
+Esp. Analítica de Datos Segundo Semestre G2: y los que están acá presencial, pues ya están acá listas.
+Esp. Analítica de Datos Segundo Semestre G2: Entonces, chicos.
+Esp. Analítica de Datos Segundo Semestre G2: Hola.
+Esp. Analítica de Datos Segundo Semestre G2: Quiero.
+Esp. Analítica de Datos Segundo Semestre G2: Quiero.
+Esp. Analítica de Datos Segundo Semestre G2: ¿Antes de todo, cómo van con el taller de la sesión
+Esp. Analítica de Datos Segundo Semestre G2: cuatro? ¿En qué he estado cree que está? 80, alguien más, menos 100.
+Esp. Analítica de Datos Segundo Semestre G2: Yo vi que ya había 2 3 grupos que me han enviado.
+MAURICIO  MONTOYA RAMIREZ: Profe, pero bien por aquí, por los virtuales,
+MAURICIO  MONTOYA RAMIREZ: nosotros digamos que ya estamos bien, pero estamos obviamente analizando.
+MAURICIO  MONTOYA RAMIREZ: No sé si usted nos va a poner a hacer una exposición o si mandamos el netbook.
+Esp. Analítica de Datos Segundo Semestre G2: Sí.
+Esp. Analítica de Datos Segundo Semestre G2: Sí, no, bueno, ya les voy a aclarar todo, tranquilos.
+MAURICIO  MONTOYA RAMIREZ: Okay.
+Esp. Analítica de Datos Segundo Semestre G2: Pero entonces, más o menos por lo que entiendo,
+Esp. Analítica de Datos Segundo Semestre G2: hay una pequeña parte que está todavía menos del 50%.
+Esp. Analítica de Datos Segundo Semestre G2: Sí, entiendo, sí, voy a todos. Ah, no, esa es la actitud que bien,
+Esp. Analítica de Datos Segundo Semestre G2: es que me pareció escuchar alguno que decía como que todo le faltaba, listo. Sí,
+Esp. Analítica de Datos Segundo Semestre G2: Ah, bueno, súper.
+Esp. Analítica de Datos Segundo Semestre G2: Entonces, exacto.
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué es lo que con la sesión cuatro se estrena una primera parte del ciclo del
+Esp. Analítica de Datos Segundo Semestre G2: curso que era construir una historia?
+Esp. Analítica de Datos Segundo Semestre G2: ¿Por qué no empezamos directamente a hacer Power BI o cosas de ese estilo?
+Esp. Analítica de Datos Segundo Semestre G2: Porque para mí.
+Esp. Analítica de Datos Segundo Semestre G2: El curso de visualización de datos de oriente más es armar el storytelling,
+Esp. Analítica de Datos Segundo Semestre G2: la historia. Yo espero que con lo que ustedes han ido
+Esp. Analítica de Datos Segundo Semestre G2: construyendo, he tratado de hacerlo lo más viado
+Esp. Analítica de Datos Segundo Semestre G2: posible. Yo en la primera versión lo hice muy,
+Esp. Analítica de Datos Segundo Semestre G2: lo hice como muy abierto como para que exploraran cosas.
+Esp. Analítica de Datos Segundo Semestre G2: Y se generó un poco más de confusión. Entonces,
+Esp. Analítica de Datos Segundo Semestre G2: en este curso lo que traté de hacer a partir del aprendizaje del primero fue
+Esp. Analítica de Datos Segundo Semestre G2: este aterrizarlo y que fuera muy guiado. Por eso varios de los puntos ya les
+Esp. Analítica de Datos Segundo Semestre G2: decían qué hacer y lo que buscaba era eso.
+Esp. Analítica de Datos Segundo Semestre G2: Era que más que lo ejecutaran, era que fuera admirando la historia y el
+Esp. Analítica de Datos Segundo Semestre G2: historytelling que se fuera armando.
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué es lo que quiero entonces? Ya si ya todos están terminando este
+Esp. Analítica de Datos Segundo Semestre G2: taller súper bien, ¿qué es lo que quiero para esa segunda
+Esp. Analítica de Datos Segundo Semestre G2: parte de la clase?
+Esp. Analítica de Datos Segundo Semestre G2: Desarmar el estereotalin. Entonces hemos ido armando cuatro cuatro
+Esp. Analítica de Datos Segundo Semestre G2: sesiones, muchas cosas. Yo lo que quiero es que en esa
+Esp. Analítica de Datos Segundo Semestre G2: presentación vayan condensando esas cosas que aprendieron.
+Esp. Analítica de Datos Segundo Semestre G2: Les propongo esta presentación, ya básicamente les dicen qué gráfico usar
+Esp. Analítica de Datos Segundo Semestre G2: y todas esas cosas del storytelling, pero si ustedes se sienten más cómodos
+Esp. Analítica de Datos Segundo Semestre G2: con lo que han pues planteándola de cero y planteando su historia,
+Esp. Analítica de Datos Segundo Semestre G2: pues es bienvenido. Tampoco quieren ponerles esto.
+Esp. Analítica de Datos Segundo Semestre G2: Yo lo que hice aquí.
+Esp. Analítica de Datos Segundo Semestre G2: Fue buscar cómo amarrar las cuatro sesiones y que vieran cómo cada una de
+Esp. Analítica de Datos Segundo Semestre G2: esas cosas les iba aportando a la historia final entonces.
+Esp. Analítica de Datos Segundo Semestre G2: Esta es una plantilla que les propongo.
+Esp. Analítica de Datos Segundo Semestre G2: ¿En donde vienen muchas de las cosas que hemos ido trabajando y de dónde las
+Esp. Analítica de Datos Segundo Semestre G2: podemos sacar?
+Esp. Analítica de Datos Segundo Semestre G2: Entonces el SSQA, que es la tarea cuatro de la sesión
+Esp. Analítica de Datos Segundo Semestre G2: cuatro, o sea, miren que acá estoy tratando de ser muy
+Esp. Analítica de Datos Segundo Semestre G2: específico porque tampoco quiero que se pongan ahí a dispersarse o algo así,
+Esp. Analítica de Datos Segundo Semestre G2: sino que miren.
+Esp. Analítica de Datos Segundo Semestre G2: Eso es una de las cosas que me gustaría que se mostrara en esa presentación,
+Esp. Analítica de Datos Segundo Semestre G2: la ficha del Comité, que es lo que planteamos al principio de
+Esp. Analítica de Datos Segundo Semestre G2: cuál era el dolor, cuál era la situación actual.
+Esp. Analítica de Datos Segundo Semestre G2: Y a lo largo de esa presentación, ir el recorrido de cómo fueron haciendo
+Esp. Analítica de Datos Segundo Semestre G2: esos hallazgos. Entonces, cómo cómo llegaron de desde lo que
+Esp. Analítica de Datos Segundo Semestre G2: mostraban los datos en la sesión 2, lo que hubo que corregir en la sesión 3,
+Esp. Analítica de Datos Segundo Semestre G2: que fue lo de los nulos, las cosas que estaban ahí mal.
+Esp. Analítica de Datos Segundo Semestre G2: En los datos.
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+Esp. Analítica de Datos Segundo Semestre G2: Sí, el hallazgo que habían encontrado
+Esp. Analítica de Datos Segundo Semestre G2: preliminarmente se confirma o si lo cambiaron o dependiendo del análisis se
+Esp. Analítica de Datos Segundo Semestre G2: rotaba eso. ¿Y qué es lo que hicimos en la sesión
+Esp. Analítica de Datos Segundo Semestre G2: cuatro? En la sesión cuatro también yo les ponía
+Esp. Analítica de Datos Segundo Semestre G2: una forma para cuantificar esa ganancia con el supuesto declarado.
+Esp. Analítica de Datos Segundo Semestre G2: Nuevamente, a mí lo que más me interesaba de este de
+Esp. Analítica de Datos Segundo Semestre G2: lo que estábamos haciendo era como que armáramos todos una historia y que fuera
+Esp. Analítica de Datos Segundo Semestre G2: lo más guiada. Ese fue el propósito. Entonces eso no quería decir que fuera
+Esp. Analítica de Datos Segundo Semestre G2: una camisa de fuerza, si alguno, porque yo me pareció muy chévere que
+Esp. Analítica de Datos Segundo Semestre G2: cuando estaba.
+Esp. Analítica de Datos Segundo Semestre G2: Algunos que me envían algunos correos me decían como no,
+Esp. Analítica de Datos Segundo Semestre G2: yo hice un análisis adicional, yo aquí los he escuchado también
+Esp. Analítica de Datos Segundo Semestre G2: debatiendo sobre algunas cosas. Entonces me parece muy chévere porque el
+Esp. Analítica de Datos Segundo Semestre G2: en últimas el propósito.
+Esp. Analítica de Datos Segundo Semestre G2: De este curso era eso, llevarlos a debatir y encontrar la mejor
+Esp. Analítica de Datos Segundo Semestre G2: forma para mostrar unos resultados a un a un público objetivo.
+Esp. Analítica de Datos Segundo Semestre G2: Aquí para también, para mí, esto es lo más importante antes de la
+Esp. Analítica de Datos Segundo Semestre G2: herramienta, ya vamos a ver la próxima semana Power BI,
+Esp. Analítica de Datos Segundo Semestre G2: cómo cargar, cómo hacer, pero para mí lo más importante era esto.
+Esp. Analítica de Datos Segundo Semestre G2: Una vez ustedes tienen la historia, llevar esa historia a cualquier
+Esp. Analítica de Datos Segundo Semestre G2: herramienta, Power BI o cualquiera que utilice una
+Esp. Analítica de Datos Segundo Semestre G2: visualización.
+Esp. Analítica de Datos Segundo Semestre G2: Pues ya hicieron el trabajo más denso, que es entender el problema.
+Esp. Analítica de Datos Segundo Semestre G2: Ahora el trabajo es como lo muestro, como lo disponibilizo en un tablero.
+Esp. Analítica de Datos Segundo Semestre G2: Lo que le piden al Comité, la decisión concreta,
+Esp. Analítica de Datos Segundo Semestre G2: cuánto vale los próximos pasos, que eso está también en la sesión,
+Esp. Analítica de Datos Segundo Semestre G2: en lo que tienen en la sesión cuatro.
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+Esp. Analítica de Datos Segundo Semestre G2: Unos anexos de cara a la calidad de datos, ¿qué fue lo que hicieron?
+Esp. Analítica de Datos Segundo Semestre G2: Yo les proponía unas cosas en los notebooks.
+Esp. Analítica de Datos Segundo Semestre G2: Cada quien era también libre de proponer, pues eso no penaliza.
+Esp. Analítica de Datos Segundo Semestre G2: Lo que hace es que se nota que están sellándose ahí con el caso y que lo están
+Esp. Analítica de Datos Segundo Semestre G2: haciendo súper bien y agregué.
+Esp. Analítica de Datos Segundo Semestre G2: Uno opcional, que era lo que en teoría íbamos a hacer
+Esp. Analítica de Datos Segundo Semestre G2: hoy en la sesión 5, que era ver lo de mapas y toda esa cosa.
+Esp. Analítica de Datos Segundo Semestre G2: Es un notebook como lo van a ver ahorita. Toda la historia se arma con lo que ya
+Esp. Analítica de Datos Segundo Semestre G2: han construido, pero si quisieran profundizar un poquito
+Esp. Analítica de Datos Segundo Semestre G2: más o explorarlo, en ese notebook ya vienen unas funciones
+Esp. Analítica de Datos Segundo Semestre G2: preconstruidas.
+Esp. Analítica de Datos Segundo Semestre G2: Es simplemente que la acomoden los datos que ustedes tienen para que obtengan unas
+Esp. Analítica de Datos Segundo Semestre G2: gráficas adicionales que si quieres mostrarlas aquí es opcional porque no
+Esp. Analítica de Datos Segundo Semestre G2: vimos esa sesión, pero al ser opcional tampoco viene nada
+Esp. Analítica de Datos Segundo Semestre G2: para preguntarles ni construirles. Es un notebook prácticamente de.
+Esp. Analítica de Datos Segundo Semestre G2: De apoyo, si ustedes ven que quieren hacer algo ahí
+Esp. Analítica de Datos Segundo Semestre G2: o utilizar algo, ahorita vamos a ver en el en esto,
+Esp. Analítica de Datos Segundo Semestre G2: pues ejecutan la celda que tengan que ejecutar y ya y copian y pegan ese
+Esp. Analítica de Datos Segundo Semestre G2: resultado. Yo aquí por eso les decía que más que.
+Esp. Analítica de Datos Segundo Semestre G2: Más que ya construimos lo que teníamos que construir,
+Esp. Analítica de Datos Segundo Semestre G2: ya lo que vamos a hacer ahorita es armar esa historia a partir de lo que ya
+Esp. Analítica de Datos Segundo Semestre G2: construyeron en últimas aterrizarles esa parte.
+Esp. Analítica de Datos Segundo Semestre G2: Entonces.
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+Esp. Analítica de Datos Segundo Semestre G2: Sí.
+Esp. Analítica de Datos Segundo Semestre G2: Aún y me sentiré también en esto porque pues como no es camisa de fuerza.
+Esp. Analítica de Datos Segundo Semestre G2: Pues los que quieran, lo que les voy a evaluar es esto que está
+Esp. Analítica de Datos Segundo Semestre G2: acá, lo que está en el en pues en el.
+Esp. Analítica de Datos Segundo Semestre G2: En esta maqueta de presentación es lo que buscaría.
+Esp. Analítica de Datos Segundo Semestre G2: Si lo van a hacer así como cada quien, pues de forma libre o no van a utilizar
+Esp. Analítica de Datos Segundo Semestre G2: eso, pues buscaría que tuvieran al menos esos
+Esp. Analítica de Datos Segundo Semestre G2: lineamientos, sí.
+Esp. Analítica de Datos Segundo Semestre G2: Para que no se siente inmediatamente que tienen que hacerlo aquí.
+Esp. Analítica de Datos Segundo Semestre G2: Entonces.
+Esp. Analítica de Datos Segundo Semestre G2: ¿Qué va a revisar el comité? O sea, lo que yo busco es la presentación mañana,
+Esp. Analítica de Datos Segundo Semestre G2: pues la historia, desde la pregunta del comité hasta el
+Esp. Analítica de Datos Segundo Semestre G2: hallazgo confirmado en la sesión cuatro.
+Esp. Analítica de Datos Segundo Semestre G2: Lo que hemos hablado un poco de los títulos en acción,
+Esp. Analítica de Datos Segundo Semestre G2: yo he visto algunos de los bueno, he visto lo ya califiqué la de segunda a
+Esp. Analítica de Datos Segundo Semestre G2: la s 3.
+Esp. Analítica de Datos Segundo Semestre G2: In.
+Esp. Analítica de Datos Segundo Semestre G2: He notado que en general todos utilizan, están usando unos gráficos coherentes con
+Esp. Analítica de Datos Segundo Semestre G2: unos títulos muy completos. Entonces creo que pues acá es cómo
+Esp. Analítica de Datos Segundo Semestre G2: continuar con eso, el SSQ A, el gráfico principal,
+Esp. Analítica de Datos Segundo Semestre G2: que es prácticamente la última tarea de las últimas tareas de la sesión.
+Esp. Analítica de Datos Segundo Semestre G2: Del taller de la sesión cuatro y el rigor, acá en el rigor voy a hacer un comentario
+Esp. Analítica de Datos Segundo Semestre G2: y este cuando estaba revisando la sesión 3.
+Esp. Analítica de Datos Segundo Semestre G2: Habían unos.
+Esp. Analítica de Datos Segundo Semestre G2: Había un notebook.
+Esp. Analítica de Datos Segundo Semestre G2: Que yo no sé, les quedo como que un error en el en la
+Esp. Analítica de Datos Segundo Semestre G2: celda.
+Esp. Analítica de Datos Segundo Semestre G2: Y se quedó como hasta la mitad y reproducía un error.
+Esp. Analítica de Datos Segundo Semestre G2: Entonces tener cuidado con eso, pues porque cuando se esté ejecutando,
+Esp. Analítica de Datos Segundo Semestre G2: entonces ahí sale algún errorcito.
+Esp. Analítica de Datos Segundo Semestre G2: Pero era así como que le escriba ahí algo mal copiado dentro de la fórmula.
+Esp. Analítica de Datos Segundo Semestre G2: Y otra que vi es que el notebook mostraba unos resultados y las conclusiones y los
+Esp. Analítica de Datos Segundo Semestre G2: comentarios mostraban otros. Entonces si hicieron otra cosa,
+Esp. Analítica de Datos Segundo Semestre G2: otro análisis, pues.
+Esp. Analítica de Datos Segundo Semestre G2: Revisar al menos que la coherencia entre lo que sale en el.
+Esp. Analítica de Datos Segundo Semestre G2: En la ejecución con respecto a la conclusión que pone,
+Esp. Analítica de Datos Segundo Semestre G2: no tengo acá los grupos, sé que cuando los estaba revisando me
+Esp. Analítica de Datos Segundo Semestre G2: pasó, pero es un llamado como a todos para que
+Esp. Analítica de Datos Segundo Semestre G2: para que cuando vayan a enviar el ese medio de esos detalles.
+Esp. Analítica de Datos Segundo Semestre G2: Les cuento que hubo un, pero no es de ese curso,
+Esp. Analítica de Datos Segundo Semestre G2: el hace 2 cursos que.
+Esp. Analítica de Datos Segundo Semestre G2: Otro grupo que no es que no es este.
+Esp. Analítica de Datos Segundo Semestre G2: Me envió el notebook.
+Esp. Analítica de Datos Segundo Semestre G2: El notebook vacío y todas las conclusiones. Yo uy,
+Esp. Analítica de Datos Segundo Semestre G2: pero un mago no necesito ejecutar y ya ahí salían todas las entonces al menos
+Esp. Analítica de Datos Segundo Semestre G2: tener la decencia de revisar que lo que es que envíen. Sí,
+Esp. Analítica de Datos Segundo Semestre G2: porque ahí a partir de eso yo me decía, bueno.
+Esp. Analítica de Datos Segundo Semestre G2: ¿Y cómo concluyó eso si todo eso está vacío? O sea,
+Esp. Analítica de Datos Segundo Semestre G2: así era que venía como los tudús, nada, ahí todo eso. Entonces como que bueno,
+Esp. Analítica de Datos Segundo Semestre G2: igual le hice el comentario a esa persona, pero también les digo a ustedes como que
+Esp. Analítica de Datos Segundo Semestre G2: no lo he visto hasta el momento, pero que habla,
+Esp. Analítica de Datos Segundo Semestre G2: habla bien de ustedes de que.
+Esp. Analítica de Datos Segundo Semestre G2: Revisen antes de enviar porque hay otra persona que les está viendo eso.
+Esp. Analítica de Datos Segundo Semestre G2: En el caso, pues estamos acá en modo educativo,
+Esp. Analítica de Datos Segundo Semestre G2: pues no hay lío, pero cuando pasa en otros entornos es más
+Esp. Analítica de Datos Segundo Semestre G2: queito.
+Esp. Analítica de Datos Segundo Semestre G2: El tiempo de entrega acá 5 minutos de exposición.
+Esp. Analítica de Datos Segundo Semestre G2: Yo creo que 567 minuticos acá no es que quiero ponerles eso y lo de las preguntas,
+Esp. Analítica de Datos Segundo Semestre G2: dependiendo si la presentación es súper buena,
+Esp. Analítica de Datos Segundo Semestre G2: que uno ya que se autocontesta las preguntas, pues uno no necesita preguntar.
+Esp. Analítica de Datos Segundo Semestre G2: Si uno ve algo que sea como muy rarito, que pues uno pregunta,
+Esp. Analítica de Datos Segundo Semestre G2: entonces para que no lo de las preguntas queda como acciona, señor.
+Esp. Analítica de Datos Segundo Semestre G2: No voy a ser yo, voy a ser yo porque.
+Esp. Analítica de Datos Segundo Semestre G2: Voy a ser yo porque no conseguí un comité para que me acompañan.
+Esp. Analítica de Datos Segundo Semestre G2: A Ronald, no ni a Leandro.
+Esp. Analítica de Datos Segundo Semestre G2: Sí.
+Esp. Analítica de Datos Segundo Semestre G2: Oye, Ronald, la vez pasada que lo puse, que lo puse directivo.
+Esp. Analítica de Datos Segundo Semestre G2: Todo bien.
+Esp. Analítica de Datos Segundo Semestre G2: ¿Y yo le traje este para que no, que le hiciera pregunta y cosas de ese
+Esp. Analítica de Datos Segundo Semestre G2: estilo, todo 5 y yo, pero qué?
+Esp. Analítica de Datos Segundo Semestre G2: Me tocó cambiar de directivo.
+Esp. Analítica de Datos Segundo Semestre G2: Bueno.
+Esp. Analítica de Datos Segundo Semestre G2: Listo, este esa presentación que hagan y me la
+Esp. Analítica de Datos Segundo Semestre G2: me porfa me la comparten. Acá dice que en Powerpoint o en PDF
+Esp. Analítica de Datos Segundo Semestre G2: preferiría en PDF, pero bueno, como lo como lo sea,
+Esp. Analítica de Datos Segundo Semestre G2: lo hagan ahí igual mañana después de que terminen me lo me la comparten ahí
+Esp. Analítica de Datos Segundo Semestre G2: solamente.
+Esp. Analítica de Datos Segundo Semestre G2: En total, entonces entrega la sesión. Este taller ya lo entregaron. Bueno,
+Esp. Analítica de Datos Segundo Semestre G2: ya lo están ahí terminando.
+Esp. Analítica de Datos Segundo Semestre G2: las últimas 2 calificaciones entonces para lo que ustedes tienen sería ese uno
+Esp. Analítica de Datos Segundo Semestre G2: ese dos ese 3 que es lo que ya entregaron ese cuatro que es lo que entregan hoy
+Esp. Analítica de Datos Segundo Semestre G2: pues a la final les iba a decir que el límite máximo para todos es el domingo
+Esp. Analítica de Datos Segundo Semestre G2: porque yo el lunes tengo que entregar notas entonces domingo medio día pues
+Esp. Analítica de Datos Segundo Semestre G2: para yo tener al menos la
+Esp. Analítica de Datos Segundo Semestre G2: Tarde, tarde noche para calificarles.
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+Esp. Analítica de Datos Segundo Semestre G2: Igual ahorita lo por lo que vi, casi todos estaban al día,
+Esp. Analítica de Datos Segundo Semestre G2: hay solamente como 23 excepciones que me habían hecho en los comentarios la semana
+Esp. Analítica de Datos Segundo Semestre G2: pasada. entonces pues es.
+Esp. Analítica de Datos Segundo Semestre G2: What's that?
+Esp. Analítica de Datos Segundo Semestre G2: Confíen, no mentiras, yo ya tengo las primeras 3,
+Esp. Analítica de Datos Segundo Semestre G2: yo se las comparto mañana si quieren para que las vayan viendo,
+Esp. Analítica de Datos Segundo Semestre G2: para ver si le listo y.
+Esp. Analítica de Datos Segundo Semestre G2: Así es para ver qué tanto le meten a la exposición.
+Esp. Analítica de Datos Segundo Semestre G2: Bueno, total, la entonces las 2 últimas notas que nos
+Esp. Analítica de Datos Segundo Semestre G2: faltarían es sesión cuatro, que la esperaría que la pudieran enviar
+Esp. Analítica de Datos Segundo Semestre G2: hoy o mañana. Los que más puedan me sirve a mí para
+Esp. Analítica de Datos Segundo Semestre G2: pues ahorrarme el tema de calificación y mañana el PowerPoint, no el PDF,
+Esp. Analítica de Datos Segundo Semestre G2: la presentación de qué es lo que armen ahorita.
+Esp. Analítica de Datos Segundo Semestre G2: Igual si algo, yo creo que ya son como a las 7:30, 8,
+Esp. Analítica de Datos Segundo Semestre G2: entonces si algo mañana vamos una horita también para que la terminen ahí.
+Esp. Analítica de Datos Segundo Semestre G2: Si les llega a hacer falta algo, yo esperaría que no, porque.
+Esp. Analítica de Datos Segundo Semestre G2: Porque bueno, aquí ya lo que les propongo es el título.
+Esp. Analítica de Datos Segundo Semestre G2: Peces no el grupo. Aquí ya les digo, prácticamente es como cap en el que ya
+Esp. Analítica de Datos Segundo Semestre G2: les digo, pongan acá una un como un título
+Esp. Analítica de Datos Segundo Semestre G2: accionable. O sea, no me pongan acá introducción,
+Esp. Analítica de Datos Segundo Semestre G2: sino como una idea corta de lo que.
+Esp. Analítica de Datos Segundo Semestre G2: Esperamos aquí la propuesta, cuál fue la situación, la complicación,
+Esp. Analítica de Datos Segundo Semestre G2: la pregunta, la respuesta.
+Esp. Analítica de Datos Segundo Semestre G2: Sí, exacto, tal cual. Por eso les decía que yo no espero que en
+Esp. Analítica de Datos Segundo Semestre G2: eso se vayan a demorar mucho, porque yo lo que traté de hacer aquí fue
+Esp. Analítica de Datos Segundo Semestre G2: que trataran de coger de lo que ya habían construido.
+Esp. Analítica de Datos Segundo Semestre G2: Solamente qué es lo que estaba buscando aquí.
+Esp. Analítica de Datos Segundo Semestre G2: Era hilar esa historia, yo he visto que.
+Esp. Analítica de Datos Segundo Semestre G2: Que por el tema de la velocidad del curso de que tenemos clases seguidas y todas
+Esp. Analítica de Datos Segundo Semestre G2: esas cosas, de pronto no nos queda con un tiempo como
+Esp. Analítica de Datos Segundo Semestre G2: para revisar lo que estamos haciendo, pero como de forma, espera, he construido,
+Esp. Analítica de Datos Segundo Semestre G2: construido, construido, pero ¿cuál es la historia?
+Esp. Analítica de Datos Segundo Semestre G2: Lo que buscaba con esto es eso, un padre para mirar esa historia,
+Esp. Analítica de Datos Segundo Semestre G2: entonces.
+Esp. Analítica de Datos Segundo Semestre G2: Por eso les decía que acá eso ya lo tienen.
+Esp. Analítica de Datos Segundo Semestre G2: El título en acción, el eso es de la tarea uno de la sesión
+Esp. Analítica de Datos Segundo Semestre G2: uno, el para quién, qué decide, cuál era la pregunta que ustedes este
+Esp. Analítica de Datos Segundo Semestre G2: tenían. Miren que es muy.
+Esp. Analítica de Datos Segundo Semestre G2: Yo ahorita yo ya les compartí por el grupo compartido esta presentación.
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+Esp. Analítica de Datos Segundo Semestre G2: Y nuevamente les pongo esto como esqueleto,
+Esp. Analítica de Datos Segundo Semestre G2: pero también se se aceptan rebeldes, que digan no,
+Esp. Analítica de Datos Segundo Semestre G2: pues voy a ponerle aquí otra cosa, pues no hay líder,
+Esp. Analítica de Datos Segundo Semestre G2: pero que respete los lineamientos generales que les explique en las
+Esp. Analítica de Datos Segundo Semestre G2: primeras 2 diapositivas acá.
+Esp. Analítica de Datos Segundo Semestre G2: Lo que mostraban los datos, entonces acá es como.
+Esp. Analítica de Datos Segundo Semestre G2: En la sesión 2, al hacer algunos gráficos que les
+Esp. Analítica de Datos Segundo Semestre G2: proponía ese taller, encontraron unos resultados que me
+Esp. Analítica de Datos Segundo Semestre G2: dijeran acá insertar alguna de esas gráficas que ustedes tenían en ese 2.
+Esp. Analítica de Datos Segundo Semestre G2: ¿Y cuál era la conclusión errónea a o conclusión a la que podían llegar con ese
+Esp. Analítica de Datos Segundo Semestre G2: análisis que llevaban hasta ese momento?
+Esp. Analítica de Datos Segundo Semestre G2: Luego.
+Esp. Analítica de Datos Segundo Semestre G2: Lo que hubo que corregir entonces de las tareas de S 3 de la sesión 3 de la tarea
+Esp. Analítica de Datos Segundo Semestre G2: 3 y 5, ustedes hicieron unas correcciones, unas cosas.
+Esp. Analítica de Datos Segundo Semestre G2: Entonces que cuenta como cancelación, que es una definición que evolucionó si
+Esp. Analítica de Datos Segundo Semestre G2: lo notaron a lo largo de los 2 del S 2 a S 3 que hay para limpiar las candidatas.
+Esp. Analítica de Datos Segundo Semestre G2: Los criterios.
+Esp. Analítica de Datos Segundo Semestre G2: Mire que íbamos hilando una historia.
+Esp. Analítica de Datos Segundo Semestre G2: Para mañana, pero mire que, pero miren acá,
+Esp. Analítica de Datos Segundo Semestre G2: mire que todos es ese cuatro tareas, 123, es decir, vayan,
+Esp. Analítica de Datos Segundo Semestre G2: por eso yo les dije que por eso les estaba diciendo como que lo importante
+Esp. Analítica de Datos Segundo Semestre G2: era que hoy terminara.
+Esp. Analítica de Datos Segundo Semestre G2: En esa primera parte, por eso yo también les di un tiempo que
+Esp. Analítica de Datos Segundo Semestre G2: traté de que fuera lo más largo posible para que un taller cuatro lo tuvieran ahí.
+Esp. Analítica de Datos Segundo Semestre G2: Mire que acá inserten gráfica de verificación, ese cuatro ya tienen todo,
+Esp. Analítica de Datos Segundo Semestre G2: incluso si ustedes cuando ejecutaban los notebooks, eso le generaba unos.
+Esp. Analítica de Datos Segundo Semestre G2: Gráficos o unos archivos y se los guardaron la carpeta, es como que cojan,
+Esp. Analítica de Datos Segundo Semestre G2: arrasan, peguen ahí.
+Esp. Analítica de Datos Segundo Semestre G2: Y ya básicamente lo que quiero hacer con esto es que ustedes armen terminen de
+Esp. Analítica de Datos Segundo Semestre G2: armar esa historia.
+Esp. Analítica de Datos Segundo Semestre G2: La conclusión, ¿cuál era la ganancia? Mire que la de la tarea cuatro es cuatro.
+Esp. Analítica de Datos Segundo Semestre G2: Los escenarios.
+Esp. Analítica de Datos Segundo Semestre G2: Esas cosas.
+Esp. Analítica de Datos Segundo Semestre G2: Y ya mire que esta es la tarea 5 de la S Cuatro. Como todos van al 80%,
+Esp. Analítica de Datos Segundo Semestre G2: me imagino que esto será ya de los últimos que ustedes tengan de lo que
+Esp. Analítica de Datos Segundo Semestre G2: estén haciendo.
+Esp. Analítica de Datos Segundo Semestre G2: Que es a la final insertar el gráfico principal,
+Esp. Analítica de Datos Segundo Semestre G2: que era la de las últimas 2 tareas que tenían en el taller S Cuatro.
+Esp. Analítica de Datos Segundo Semestre G2: E.
+Esp. Analítica de Datos Segundo Semestre G2: Ese era el opcional, pero por ese comentario que me acaban de
+Esp. Analítica de Datos Segundo Semestre G2: hacer ya veo que no, pero yo les pasé un notebook que es de
+Esp. Analítica de Datos Segundo Semestre G2: herramientas en el que hacían un mapita y si ustedes veían que les da para
+Esp. Analítica de Datos Segundo Semestre G2: agregarlo, no es opcional.
+Esp. Analítica de Datos Segundo Semestre G2: Creo que acá no dice que es opcional, sí, opcional, opcional.
+Esp. Analítica de Datos Segundo Semestre G2: Opcional quiere decir que si lo hacen, no lo hacen, pues no,
+Esp. Analítica de Datos Segundo Semestre G2: lo que me interesaba era hasta la hasta la hasta la parte anterior.
+Esp. Analítica de Datos Segundo Semestre G2: Esto es porque era lo que íbamos a ver hoy en el curso y pues también.
+Esp. Analítica de Datos Segundo Semestre G2: Por temas de tiempo sé que es que tampoco nos da, tampoco somos ahí los que robots.
+Esp. Analítica de Datos Segundo Semestre G2: ¿Y ya la conclusión, qué es?
+Esp. Analítica de Datos Segundo Semestre G2: La decisión que pedimos, lo que le pedimos al comité,
+Esp. Analítica de Datos Segundo Semestre G2: cuánto vale y los próximos pasos que ya sería como la diapositiva de cierre.
+Esp. Analítica de Datos Segundo Semestre G2: Yo les agregué una diapositiva de anexo, pero nuevamente sí creo que también
+Esp. Analítica de Datos Segundo Semestre G2: opcional, o sea, no el nexo y la opcional, pues son opcionales,
+Esp. Analítica de Datos Segundo Semestre G2: no espero ahí que pongan nada. Igual acá lo que les dices es de la tarea
+Esp. Analítica de Datos Segundo Semestre G2: uno a 3, el S 3. ¿Cuáles fueron la calidad de datos que
+Esp. Analítica de Datos Segundo Semestre G2: era algo que les pedían esos puntos?
+Esp. Analítica de Datos Segundo Semestre G2: Para que lo agreguen aquí y ya les voy a dar lo que quiera de clase,
+Esp. Analítica de Datos Segundo Semestre G2: que sería más o menos 1:30.
+Esp. Analítica de Datos Segundo Semestre G2: En el nuestro grupo compartido.
+Esp. Analítica de Datos Segundo Semestre G2: 5 de 5 de 5.
+Esp. Analítica de Datos Segundo Semestre G2: Sí, está allá, ella está un ahí hay un les compartí un
+Esp. Analítica de Datos Segundo Semestre G2: zip donde viene el notebook del opcional. Viene en esa carpeta viene esta
+Esp. Analítica de Datos Segundo Semestre G2: presentación para que la tomen de referencia. y.
+Esp. Analítica de Datos Segundo Semestre G2: ¿Y qué más y una carpeta de datos para que ahí pongan algunos los daticos que
+Esp. Analítica de Datos Segundo Semestre G2: ustedes han ido construyendo?
+Esp. Analítica de Datos Segundo Semestre G2: Entonces, chicos, ya les dejo ahí para que para que sigan
+Esp. Analítica de Datos Segundo Semestre G2: trabajando. Si ustedes ven, señor, uy, gracias, pero no me vayan a pegar.
+MAURICIO  MONTOYA RAMIREZ: Lo sé, pero qué pena.
+GRACE LORENA LONDONO ARANGO: Okay.
+MAURICIO  MONTOYA RAMIREZ: O sea, bien.
+MAURICIO  MONTOYA RAMIREZ: Okey.
+Esp. Analítica de Datos Segundo Semestre G2: Señor.
+MAURICIO  MONTOYA RAMIREZ: De acuerdo a lo que usted está diciendo, lo que vamos a colocar en este ejemplo
+MAURICIO  MONTOYA RAMIREZ: que usted nos dio de presentación es hasta el cuatro.
+MAURICIO  MONTOYA RAMIREZ: El 5 es como opcional ya para desarrollar cierto,
+Esp. Analítica de Datos Segundo Semestre G2: No.
+MAURICIO  MONTOYA RAMIREZ: eso es lo que lo estoy entendiendo.
+Esp. Analítica de Datos Segundo Semestre G2: Hasta aquí, Hasta aquí es sí, o sea, todo lo que tenga que ver con ese cuatro
+Esp. Analítica de Datos Segundo Semestre G2: hasta esta diapositiva es lo que yo esperaría que incluyera la versión que
+MAURICIO  MONTOYA RAMIREZ: Esto.
+MAURICIO  MONTOYA RAMIREZ: Sí.
+Esp. Analítica de Datos Segundo Semestre G2: estamos haciendo nosotros, o sea, la que les propongo o la que ustedes
+MAURICIO  MONTOYA RAMIREZ: Sí.
+Esp. Analítica de Datos Segundo Semestre G2: vayan a hacer, que incluya más o menos ese mismo cuerpo
+Esp. Analítica de Datos Segundo Semestre G2: de información.
+MAURICIO  MONTOYA RAMIREZ: Sí, incluso hoy con todas las ayudas que
+MAURICIO  MONTOYA RAMIREZ: tiene uno, profe, de pronto usted propone esa,
+MAURICIO  MONTOYA RAMIREZ: pero pues usted sabe que hoy en día hay más presentaciones y la IA le ayuda a uno
+MAURICIO  MONTOYA RAMIREZ: mucho a estructurar la que ya tiene.
+Esp. Analítica de Datos Segundo Semestre G2: No, y súper bienvenido, o sea, si me sorprenden así con la súper
+MAURICIO  MONTOYA RAMIREZ: Che, claro.
+Esp. Analítica de Datos Segundo Semestre G2: presentación, súper bien. Yo lo que les quiero proponer aquí es que
+MAURICIO  MONTOYA RAMIREZ: Bien, exacto.
+Esp. Analítica de Datos Segundo Semestre G2: incluyan una historia y aquí les trataré de armar una historia y que y toda la
+MAURICIO  MONTOYA RAMIREZ: Sí, claro.
+Esp. Analítica de Datos Segundo Semestre G2: información para que hilen todo lo que hemos hecho en todos los.
+Esp. Analítica de Datos Segundo Semestre G2: En todas las sesiones, porque si se las dejaba libre para que me
+Esp. Analítica de Datos Segundo Semestre G2: hiciera una presentación, probablemente de pronto me gustan de lo
+Esp. Analítica de Datos Segundo Semestre G2: último y quería ver a que hilaramos toda la historia completa.
+MAURICIO  MONTOYA RAMIREZ: Claro, al final todos los netbook juegan ahí.
+Esp. Analítica de Datos Segundo Semestre G2: Los 3 uno solo, pues yo quisiera que fueran los 3 que
+GRACE LORENA LONDONO ARANGO: Profe.
+Esp. Analítica de Datos Segundo Semestre G2: fueron ahí hablando.
+GRACE LORENA LONDONO ARANGO: ¿Eso era lo que le iba a preguntar, quién expone una sola persona o varios
+GRACE LORENA LONDONO ARANGO: del grupo o todo el grupo?
+Esp. Analítica de Datos Segundo Semestre G2: Pues si se puede todo el grupo súper bien, o sea,
+GRACE LORENA LONDONO ARANGO: Mhm.
+Esp. Analítica de Datos Segundo Semestre G2: yo lo que quiero tampoco es igual son 5 o 7 minuticos por grupo, somos 20 grupos,
+Esp. Analítica de Datos Segundo Semestre G2: son 140 minutos, son 60 120 como 2:30, entonces sí.
+Esp. Analítica de Datos Segundo Semestre G2: Sí, recuerden que es la nota ya del curso, entonces para que lo que con eso cerramos
+GRACE LORENA LONDONO ARANGO: Esta mañana lo dejan hoy temprano.
+Esp. Analítica de Datos Segundo Semestre G2: la primera parte, que es la historia, ya la próxima semana es la construcción
+Esp. Analítica de Datos Segundo Semestre G2: en una herramienta de power de visualización. Entonces,
+MAURICIO  MONTOYA RAMIREZ: Are you still coming?
+Esp. Analítica de Datos Segundo Semestre G2: si no hay más dudas.
+Esp. Analítica de Datos Segundo Semestre G2: Los dejo ahí para que sigan ahí trabajando.
+MAURICIO  MONTOYA RAMIREZ: Perfecto.
+Esp. Analítica de Datos Segundo Semestre G2: Señora, mañana sí, una.
+Esp. Analítica de Datos Segundo Semestre G2: Eso, ahora.
+HECTOR HERNAN  BUITRAGO PABON: ¿En qué sesión, en qué sesión dice que está lo de los
+HECTOR HERNAN  BUITRAGO PABON: mapas?
+Esp. Analítica de Datos Segundo Semestre G2: Aquí en la.
+Esp. Analítica de Datos Segundo Semestre G2: No me digas, no, ya.
+Esp. Analítica de Datos Segundo Semestre G2: Mañana.
+Esp. Analítica de Datos Segundo Semestre G2: And then.
+Esp. Analítica de Datos Segundo Semestre G2: En la cuenta.
+MAURICIO  MONTOYA RAMIREZ: Pero lo de los mapas, lo de los mapas no es necesario incluirlo
+Esp. Analítica de Datos Segundo Semestre G2: La.
+MAURICIO  MONTOYA RAMIREZ: porque ese es el data 5 que tú nos estás pasando, que ya para trabajarlo, profe,
+MAURICIO  MONTOYA RAMIREZ: ahí está la presentación también como en el ejemplo,
+MAURICIO  MONTOYA RAMIREZ: pero no es necesario que incluyamos el los mapas o es necesario.
+Esp. Analítica de Datos Segundo Semestre G2: No, o sea, no es necesario, lo que les digo es que las últimas 2
+MAURICIO  MONTOYA RAMIREZ: Listo, pues en aras de en aras de terminar,
+Esp. Analítica de Datos Segundo Semestre G2: horas.
+MAURICIO  MONTOYA RAMIREZ: profe, pues para podérselo pasar.
+Esp. Analítica de Datos Segundo Semestre G2: Sí, no, o sea, es básicamente como que si lo quiere,
+Esp. Analítica de Datos Segundo Semestre G2: si le da el tiempo, revisarlo, pues súper bien,
+MAURICIO  MONTOYA RAMIREZ: Listo.
+Esp. Analítica de Datos Segundo Semestre G2: sino también es como es lo que pensaba poner en la clase de hoy.
+MAURICIO  MONTOYA RAMIREZ: Hay que construir esto también.
+Esp. Analítica de Datos Segundo Semestre G2: Sí.
+MAURICIO  MONTOYA RAMIREZ: Mr. Prophet.
+HECTOR HERNAN  BUITRAGO PABON: Sí, pero profe eso, pero yo quería mirar lo que estaba
+Esp. Analítica de Datos Segundo Semestre G2: Yes.
+HECTOR HERNAN  BUITRAGO PABON: revisando el de los mapas, pues porque lo quiero explorar,
+Esp. Analítica de Datos Segundo Semestre G2: Good.
+HECTOR HERNAN  BUITRAGO PABON: pero pues ejecuté ese que dice sesión 5 herramientas,
+HECTOR HERNAN  BUITRAGO PABON: pero no vi que me generara algún mapa así, pues que yo dijera.
+Esp. Analítica de Datos Segundo Semestre G2: Wow, no me.
+Esp. Analítica de Datos Segundo Semestre G2: Algo mejor ellos, no mentiras.
+HECTOR HERNAN  BUITRAGO PABON: No, pues sino que estaba esperando que él me
+HECTOR HERNAN  BUITRAGO PABON: mostraba de acuerdo, pues al ejercicio que venías trabajando,
+Esp. Analítica de Datos Segundo Semestre G2: Claro, no, mire, aquí.
+HECTOR HERNAN  BUITRAGO PABON: algo que fuera muy gráfico.
+Esp. Analítica de Datos Segundo Semestre G2: Aquí en la de mapas, lo que pasa es que les dice que.
+Esp. Analítica de Datos Segundo Semestre G2: Les pide en el punto, por ejemplo, si ustedes les comentan esta.
+HECTOR HERNAN  BUITRAGO PABON: Okay.
+Esp. Analítica de Datos Segundo Semestre G2: Ahí ya les empieza a hacer algunos mapas, solamente que les puse hay 3 mapas,
+HECTOR HERNAN  BUITRAGO PABON: List.
+Esp. Analítica de Datos Segundo Semestre G2: un mapa que va con un detalle por UPZ, un mapa que va por detalle por localidad
+Esp. Analítica de Datos Segundo Semestre G2: y un mapa de acercamiento para una localidad en particular que tiene
+Esp. Analítica de Datos Segundo Semestre G2: diferentes. Entonces viene ahí comentado porque lo
+Esp. Analítica de Datos Segundo Semestre G2: que buscaba.
+Esp. Analítica de Datos Segundo Semestre G2: Era que.
+Esp. Analítica de Datos Segundo Semestre G2: Pues que ese mapa, como no lo explicamos, pues que fuera una función que acá
+Esp. Analítica de Datos Segundo Semestre G2: ustedes pudieran escribir lo que necesitan, la conclusión,
+Esp. Analítica de Datos Segundo Semestre G2: todo y descomentando esto, pues ya les sale ahí un mapita.
+HECTOR HERNAN  BUITRAGO PABON: Oh no.
+Esp. Analítica de Datos Segundo Semestre G2: Y ya ahí está entonces, si no hay más dudas,
+Esp. Analítica de Datos Segundo Semestre G2: ahí les dejo para que sigan ahí trabajando.
+HECTOR HERNAN  BUITRAGO PABON: Gracias.
+Esp. Analítica de Datos Segundo Semestre G2: Listo.
+Esp. Analítica de Datos Segundo Semestre G2: Entonces voy a poner aquí.
+Esp. Analítica de Datos Segundo Semestre G2: Sí, si lo bueno, es de una vez, entonces voy a poner acá los compromisos
+Esp. Analítica de Datos Segundo Semestre G2: a los que llegamos para que nos quede a todos en el chat.
+Esp. Analítica de Datos Segundo Semestre G2: Entonces, entre los compromisos.
+Esp. Analítica de Datos Segundo Semestre G2: Claro.
+Esp. Analítica de Datos Segundo Semestre G2: Yeah.
+Esp. Analítica de Datos Segundo Semestre G2: Taller S cuatro, bueno, voy a poner acá los que falten,
+Esp. Analítica de Datos Segundo Semestre G2: taller S uno, S 2 que ya me los enviaron casi todos,
+Esp. Analítica de Datos Segundo Semestre G2: taller S 3 y SC cuatro, plazo máximo.
+Esp. Analítica de Datos Segundo Semestre G2: de entrega el domingo mediodía
+Esp. Analítica de Datos Segundo Semestre G2: Ese es para yo poder tener el tiempo necesario para a uno ese cuatro.
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+Esp. Analítica de Datos Segundo Semestre G2: PDF de presentación.
+Esp. Analítica de Datos Segundo Semestre G2: Pues sí pero igual este hay como tres grupitos que no me pueden que están creo
+Esp. Analítica de Datos Segundo Semestre G2: que tienen como unos compromisos esta semana Entonces pues para ellos
+Esp. Analítica de Datos Segundo Semestre G2: dejárselos hasta el
+Esp. Analítica de Datos Segundo Semestre G2: Entre más rápido me envíen eso mejor porque yo puedo ir calificando más y pues
+Esp. Analítica de Datos Segundo Semestre G2: se me quedan más poquitos. Es esto para que las notas,
+Esp. Analítica de Datos Segundo Semestre G2: incluso el mismo domingo si hay.
+Esp. Analítica de Datos Segundo Semestre G2: ¿Y qué otras cosas? ¿Qué otras con familia llegamos? Bueno,
+Esp. Analítica de Datos Segundo Semestre G2: presentación.
+Esp. Analítica de Datos Segundo Semestre G2: Y.
+Esp. Analítica de Datos Segundo Semestre G2: Va a ser mañana sábado 21.
+Esp. Analítica de Datos Segundo Semestre G2: El domingo es.
+Esp. Analítica de Datos Segundo Semestre G2: He knows your fate time.
+Esp. Analítica de Datos Segundo Semestre G2: Saba 21, domingo 210.
+Esp. Analítica de Datos Segundo Semestre G2: Sí.
+Esp. Analítica de Datos Segundo Semestre G2: No.
+Esp. Analítica de Datos Segundo Semestre G2: Sábado presentación, sábado 21 de noviembre.
+Esp. Analítica de Datos Segundo Semestre G2: Máximo 6 minutos, máximo 7 minutitos.
+Esp. Analítica de Datos Segundo Semestre G2: Claro.
+Esp. Analítica de Datos Segundo Semestre G2: Máximo 7 minutitos.
+Esp. Analítica de Datos Segundo Semestre G2: Sí.
+Esp. Analítica de Datos Segundo Semestre G2: I am playing option.
+Esp. Analítica de Datos Segundo Semestre G2: I think that's what I think.
+Esp. Analítica de Datos Segundo Semestre G2: Feliz.
+Esp. Analítica de Datos Segundo Semestre G2: A lot of using the most side is the internal.
+Esp. Analítica de Datos Segundo Semestre G2: You want to?
+Esp. Analítica de Datos Segundo Semestre G2: Listo chicos, lejanos compromisos.
+Esp. Analítica de Datos Segundo Semestre G2: Y cualquier duda, pues ahí lo hay solución.
