@@ -64,7 +64,7 @@
 ## 9. Qué lo explica (4:30 – 5:10)
 
 > «¿Por qué se van? No es la red: las quejas son iguales, 0,17 frente a 0,19. Tampoco es el precio, apenas un 2 % más, ni el uso. Lo que cambia es la satisfacción: un **NPS de 6,8 frente a 8,1**, y el **86,5 %** de las salidas son voluntarias.
-> Y no es un mes malo: la pérdida de Hogar en estas UPZ está entre **3,7 y 6,5 %** los doce meses, frente a ~1,3 % en el resto, y sube desde agosto. Es un mecanismo probable, no probado: solo ~18 % responde el NPS.»
+> Y no es un mes malo: la pérdida de Hogar en estas UPZ está entre **3,7 y 6,5 %** los doce meses, frente a ~1,3 % en el resto, y está más alta desde agosto (una señal de tres meses, no una tendencia). Es un mecanismo probable, no probado: solo ~18 % responde el NPS.»
 
 ## 10. Cuánto vale (5:10 – 5:50)
 
